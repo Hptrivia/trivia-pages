@@ -13,8 +13,8 @@ const fs = require("fs");
 const path = require("path");
 
 // ---- CONFIG (edit these once you've settled the brand/domain) -------------
-const SITE_NAME = "Trivia Nest";                 // <-- change to your brand
-const SITE_DOMAIN = "https://example.com";        // <-- change to your domain (no trailing slash)
+const SITE_NAME = "Trivia Gauntlet";              // <-- change to your brand
+const SITE_DOMAIN = "https://triviagauntletapp.com"; // <-- your domain (no trailing slash)
 const QUESTIONS_PER_QUIZ = 20;
 // AdSense publisher id, e.g. "ca-pub-1234567890123456". Leave "" until approved.
 const ADSENSE_CLIENT = "";
@@ -287,5 +287,6 @@ w("privacy.html", infoPage("privacy", "Privacy Policy", privacyBody));
 w("terms.html", infoPage("terms", "Terms of Use", termsBody));
 w("sitemap.xml", sitemap());
 w("robots.txt", `User-agent: *\nAllow: /\nSitemap: ${SITE_DOMAIN}/sitemap.xml\n`);
+w("CNAME", `${SITE_DOMAIN.replace(/^https?:\/\//, "")}\n`); // GitHub Pages custom domain
 
 console.log(`Generated ${count} files for ${themes.length} themes.`);
