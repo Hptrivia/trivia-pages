@@ -1,8 +1,9 @@
 /*
- * Progressive-enhancement quiz.
- * Without JS: every question + its options is visible plain text (good for
- * crawlers; the correct answer is never shown, it lives in data-answer).
- * With JS: one question at a time, click to answer, score at the end.
+ * All questions shown on one page (good for readers and crawlers).
+ * Each question is answerable independently: click an option to see if it
+ * was right, and a running score + final summary updates as you go.
+ * Without JS every question + its options is still visible plain text
+ * (the correct answer lives in data-answer and is only revealed on click).
  */
 (function () {
   var quiz = document.querySelector(".quiz");
@@ -13,10 +14,10 @@
   var total = questions.length;
   if (!total) return;
 
-  var current = 0;
+  var answered = 0;
   var score = 0;
 
-  // progress bar
+  // running progress bar pinned at the top of the quiz
   var bar = document.createElement("div");
   bar.className = "quiz-bar";
   bar.innerHTML = '<span class="quiz-progress"></span><span class="quiz-score"></span>';
@@ -24,31 +25,13 @@
   var progressEl = bar.querySelector(".quiz-progress");
   var scoreEl = bar.querySelector(".quiz-score");
 
-  // next button (shared)
-  var nextBtn = document.createElement("button");
-  nextBtn.type = "button";
-  nextBtn.className = "btn quiz-next";
-  nextBtn.textContent = "Next question";
-  nextBtn.hidden = true;
-
   function updateBar() {
-    progressEl.textContent = "Question " + (current + 1) + " of " + total;
+    progressEl.textContent = "Answered " + answered + " of " + total;
     scoreEl.textContent = "Score: " + score;
   }
 
-  function show(i) {
-    questions.forEach(function (q, idx) {
-      q.classList.toggle("is-hidden", idx !== i);
-    });
-    nextBtn.hidden = true;
-    nextBtn.textContent = i === total - 1 ? "See results" : "Next question";
-    updateBar();
-  }
-
-  function finish() {
-    questions.forEach(function (q) { q.classList.add("is-hidden"); });
-    bar.style.display = "none";
-    nextBtn.remove();
+  function maybeFinish() {
+    if (answered < total) return;
     results.querySelector(".score-num").textContent = score;
     var pct = Math.round((score / total) * 100);
     var msg =
@@ -58,13 +41,8 @@
       "Plenty of room to improve — try again!";
     results.querySelector(".score-msg").textContent = msg;
     results.hidden = false;
+    results.scrollIntoView({ behavior: "smooth", block: "center" });
   }
-
-  nextBtn.addEventListener("click", function () {
-    current++;
-    if (current >= total) { finish(); return; }
-    show(current);
-  });
 
   questions.forEach(function (q) {
     var answer = parseInt(q.getAttribute("data-answer"), 10);
@@ -73,23 +51,22 @@
       opt.addEventListener("click", function () {
         if (q.dataset.done) return;
         q.dataset.done = "1";
+        answered++;
         var chosen = parseInt(opt.getAttribute("data-idx"), 10);
-        if (chosen === answer) { score++; }
+        if (chosen === answer) score++;
         opts.forEach(function (o, idx) {
           o.disabled = true;
           if (idx === answer) o.classList.add("correct");
           else if (idx === chosen) o.classList.add("wrong");
         });
         updateBar();
-        q.appendChild(nextBtn);
-        nextBtn.hidden = false;
+        maybeFinish();
       });
     });
   });
 
-  // restart
   results.querySelector(".restart").addEventListener("click", function () {
-    current = 0; score = 0;
+    answered = 0; score = 0;
     questions.forEach(function (q) {
       delete q.dataset.done;
       q.querySelectorAll(".opt").forEach(function (o) {
@@ -98,9 +75,9 @@
       });
     });
     results.hidden = true;
-    bar.style.display = "";
-    show(0);
+    updateBar();
+    quiz.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 
-  show(0);
+  updateBar();
 })();
