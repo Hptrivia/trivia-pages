@@ -23,6 +23,23 @@ const ADSENSE_CLIENT = "";
 const ROOT = __dirname;
 const themes = JSON.parse(fs.readFileSync(path.join(ROOT, "data/themes.json"), "utf8"));
 
+// Blog posts: each file in posts/ is the inner HTML of one article (starts <h1>).
+const POSTS_DIR = path.join(ROOT, "posts");
+const POSTS = (fs.existsSync(POSTS_DIR) ? fs.readdirSync(POSTS_DIR) : [])
+  .filter((f) => f.endsWith(".html"))
+  .map((f) => {
+    const html = fs.readFileSync(path.join(POSTS_DIR, f), "utf8");
+    const h1 = (html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1] || f;
+    const firstP = (html.match(/<p[^>]*>([\s\S]*?)<\/p>/) || [])[1] || "";
+    return {
+      file: f,
+      html,
+      title: h1.replace(/<[^>]*>/g, "").trim(),
+      snippet: firstP.replace(/<[^>]*>/g, "").trim(),
+    };
+  })
+  .sort((a, b) => a.title.localeCompare(b.title));
+
 function esc(s) {
   return String(s)
     .replace(/&/g, "&amp;")
@@ -56,6 +73,7 @@ ${adsenseHead()}  <link rel="stylesheet" href="assets/style.css" />
       <a class="brand" href="index.html">${esc(SITE_NAME)}</a>
       <nav class="nav">
         <a href="index.html">Quizzes</a>
+        <a href="blog.html">Blog</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
       </nav>
@@ -180,7 +198,6 @@ ${quizHTML(questions)}
       <section class="about-quiz">
         <h2>About this ${esc(t.title)} quiz</h2>
 ${aboutParas}
-        <p>This quiz includes ${questions.length} multiple-choice questions covering a range of difficulty. Every question is shown on the page, so you can work through them at your own pace, pick an answer to see whether it was correct, and check your final score at the end. There is no time limit and you can replay it as often as you like.</p>
       </section>
 
       <section class="faq">
@@ -302,8 +319,53 @@ const termsBody = `      <h1>Terms of Use</h1>
       <h2>Contact</h2>
       <p>If you have questions about these terms, please visit the <a href="contact.html">contact page</a>.</p>`;
 
+function blogPostPage(post) {
+  const desc = post.snippet.slice(0, 160);
+  const canonical = `${SITE_DOMAIN}/${post.file}`;
+  return `${head(`${post.title} | ${SITE_NAME}`, desc, canonical)}
+  <main class="container narrow">
+    <p class="crumb"><a href="blog.html">Blog</a> &rsaquo; ${esc(post.title)}</p>
+    <article class="panel blog-post">
+${post.html}
+    </article>
+  </main>
+${footer()}`;
+}
+
+function blogIndexPage() {
+  const cards = POSTS.map(
+    (p) => `      <a class="card" href="${p.file}">
+        <h2>${esc(p.title)}</h2>
+        <p>${esc(p.snippet.slice(0, 150))}${p.snippet.length > 150 ? "…" : ""}</p>
+        <span class="card-cta">Read article →</span>
+      </a>`
+  ).join("\n");
+  const title = `Trivia Articles &amp; Blog | ${SITE_NAME}`;
+  const desc = `Articles on what makes great trivia — the best topics, why certain shows, games and sports work so well, and how good quiz questions are written.`;
+  return `${head(`Trivia Articles & Blog | ${SITE_NAME}`, desc, SITE_DOMAIN + "/blog.html")}
+  <main class="container">
+    <section class="hero">
+      <h1>Trivia Articles &amp; Blog</h1>
+      <p>A growing collection of articles on what makes a great trivia topic, why fans love it, and how good quiz questions come together.</p>
+    </section>
+    <section class="grid">
+${cards}
+    </section>
+  </main>
+${footer()}`;
+}
+
 function sitemap() {
-  const urls = ["", ...themes.map((t) => `${t.slug}.html`), "about.html", "contact.html", "privacy.html", "terms.html"];
+  const urls = [
+    "",
+    ...themes.map((t) => `${t.slug}.html`),
+    "blog.html",
+    ...POSTS.map((p) => p.file),
+    "about.html",
+    "contact.html",
+    "privacy.html",
+    "terms.html",
+  ];
   const today = new Date().toISOString().slice(0, 10);
   const body = urls
     .map((u) => `  <url><loc>${SITE_DOMAIN}/${u}</loc><lastmod>${today}</lastmod></url>`)
@@ -319,6 +381,8 @@ function w(file, content) {
 }
 
 themes.forEach((t) => w(`${t.slug}.html`, themePage(t)));
+POSTS.forEach((p) => w(p.file, blogPostPage(p)));
+w("blog.html", blogIndexPage());
 w("index.html", indexPage());
 w("about.html", infoPage("about", "About", aboutBody));
 w("contact.html", infoPage("contact", "Contact", contactBody));

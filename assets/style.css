@@ -136,6 +136,11 @@ main { padding-top: 22px; }
 .faq-item h3 { font-size: 1.05rem; margin: 0 0 .3em; color: var(--ink); }
 .faq-item p { margin: 0; }
 
+.blog-post { color: #2c333f; }
+.blog-post h1 { margin-bottom: .5em; }
+.blog-post h2 { font-size: 1.25rem; margin: 1.5em 0 .4em; }
+.blog-post p { margin: 0 0 1.1em; }
+
 /* ---- forms ---- */
 .panel { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px; }
 .contact-form { display: grid; gap: 6px; margin-top: 10px; }
