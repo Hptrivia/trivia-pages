@@ -48,6 +48,20 @@ function esc(s) {
     .replace(/"/g, "&quot;");
 }
 
+// BreadcrumbList structured data. items = [{name, url}] in order.
+function breadcrumbLd(items) {
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((it, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: it.name,
+      item: it.url,
+    })),
+  });
+}
+
 function adsenseHead() {
   if (!ADSENSE_CLIENT) return "";
   return `  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}" crossorigin="anonymous"></script>\n`;
@@ -61,10 +75,16 @@ function head(title, description, canonical) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}" />
+  <meta name="theme-color" content="#4f46e5" />
   <link rel="canonical" href="${canonical}" />
   <meta property="og:title" content="${esc(title)}" />
   <meta property="og:description" content="${esc(description)}" />
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="${canonical}" />
+  <meta property="og:site_name" content="${esc(SITE_NAME)}" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="${esc(title)}" />
+  <meta name="twitter:description" content="${esc(description)}" />
 ${adsenseHead()}  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
@@ -206,6 +226,10 @@ ${faqHTML}
       </section>
     </article>
   </main>
+  <script type="application/ld+json">${breadcrumbLd([
+    { name: "Quizzes", url: SITE_DOMAIN + "/" },
+    { name: `${t.title} Trivia Quiz`, url: canonical },
+  ])}</script>
   <script type="application/ld+json">${JSON.stringify(faqJsonLd)}</script>
   <script src="assets/quiz.js"></script>
 ${footer()}`;
@@ -329,6 +353,10 @@ function blogPostPage(post) {
 ${post.html}
     </article>
   </main>
+  <script type="application/ld+json">${breadcrumbLd([
+    { name: "Blog", url: SITE_DOMAIN + "/blog.html" },
+    { name: post.title, url: canonical },
+  ])}</script>
 ${footer()}`;
 }
 
