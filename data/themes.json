@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "harry-potter",
+    "title": "Harry Potter",
+    "category": "Books",
+    "description": "A fantasy trivia theme built around Harry Potter, Hogwarts, magical creatures, spells, rivalries, and the larger wizarding world. It covers the characters, places, objects, and story beats that made the series one of the biggest modern fantasy franchises.",
+    "seoIntro": "Harry Potter trivia works because the series is packed with memorable houses, teachers, spells, villains, magical items, school traditions, and storylines that fans tend to remember years after reading the books or watching the films. Even basic rounds have depth because the world is so full of named detail.",
+    "seoDetail": "A strong Harry Potter quiz can pull from Hogwarts houses, Quidditch, classes, professors, Death Eaters, Horcruxes, magical creatures, family names, friendships, duels, and key events across Harry’s years at school. It also benefits from the fact that fans often remember both broad plot points and very specific world-building details, which makes the theme richer than a simple character-and-villain round.",
+    "questionFile": "data/real_qs.txt"
+  },
+  {
+    "slug": "pokemon",
+    "title": "Pokémon",
+    "category": "Games",
+    "description": "A monster-collecting trivia theme built around Pokémon, covering regions, starters, evolutions, types, trainers, legendary Pokémon, items, battle concepts, and the franchise-wide knowledge that spans games and anime alike.",
+    "seoIntro": "Pokémon trivia works because the franchise is full of instantly recognisable creatures, type matchups, regions, gyms, evolutions, and named characters that many players have known since childhood. It is broad enough to work for casual fans but detailed enough to reward deeper franchise memory.",
+    "seoDetail": "A strong Pokémon quiz can include Kanto, Johto, Hoenn, Sinnoh, starters, Gym Leaders, Elite Four members, type advantages, evolution methods, legendary and mythical Pokémon, Poké Balls, moves, held items, villain teams, and anime crossover knowledge. The theme stays rich because it can test players on both broad franchise familiarity and very specific game systems, species knowledge, and region-by-region memory.",
+    "questionFile": "data/pokemon.txt"
+  },
+  {
+    "slug": "avatar-the-last-airbender",
+    "title": "Avatar: The Last Airbender",
+    "category": "TV",
+    "description": "An animated fantasy trivia theme focused on Avatar: The Last Airbender, covering bending arts, the four nations, Aang's journey, major characters, humour, and the emotional moments that made the series so widely loved.",
+    "seoIntro": "Avatar: The Last Airbender trivia works because the show combines elemental powers, clear world-building, memorable characters, and a lot of warmth and humour alongside its larger war story. It is one of those series where both children and older fans tend to remember specific details very well.",
+    "seoDetail": "A strong Avatar quiz can include Aang, Katara, Sokka, Toph, Zuko, Iroh, Appa, Momo, the Air Nomads, Water Tribes, Earth Kingdom, Fire Nation, bending techniques, spirits, key episodes, and major emotional turning points. The theme has real range because it can test powers, geography, character development, relationships, lore, and the balance between comedy and war that gives the series its identity.",
+    "questionFile": "data/avatar.txt"
+  },
+  {
+    "slug": "breaking-bad",
+    "title": "Breaking Bad",
+    "category": "TV",
+    "description": "A crime drama trivia theme built around Breaking Bad, covering Walter White, Jesse Pinkman, the meth empire, family tension, criminal partnerships, and the major turning points of the series.",
+    "seoIntro": "Breaking Bad trivia works because the show is packed with highly memorable character shifts, tense scenes, lies, betrayals, and symbols that viewers tend to carry with them long after finishing it. It is one of the clearest examples of a series where story progression itself becomes trivia gold.",
+    "seoDetail": "A strong Breaking Bad quiz can include Walter, Jesse, Skyler, Hank, Saul, Gus, Mike, the DEA, Los Pollos Hermanos, the RV, blue meth, rival dealers, cartel conflict, lab operations, and the major decisions that turn Walt from teacher to kingpin. The theme works because it can balance character psychology, criminal structure, family fallout, visual symbols, and the specific episode-by-episode details that made the series so gripping.",
+    "questionFile": "data/breaking.txt"
+  },
+  {
+    "slug": "friends",
+    "title": "Friends",
+    "category": "Sitcoms",
+    "description": "A sitcom trivia theme centered on Friends, covering the six main characters, relationships, apartments, jobs, recurring jokes, memorable side characters, and the everyday moments that made the show endlessly rewatchable.",
+    "seoIntro": "Friends trivia works especially well because the series is full of recognisable settings, long-running relationship drama, holiday episodes, catchphrases, and tiny recurring details that fans remember years later. It is one of those shows where rewatching makes even small moments stick.",
+    "seoDetail": "A strong Friends quiz can include Ross, Rachel, Monica, Chandler, Joey, Phoebe, Central Perk, the apartments, jobs, weddings, breakups, Thanksgiving episodes, family members, famous guest roles, and recurring jokes or habits tied to each character. The theme works because it can balance major romantic storylines with smaller comfort-show details, which makes it stronger than a sitcom round built only on broad plot summaries.",
+    "questionFile": "data/FRIENDS.txt"
+  },
+  {
+    "slug": "game-of-thrones",
+    "title": "Game of Thrones",
+    "category": "TV",
+    "description": "A fantasy drama trivia theme built around Game of Thrones, covering the great houses, political betrayals, dragons, battles, shifting alliances, major deaths, and the sprawling conflicts that define the series.",
+    "seoIntro": "Game of Thrones trivia works because the show is full of memorable names, sigils, rivalries, betrayals, locations, and power struggles that fans tend to remember in detail. The series gives you both headline moments everyone knows and a lot of smaller political detail underneath.",
+    "seoDetail": "A strong Game of Thrones quiz can include the Starks, Lannisters, Targaryens, Baratheons, the Wall, the Night's Watch, White Walkers, King's Landing, dragons, major battles, marriages, betrayals, advisors, and the many deaths and reversals that shaped the story. The theme stays rich because it can move between family politics, geography, war, prophecy, succession, and the dense network of characters that made the series such a dominant fantasy drama.",
+    "questionFile": "data/GOT.txt"
+  },
+  {
+    "slug": "lord-of-the-rings",
+    "title": "Lord of The Rings",
+    "category": "TV",
+    "description": "A fantasy trivia theme built around The Lord of the Rings, covering the Fellowship, Middle-earth locations, races, rulers, battles, creatures, and the epic quest against Sauron.",
+    "seoIntro": "Lord of the Rings trivia works because the world is packed with memorable places, named objects, alliances, monsters, and characters that fans often know in real detail. It is one of those fantasy settings where both the broad story and the world-building are strong enough to support rich quiz rounds.",
+    "seoDetail": "A strong Lord of the Rings quiz can include Frodo, Aragorn, Gandalf, Legolas, Gimli, Sauron, the Ring, Mordor, Rivendell, Rohan, Gondor, Orcs, Ents, major battles, and the key moments of the journey across Middle-earth. The theme works because it can move between characters, geography, lore, language, war, and mythic symbolism, making it far deeper than a simple heroes-versus-villains fantasy round.",
+    "questionFile": "data/LOTR.txt"
+  },
+  {
+    "slug": "naruto",
+    "title": "Naruto",
+    "category": "Anime",
+    "description": "An anime trivia theme built around Naruto, covering ninja villages, jutsu, rivalries, clans, major arcs, emotional backstories, and the long journey from outcast to hero.",
+    "seoIntro": "Naruto trivia works because the series is packed with named techniques, exam stages, teams, villages, mentors, villains, and character histories that fans remember for years. It has enough scale to support deep questions, but the core names and powers are still widely recognisable.",
+    "seoDetail": "A strong Naruto quiz can include Naruto, Sasuke, Sakura, Kakashi, Jiraiya, the Hokage, the Akatsuki, tailed beasts, chunin exams, clan abilities, villages, summons, jutsu types, and the many rivalries and redemption arcs that drive the story forward. The theme stays rich because it can balance combat knowledge, character development, world-building, and the very specific emotional moments that made the series such a long-running fandom favourite.",
+    "questionFile": "data/Naruto.txt"
+  },
+  {
+    "slug": "star-wars",
+    "title": "Star Wars",
+    "category": "TV",
+    "description": "A sci-fi fantasy trivia theme focused on Star Wars, covering Jedi, Sith, the Force, rebels, empires, planets, battles, droids, and the characters and lore that made the saga world-famous.",
+    "seoIntro": "Star Wars trivia works because the franchise is full of instantly recognisable characters, quotes, planets, powers, and faction conflict that people remember even if they are not deep fans. At the same time, the lore is broad enough to support much harder questions too.",
+    "seoDetail": "A strong Star Wars quiz can include Luke, Leia, Han, Vader, Obi-Wan, Yoda, Palpatine, the Jedi Order, the Sith, lightsabers, droids, clones, planets, rebellions, empires, and the major battles and family revelations that define the saga. The theme works because it can move between characters, mythology, politics, technology, and the wider franchise memory that stretches across films, series, and generations of fandom.",
+    "questionFile": "data/starwars.txt"
+  },
+  {
+    "slug": "stranger-things",
+    "title": "Stranger Things",
+    "category": "TV",
+    "description": "A sci-fi horror trivia theme built around Stranger Things, covering Hawkins, the Upside Down, friendships, secret experiments, monsters, powers, and the nostalgic setting that shapes the series.",
+    "seoIntro": "Stranger Things trivia works because the show combines a very memorable town, a tight central friend group, frightening creatures, government secrecy, and 1980s pop-culture flavour in a way that makes details easy to recall. It blends mystery, horror, and heart effectively.",
+    "seoDetail": "A strong Stranger Things quiz can include Eleven, Mike, Dustin, Lucas, Will, Max, Hopper, Joyce, Hawkins Lab, the Upside Down, Demogorgons, Vecna, powers, bikes, arcades, and the major mysteries and losses that shape each season. The theme stays strong because it can balance monster lore, friendships, family bonds, pop-culture references, and the specific moments that made the series such a huge streaming phenomenon.",
+    "questionFile": "data/stranger.txt"
+  },
+  {
+    "slug": "the-office",
+    "title": "The Office",
+    "category": "Sitcoms",
+    "description": "A workplace comedy trivia theme centered on The Office, covering Dunder Mifflin, office culture, awkward management, relationships, recurring jokes, and the everyday moments that made the series endlessly quotable.",
+    "seoIntro": "The Office trivia works especially well because the show is full of recognisable characters, repeated habits, small workplace humiliations, and emotional relationship beats that fans remember after countless rewatches. Even tiny details from the office setting tend to stick.",
+    "seoDetail": "A strong The Office quiz can include Michael, Dwight, Jim, Pam, Angela, Andy, Kevin, Creed, Dunder Mifflin, Scranton branch chaos, pranks, parties, romances, HR issues, and the many small routines or disasters that define office life. The theme works because it can balance broad sitcom recognition with very specific scene memory, which is exactly why the show remains such a strong rewatch and trivia subject.",
+    "questionFile": "data/Office.txt"
+  },
+  {
+    "slug": "disney",
+    "title": "Disney",
+    "category": "General",
+    "description": "A broad entertainment trivia theme covering Disney films, characters, worlds, songs, and stories from animated classics to modern releases and Pixar crossovers.",
+    "seoIntro": "Disney trivia works because the franchise spans decades of globally recognisable films, iconic characters, emotional stories, and unforgettable music that most people have grown up with in some form. It mixes nostalgia with broad cultural familiarity, making it instantly accessible while still allowing deeper detail for fans.",
+    "seoDetail": "A strong Disney quiz can include classic animated films like The Lion King, Aladdin, Beauty and the Beast, and Snow White, alongside modern titles like Frozen, Moana, and Encanto, as well as Pixar films such as Toy Story, Finding Nemo, and Inside Out. It can also cover characters like Mickey Mouse, Elsa, Simba, Ariel, and Buzz Lightyear, along with villains, sidekicks, songs, magical items, kingdoms, and emotional story moments. The theme works because it blends characters, music, storytelling, and animation history into a wide-ranging universe that spans generations and continues to evolve.",
+    "questionFile": "data/disney.txt"
+  }
+]

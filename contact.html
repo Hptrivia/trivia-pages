@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Trivia Nest</title>
+  <meta name="description" content="Contact" />
+  <link rel="canonical" href="https://example.com/contact.html" />
+  <meta property="og:title" content="Contact | Trivia Nest" />
+  <meta property="og:description" content="Contact" />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">Trivia Nest</a>
+      <nav class="nav">
+        <a href="index.html">Quizzes</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container narrow">
+    <article class="panel">
+      <h1>Contact / Feedback</h1>
+      <p>Found a wrong question, want to request a quiz that isn't here yet, spotted a bug, or just want to share feedback? Send it here.</p>
+      <p>Or email directly: <a href="mailto:triviaking2025@gmail.com">triviaking2025@gmail.com</a></p>
+      <form class="contact-form" action="https://formspree.io/f/mpqybwea" method="POST">
+        <label class="form-label" for="ftype">Type</label>
+        <select id="ftype" name="type" class="form-input">
+          <option value="general">General Feedback</option>
+          <option value="request">Request a Quiz Topic</option>
+          <option value="question">Wrong Question / Answer</option>
+          <option value="bug">Bug / Technical Issue</option>
+        </select>
+        <label class="form-label" for="message">Message</label>
+        <textarea id="message" name="message" class="form-input form-textarea" placeholder="Type your feedback here..." required></textarea>
+        <label class="form-label" for="email">Email (optional)</label>
+        <input id="email" name="email" type="email" class="form-input" placeholder="you@example.com" />
+        <button type="submit" class="btn">Send Feedback</button>
+      </form>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="index.html">Quizzes</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+      <p class="copyright">&copy; 2026 Trivia Nest. Trivia for fun &mdash; all franchise names belong to their respective owners.</p>
+    </div>
+  </footer>
+</body>
+</html>
