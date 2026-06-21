@@ -4,8 +4,8 @@
     "title": "Harry Potter",
     "category": "Books",
     "description": "How well do you know the wizarding world? Take this 20-question Harry Potter trivia quiz on Hogwarts, spells and characters.",
-    "seoIntro": "The world of Harry Potter is built for trivia. Across seven books and eight films, fans soak up an enormous amount of detail — the Hogwarts houses and their founders, spells and what they do, magical creatures, professors, and the long fight against Voldemort. This quiz pulls from across that whole universe to see how much of the wizarding world you really remember.",
-    "seoDetail": "Strong Harry Potter questions move between the books and the films, from the Sorting Hat and Quidditch to Horcruxes, the Order of the Phoenix, and the Deathly Hallows. The series rewards casual viewers who know the main story beats just as much as readers who remember small character moments and the rules of magic.",
+    "seoIntro": "Harry Potter follows an orphaned boy who learns on his eleventh birthday that he is a wizard and is whisked off to Hogwarts School of Witchcraft and Wizardry. Sorted into Gryffindor, he befriends Ron Weasley and Hermione Granger and slowly uncovers his connection to the dark wizard Lord Voldemort, who murdered his parents and left him with a lightning-bolt scar.",
+    "seoDetail": "Questions range across all seven books and eight films — the four Hogwarts houses and their founders, Quidditch, the professors, magical creatures, the Triwizard Tournament, Horcruxes, and the Order of the Phoenix's long battle against Voldemort and the Death Eaters.",
     "questionFile": "data/real_qs.txt"
   },
   {
@@ -13,8 +13,8 @@
     "title": "Pokémon",
     "category": "Games",
     "description": "Think you're a Pokémon Master? Test yourself with 20 trivia questions on types, regions, evolutions and legendaries.",
-    "seoIntro": "Few franchises pack as much memorable detail as Pokémon. Between the games, the anime, and decades of new generations, fans hold on to starter Pokémon, type match-ups, Gym Leaders, legendary creatures, and the long road to becoming a Champion. This quiz tests how much of that has actually stuck.",
-    "seoDetail": "A good Pokémon quiz can stretch from the original Kanto region to the newest games — evolutions, abilities, regions, rivals, and the creatures that became mascots for the whole series. It works because players tend to remember both the big milestones and oddly specific facts about who evolves from what.",
+    "seoIntro": "Pokémon follows Trainers who catch and battle creatures called Pokémon. It begins in the Kanto region, where you pick a starter — Bulbasaur, Charmander, or Squirtle — and set out to defeat eight Gym Leaders and the Elite Four to become Champion. Decades of games and the anime have since added new regions, new generations, and hundreds more creatures.",
+    "seoDetail": "Questions cover the games and the anime — starter and legendary Pokémon, type advantages, evolutions, Gym Leaders and the Elite Four, regions from Kanto onward, and Ash and Pikachu's journey.",
     "questionFile": "data/pokemon.txt"
   },
   {
@@ -22,8 +22,8 @@
     "title": "Avatar: The Last Airbender",
     "category": "TV",
     "description": "Water. Earth. Fire. Air. A 20-question Avatar: The Last Airbender quiz on the four nations, bending and Team Avatar.",
-    "seoIntro": "Avatar: The Last Airbender turned a story about a hundred-year war into one of the most rewatched animated series around. Fans remember the four nations, the bending arts, Aang's journey, and a supporting cast that grows across three seasons. This quiz draws on all of it.",
-    "seoDetail": "The best Avatar questions range across the Water, Earth, Fire, and Air nations, from Team Avatar and the Fire Nation's leaders to bending styles, spirit-world lore, and the show's biggest turning points. It rewards viewers who paid attention to both the comedy and the heavier moments of the war.",
+    "seoIntro": "Avatar: The Last Airbender is set in a world split into four nations — Water, Earth, Fire, and Air — where certain people can \"bend\" their element. After the Fire Nation launches a hundred-year war, a young Airbender named Aang wakes from a century in the ice as the Avatar, the only one able to master all four elements, and sets out with Katara and Sokka to restore balance.",
+    "seoDetail": "Questions span all three books — covering Aang, Katara, Sokka, Toph, and Zuko, the four bending disciplines, the spirit world, Appa and Momo, and the war against Fire Lord Ozai.",
     "questionFile": "data/avatar.txt"
   },
   {
@@ -31,8 +31,8 @@
     "title": "Breaking Bad",
     "category": "TV",
     "description": "Say my name. A 20-question Breaking Bad trivia quiz on Walter White, Jesse and the fall across all five seasons.",
-    "seoIntro": "Breaking Bad turned a high-school chemistry teacher into one of television's most talked-about characters, and fans followed the slow transformation in detail. From Walter White and Jesse Pinkman to the cooks, the cars, and the consequences, this quiz tests how closely you watched the descent.",
-    "seoDetail": "A strong Breaking Bad quiz moves through all five seasons — the partnership at the heart of the show, the rivals and family caught in the fallout, memorable lines, and small details that pay off later. The series rewards viewers who tracked how one decision led straight into the next.",
+    "seoIntro": "Breaking Bad follows Walter White, a struggling high-school chemistry teacher in Albuquerque who, after a terminal lung cancer diagnosis, starts cooking crystal meth with his former student Jesse Pinkman to secure his family's future. Over five seasons he hardens into the ruthless drug kingpin known as Heisenberg, while his DEA brother-in-law Hank unknowingly hunts him.",
+    "seoDetail": "Questions span all five seasons — Walt and Jesse's partnership, the rise of Heisenberg, Hank's DEA investigation, Gus Fring and the cartel, Saul Goodman, and the memorable lines and deaths along the way.",
     "questionFile": "data/breaking.txt"
   },
   {
@@ -40,8 +40,8 @@
     "title": "Friends",
     "category": "Sitcoms",
     "description": "Could you BE any better at this? A 20-question Friends quiz on Ross, Rachel, Central Perk and ten seasons of jokes.",
-    "seoIntro": "Decades after it first aired, Friends is still endlessly quotable, and fans remember the six characters like people they actually knew. This quiz pulls from ten seasons of coffee-shop hangouts, on-and-off romances, running jokes, and unforgettable one-liners.",
-    "seoDetail": "Good Friends questions cover Ross, Rachel, Monica, Chandler, Joey, and Phoebe, plus Central Perk, the Thanksgiving episodes, and the catchphrases that slipped into everyday speech. It works because casual viewers and superfans alike tend to remember the show's biggest moments.",
+    "seoIntro": "Friends follows six twenty- and thirty-somethings — Ross, Rachel, Monica, Chandler, Joey, and Phoebe — sharing apartments and hanging out at the Central Perk coffee house in Manhattan. Across ten seasons it tracks their careers, roommates, and tangled love lives, above all the on-again, off-again romance between Ross and Rachel.",
+    "seoDetail": "Questions cover all ten seasons — Central Perk, Ross and Rachel's relationship, Monica and Chandler, Joey's acting career, Phoebe's songs, the Thanksgiving episodes, and the catchphrases that became pop culture.",
     "questionFile": "data/FRIENDS.txt"
   },
   {
@@ -49,8 +49,8 @@
     "title": "Game of Thrones",
     "category": "TV",
     "description": "When you play, you win or you die. 20 Game of Thrones trivia questions on houses, characters and Westeros.",
-    "seoIntro": "Game of Thrones built a world so dense that fans still argue over its details. Houses, alliances, betrayals, dragons, and a sprawling cast give this quiz plenty to draw on — and plenty of ways to trip you up.",
-    "seoDetail": "A strong Game of Thrones quiz ranges across Westeros and Essos, from the great houses and their sigils to the Iron Throne, the Night's Watch, and the major deaths that defined each season. It rewards viewers who kept track of the shifting alliances and the long list of claimants to the throne.",
+    "seoIntro": "Game of Thrones is set in the Seven Kingdoms of Westeros, where noble houses — Stark, Lannister, Targaryen, Baratheon, and more — scheme and wage war for the Iron Throne. Meanwhile an ancient threat stirs beyond the Wall in the frozen north, and across the sea Daenerys Targaryen raises three dragons and builds an army to take back her family's crown.",
+    "seoDetail": "Questions cover all eight seasons — the great houses and their sigils, the Iron Throne, the Night's Watch and the Wall, Daenerys and her dragons, and the major battles, betrayals, and deaths.",
     "questionFile": "data/GOT.txt"
   },
   {
@@ -58,8 +58,8 @@
     "title": "Lord of The Rings",
     "category": "TV",
     "description": "One quiz to rule them all. 20 Lord of the Rings questions on the Fellowship, Middle-earth and the One Ring.",
-    "seoIntro": "The Lord of the Rings gave fans a world with its own history, languages, and geography, and the films cemented it for a new generation. This quiz travels from the Shire to Mordor, testing how much of Middle-earth you carry with you.",
-    "seoDetail": "Good Lord of the Rings questions cover the Fellowship, the races of Middle-earth, the key battles, and the long journey of the One Ring. It works because the story is full of named characters, places, and moments that fans remember vividly from both the books and the films.",
+    "seoIntro": "The Lord of the Rings follows the hobbit Frodo Baggins, who inherits a powerful One Ring and must carry it across Middle-earth to destroy it in the fires of Mount Doom before the Dark Lord Sauron reclaims it. He sets out with a Fellowship that includes the wizard Gandalf, the ranger Aragorn, Legolas, Gimli, and his loyal friend Sam.",
+    "seoDetail": "Questions cover the trilogy — the members of the Fellowship, Gollum and the Ring, the realms of Gondor and Rohan, the battles of Helm's Deep and Minas Tirith, and the long journey to Mount Doom.",
     "questionFile": "data/LOTR.txt"
   },
   {
@@ -67,8 +67,8 @@
     "title": "Naruto",
     "category": "Anime",
     "description": "Believe it! Test yourself with 20 Naruto trivia questions on the Hidden Leaf, jutsu, clans and Team 7.",
-    "seoIntro": "Naruto follows a young ninja's path from outcast to hero, and fans remember the villages, jutsu, and rivalries that fill hundreds of episodes. This quiz tests how well you know the Hidden Leaf and everything around it.",
-    "seoDetail": "A strong Naruto quiz covers Team 7, the Hidden Villages, the major clans, and the battles that shaped the series. It rewards viewers who followed both the early Academy days and the larger conflicts, along with the jutsu and bonds that drive the story.",
+    "seoIntro": "Naruto follows Naruto Uzumaki, a loud, mischievous ninja from the Hidden Leaf Village who has the powerful Nine-Tailed Fox sealed inside him and dreams of becoming Hokage, the village's leader. Alongside teammates Sasuke and Sakura under their teacher Kakashi, he trains, fights, and fights to win the respect of a village that once feared him.",
+    "seoDetail": "Questions cover the Hidden Leaf and beyond — Team 7, the Hokage, the major clans like the Uchiha, the Chunin Exams, the tailed beasts, jutsu, and the long rivalry between Naruto and Sasuke.",
     "questionFile": "data/Naruto.txt"
   },
   {
@@ -76,8 +76,8 @@
     "title": "Star Wars",
     "category": "TV",
     "description": "May the Force be with you. A 20-question Star Wars quiz on Jedi, the Empire and a galaxy far, far away.",
-    "seoIntro": "Star Wars spans films, series, and decades of lore, and fans remember the galaxy far, far away in remarkable detail. From the Force to the Empire, this quiz draws on the saga that started it all and everything it grew into.",
-    "seoDetail": "Good Star Wars questions move across the original trilogy, the prequels, the sequels, and the shows — Jedi and Sith, droids, ships, and the families at the centre of the story. It works because the saga is packed with iconic characters and lines that fans know by heart.",
+    "seoIntro": "Star Wars unfolds in a galaxy far, far away where the mystical Force separates the Jedi from the Sith. The original trilogy follows farm boy Luke Skywalker, Princess Leia, and smuggler Han Solo against the evil Galactic Empire and the masked Darth Vader, while the prequels and sequels widen the Skywalker saga across generations.",
+    "seoDetail": "Questions span the films and series — the Jedi and the Sith, the Skywalker family, droids like R2-D2 and C-3PO, ships like the Millennium Falcon, and the war between the Rebellion and the Empire.",
     "questionFile": "data/starwars.txt"
   },
   {
@@ -85,8 +85,8 @@
     "title": "Stranger Things",
     "category": "TV",
     "description": "Welcome to Hawkins. Take 20 Stranger Things trivia questions on the Upside Down, the kids and every season.",
-    "seoIntro": "Stranger Things mixes 80s nostalgia, small-town mystery, and monsters from another dimension, and fans track its details across every season. This quiz heads back to Hawkins to test what you remember.",
-    "seoDetail": "A strong Stranger Things quiz covers the central group of kids, the Upside Down, the town of Hawkins, and the threats that escalate each season. It rewards viewers who followed the friendships, the supernatural lore, and the 80s references woven through the show.",
+    "seoIntro": "Stranger Things is set in the small town of Hawkins, Indiana in the 1980s. When a boy named Will Byers disappears, his friends stumble onto a shadowy parallel dimension called the Upside Down — and a girl with psychic powers known only as Eleven, who escaped a secret government lab.",
+    "seoDetail": "Questions cover every season — Eleven and her powers, the Upside Down, the Demogorgon and the Mind Flayer, the town of Hawkins, and the group of kids at the centre of it all.",
     "questionFile": "data/stranger.txt"
   },
   {
@@ -94,8 +94,8 @@
     "title": "The Office",
     "category": "Sitcoms",
     "description": "That's what she said. A 20-question The Office quiz on Dunder Mifflin, Michael Scott and the Scranton crew.",
-    "seoIntro": "The Office turned an ordinary paper company into a comedy fans quote constantly. From Michael Scott's antics to the Jim-and-Pam romance, this quiz pulls from nine seasons at Dunder Mifflin.",
-    "seoDetail": "Good Office questions cover the Scranton branch, its managers and salespeople, the pranks, and the mockumentary moments that made it famous. It works because viewers remember both the big arcs and the tiny throwaway lines that became iconic.",
+    "seoIntro": "The Office is a mockumentary about the staff of the Scranton branch of paper company Dunder Mifflin, led by well-meaning but excruciating regional manager Michael Scott. Across nine seasons it follows office pranks, the slow-burn romance between Jim and Pam, and oddball employees like the beet-farming, rule-obsessed Dwight Schrute.",
+    "seoDetail": "Questions cover all nine seasons — Michael Scott's antics, the Jim and Pam romance, Dwight and Schrute Farms, the pranks, the parties, and the documentary-style moments that made the show.",
     "questionFile": "data/Office.txt"
   },
   {
@@ -103,8 +103,8 @@
     "title": "Disney",
     "category": "General",
     "description": "Test your Disney magic with 20 trivia questions on classic films, princesses, villains and unforgettable songs.",
-    "seoIntro": "Disney's films span nearly a century, from hand-drawn classics to modern blockbusters, and fans grow up memorising the characters, songs, and stories. This quiz draws on the whole magical catalogue.",
-    "seoDetail": "A strong Disney quiz moves across the animated classics, the princesses, the villains, the sidekicks, and the songs everyone knows. It works because Disney films are shared across generations, so players remember details from movies they watched as kids and again as adults.",
+    "seoIntro": "Disney's animated films stretch from early classics like Snow White, Cinderella, and The Lion King to modern blockbusters like Frozen, Moana, and Encanto. Together they have given generations a shared library of princesses, heroes, villains, talking sidekicks, and songs people can still sing by heart.",
+    "seoDetail": "Questions cover the animated catalogue — classic films and modern hits, the princesses and their stories, famous villains, comic sidekicks, and the music everyone knows.",
     "questionFile": "data/disney.txt"
   },
   {
@@ -112,8 +112,8 @@
     "title": "The Big Bang Theory",
     "category": "Sitcoms",
     "description": "Bazinga! A 20-question The Big Bang Theory quiz on Sheldon, the gang and twelve seasons of jokes.",
-    "seoIntro": "The Big Bang Theory built a hit comedy around a group of scientists and their neighbour, and fans remember the running gags, relationships, and catchphrases. This quiz pulls from twelve seasons of the gang.",
-    "seoDetail": "Good Big Bang Theory questions cover the friends and their careers, the apartment across the hall, the comic-book and science references, and the romances that develop over the years. It rewards viewers who followed both the jokes and the characters' growth.",
+    "seoIntro": "The Big Bang Theory follows a group of brilliant but socially awkward scientists — physicists Sheldon Cooper and Leonard Hofstadter and their friends Howard and Raj — whose routine of work, comic books, and takeout is upended when aspiring actress Penny moves in across the hall.",
+    "seoDetail": "Questions cover all twelve seasons — Sheldon's quirks and \"Bazinga,\" the friends' science careers, the comic-book and pop-culture references, Penny's arc, and the relationships that grow over time.",
     "questionFile": "data/TBBT.txt"
   },
   {
@@ -121,8 +121,8 @@
     "title": "How I Met Your Mother",
     "category": "Sitcoms",
     "description": "Suit up. Take 20 How I Met Your Mother trivia questions on Ted, the gang, MacLaren's and the running jokes.",
-    "seoIntro": "How I Met Your Mother framed a long love story around a group of friends in New York, and fans remember its running jokes and slow-building twists. This quiz tests how well you followed Ted's story.",
-    "seoDetail": "A strong How I Met Your Mother quiz covers the core group, the bar they always return to, the catchphrases, and the long mystery the show builds toward. It works because viewers remember both the comedy and the clues dropped across the seasons.",
+    "seoIntro": "How I Met Your Mother is told by Ted Mosby years in the future as he recounts to his kids the long, winding story of how he met their mother. It follows Ted and his New York friends — engaged couple Marshall and Lily, news anchor Robin, and the suit-obsessed, scheming Barney — who practically live at the bar MacLaren's.",
+    "seoDetail": "Questions cover all nine seasons — Ted's search for \"the one,\" Barney's playbook and suits, Marshall and Lily, Robin, the bar MacLaren's, and catchphrases like \"Legen — wait for it — dary.\"",
     "questionFile": "data/himym.txt"
   },
   {
@@ -130,8 +130,8 @@
     "title": "Rick and Morty",
     "category": "TV",
     "description": "Wubba lubba dub dub. A 20-question Rick and Morty quiz on the multiverse, the Smith family and more.",
-    "seoIntro": "Rick and Morty pairs a reckless genius with his anxious grandson for trips across the multiverse, and fans track its dense lore and references. This quiz dives into the chaos.",
-    "seoDetail": "Good Rick and Morty questions cover the family, the endless alternate dimensions, the recurring characters, and the show's biggest episodes. It rewards viewers who paid attention to the continuity hidden inside all the sci-fi absurdity.",
+    "seoIntro": "Rick and Morty follows cynical, alcoholic super-genius Rick Sanchez and his anxious teenage grandson Morty as they portal between dimensions and alien worlds, usually dragging Morty's family — Beth, Jerry, and Summer — into the fallout of Rick's inventions.",
+    "seoDetail": "Questions cover the family and the multiverse — Rick's gadgets and portal gun, the Citadel of Ricks, recurring characters like Mr. Meeseeks, and the show's most talked-about episodes.",
     "questionFile": "data/morty.txt"
   },
   {
@@ -139,8 +139,8 @@
     "title": "Demon Slayer",
     "category": "Anime",
     "description": "Take 20 Demon Slayer trivia questions on the Corps, the Hashira, breathing styles and the demons.",
-    "seoIntro": "Demon Slayer follows a young fighter's quest to save his sister and avenge his family, and fans remember its breathing styles, demons, and battles. This quiz tests your knowledge of the Demon Slayer Corps.",
-    "seoDetail": "A strong Demon Slayer quiz covers the Corps, the Hashira, the breathing techniques, and the demons standing in the way. It rewards viewers who followed both the emotional core of the story and the details of each major fight.",
+    "seoIntro": "Demon Slayer follows Tanjiro Kamado, a kind-hearted boy who comes home to find his family slaughtered by a demon and his sister Nezuko turned into one. He joins the Demon Slayer Corps to find a way to make her human again and to hunt down the demon lord responsible, Muzan Kibutsuji.",
+    "seoDetail": "Questions cover Tanjiro's journey — Nezuko, the elite swordsmen called the Hashira, the breathing techniques, the Twelve Kizuki demons, and the search for Muzan.",
     "questionFile": "data/demon.txt"
   },
   {
@@ -148,8 +148,8 @@
     "title": "One Piece",
     "category": "Anime",
     "description": "Set sail with 20 One Piece trivia questions on the Straw Hats, Devil Fruits and the Grand Line.",
-    "seoIntro": "One Piece has grown into one of the longest and most detailed adventures in anime, following a crew chasing the ultimate treasure. Fans remember its islands, crews, and powers across a huge run, and this quiz draws on that vast world.",
-    "seoDetail": "Good One Piece questions cover the Straw Hat crew, Devil Fruits, the seas they sail, and the allies and enemies they meet along the way. It works because the series is packed with named characters and arcs that dedicated fans know in depth.",
+    "seoIntro": "One Piece follows Monkey D. Luffy, a cheerful young pirate whose body turned to rubber after he ate a Devil Fruit. With his Straw Hat crew, he sails the Grand Line in search of the legendary treasure called the One Piece, which would make him King of the Pirates.",
+    "seoDetail": "Questions cover the Straw Hat crew — Luffy, Zoro, Nami, Sanji and the rest — plus Devil Fruit powers, the seas of the Grand Line, and the many allies and enemies met along the way.",
     "questionFile": "data/onepiece.txt"
   },
   {
@@ -157,8 +157,8 @@
     "title": "Attack on Titan",
     "category": "Anime",
     "description": "A 20-question Attack on Titan quiz on the Survey Corps, the walls, the Titans and the biggest twists.",
-    "seoIntro": "Attack on Titan turns a story about walled cities and towering Titans into a layered mystery, and fans track its many twists. This quiz tests how closely you followed the war beyond the walls.",
-    "seoDetail": "A strong Attack on Titan quiz covers the Survey Corps, the walls, the Titans, and the revelations that reshape the story. It rewards viewers who kept up with the shifting alliances and the secrets revealed across the seasons.",
+    "seoIntro": "Attack on Titan is set in a world where the last of humanity hides inside three enormous concentric walls to survive giant, man-eating humanoids called Titans. When a Colossal Titan smashes through the outer wall, a young man named Eren Yeager vows to join the Survey Corps, fight back, and learn the truth behind the Titans.",
+    "seoDetail": "Questions cover the war beyond the walls — Eren, Mikasa, and Captain Levi, the Survey Corps, the different Titan types, and the revelations that reshape everything fans thought they knew.",
     "questionFile": "data/attack.txt"
   },
   {
@@ -166,8 +166,8 @@
     "title": "Minecraft",
     "category": "Games",
     "description": "Test your survival skills with 20 Minecraft trivia questions on crafting, mobs, biomes and the Nether.",
-    "seoIntro": "Minecraft became one of the best-selling games ever by letting players build whole worlds block by block, and fans know its crafting, mobs, and mechanics inside out. This quiz tests your survival knowledge.",
-    "seoDetail": "Good Minecraft questions cover crafting recipes, mobs, biomes, ores, and the dimensions players explore. It works because the game rewards detailed knowledge — from how to brew a potion to which mobs spawn where.",
+    "seoIntro": "Minecraft is a sandbox game where players gather resources and place blocks to build and survive in vast, procedurally generated worlds. By day you mine and craft tools; by night you fend off mobs like creepers, skeletons, and zombies, before eventually venturing into the Nether and the End to face the Ender Dragon.",
+    "seoDetail": "Questions cover survival and creative play — crafting recipes, mobs like creepers and the Ender Dragon, biomes, ores, redstone, and the Nether and the End dimensions.",
     "questionFile": "data/minecraft.txt"
   },
   {
@@ -175,8 +175,8 @@
     "title": "Squid Game",
     "category": "TV",
     "description": "Red light, green light. Take 20 Squid Game trivia questions on the players, the games and the twists.",
-    "seoIntro": "Squid Game turned childhood games into a deadly competition and became a global phenomenon. Fans remember its players, rounds, and twists, and this quiz tests what you recall from the contest.",
-    "seoDetail": "A strong Squid Game quiz covers the players, the games themselves, the people running the contest, and the turns that shocked viewers. It works because the show's rules and reveals stuck with audiences long after they watched.",
+    "seoIntro": "Squid Game follows hundreds of desperate, debt-ridden contestants who are lured into a secret competition. They play deadly versions of innocent children's games — starting with Red Light, Green Light — for an enormous cash prize, all watched over by pink-suited masked guards in a remote facility.",
+    "seoDetail": "Questions cover the deadly contest — the players and their numbers, the games from Red Light, Green Light to the final round, the masked guards and the Front Man, and the show's biggest twists.",
     "questionFile": "data/squid.txt"
   },
   {
@@ -184,8 +184,8 @@
     "title": "Money Heist",
     "category": "TV",
     "description": "Bella ciao. A 20-question Money Heist quiz on the Professor, the crew and the biggest robberies.",
-    "seoIntro": "Money Heist follows a crew pulling off audacious robberies under code names, and fans track every plan and betrayal. This quiz tests how well you followed the heist.",
-    "seoDetail": "Good Money Heist questions cover the Professor and his team, the city-named members, the targets they hit, and the plans that go right and wrong. It rewards viewers who followed the strategy and the relationships under pressure.",
+    "seoIntro": "Money Heist (La Casa de Papel) follows a criminal mastermind known only as the Professor, who assembles a team that takes city code names — Tokyo, Berlin, Rio, Nairobi, Denver and more — to pull off the biggest heists in history, first on the Royal Mint of Spain and then the Bank of Spain.",
+    "seoDetail": "Questions cover the heists — the Professor's plans, the code-named crew, the Royal Mint and Bank of Spain, the hostages, and the tense standoffs with the police.",
     "questionFile": "data/heist.txt"
   },
   {
@@ -193,8 +193,8 @@
     "title": "The Mandalorian",
     "category": "TV",
     "description": "This is the way. Take 20 The Mandalorian trivia questions on Mando, Grogu and the Star Wars galaxy.",
-    "seoIntro": "The Mandalorian brought a lone bounty hunter and a mysterious child to the Star Wars galaxy, and fans remember its characters and corners of the universe. This quiz heads to the Outer Rim.",
-    "seoDetail": "A strong Mandalorian quiz covers the bounty hunter's code, the allies and enemies he meets, the planets he visits, and the wider Star Wars connections. It rewards viewers who followed both the standalone adventures and the larger story.",
+    "seoIntro": "The Mandalorian is set in the Star Wars galaxy after the fall of the Empire and follows Din Djarin, a lone, helmeted bounty hunter bound by a strict creed. His life changes when a bounty turns out to be a tiny, Force-sensitive child of Yoda's species — Grogu, nicknamed \"Baby Yoda\" — whom he chooses to protect.",
+    "seoDetail": "Questions cover the series — Din Djarin and the Mandalorian creed, Grogu, the bounties and allies, the planets they visit, and the ties to the wider Star Wars galaxy.",
     "questionFile": "data/mando.txt"
   },
   {
@@ -202,8 +202,8 @@
     "title": "The Walking Dead",
     "category": "TV",
     "description": "A 20-question The Walking Dead trivia quiz on the survivors, the communities and the walkers.",
-    "seoIntro": "The Walking Dead followed survivors through a world overrun by walkers across many seasons, and fans remember the groups, leaders, and losses. This quiz tests how well you survived alongside them.",
-    "seoDetail": "Good Walking Dead questions cover the core survivors, the communities they build, the threats they face, and the deaths that changed the story. It rewards viewers who tracked the shifting leadership and the long fight to stay alive.",
+    "seoIntro": "The Walking Dead opens with sheriff's deputy Rick Grimes waking from a coma into a world overrun by \"walkers.\" He sets out to find his family and becomes the reluctant leader of a band of survivors who fight not just the dead, but other desperate groups of the living.",
+    "seoDetail": "Questions cover the survivors — Rick's group, communities like Alexandria and the Hilltop, villains like the Governor and Negan, and the long, brutal fight to stay alive.",
     "questionFile": "data/dead.txt"
   },
   {
@@ -211,8 +211,8 @@
     "title": "The Last of Us",
     "category": "Games",
     "description": "Take 20 The Last of Us trivia questions on Joel, Ellie, the infected and the journey across a broken world.",
-    "seoIntro": "The Last of Us tells a story of survival and connection in a ruined world, and fans remember its journey in detail. This quiz draws on the game's characters, places, and hardest moments.",
-    "seoDetail": "A strong Last of Us quiz covers the main characters, the infected, the factions, and the cross-country journey at the heart of the story. It works because the game is remembered as much for its emotional beats as for its setting.",
+    "seoIntro": "The Last of Us is set roughly twenty years after a mutated Cordyceps fungus collapsed civilization and turned the infected into monsters. It follows a hardened smuggler named Joel who is hired to escort Ellie, a teenage girl who may be immune, across a dangerous, ruined America.",
+    "seoDetail": "Questions cover the journey — Joel and Ellie, the stages of the infected, factions like the Fireflies, and the moments that made the story so talked-about.",
     "questionFile": "data/tlou.txt"
   },
   {
@@ -220,8 +220,8 @@
     "title": "Seinfeld",
     "category": "Sitcoms",
     "description": "No soup for you! A 20-question Seinfeld quiz on Jerry, George, Elaine, Kramer and the show about nothing.",
-    "seoIntro": "Seinfeld built a classic comedy around the small absurdities of everyday life, and fans still quote its episodes. This quiz pulls from the show about nothing.",
-    "seoDetail": "Good Seinfeld questions cover the four main characters, their New York haunts, the running gags, and the episodes that became cultural touchstones. It works because the humour came from tiny situations that viewers remember by name.",
+    "seoIntro": "Seinfeld is the famous comedy \"about nothing,\" following stand-up comedian Jerry Seinfeld and his friends — the neurotic, perpetually scheming George Costanza, eccentric across-the-hall neighbour Kramer, and sharp ex-girlfriend Elaine — as they obsess over the tiny absurdities of everyday life in New York City.",
+    "seoDetail": "Questions cover the show about nothing — Jerry, George, Elaine, and Kramer, their New York haunts, the running gags, and famous episodes like \"The Contest\" and \"The Soup Nazi.\"",
     "questionFile": "data/seinfeld.txt"
   }
 ]
