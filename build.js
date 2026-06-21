@@ -126,8 +126,8 @@ function themePage(t) {
   const questions = pickQuestions(t.questionFile);
   const title = `${t.title} Trivia Quiz – ${questions.length} Questions | ${SITE_NAME}`;
   const desc =
-    t.seoIntro ||
     t.description ||
+    t.seoIntro ||
     `Test your knowledge with this ${t.title} trivia quiz.`;
   const canonical = `${SITE_DOMAIN}/${t.slug}.html`;
 
@@ -137,7 +137,7 @@ function themePage(t) {
     : `      <p>Test your knowledge of ${esc(t.title)} with this free trivia quiz.</p>`;
 
   // "About" block below the quiz: the rest of the per-theme write-up (unique).
-  const aboutParas = [t.seoDetail, t.description]
+  const aboutParas = [t.seoDetail]
     .filter(Boolean)
     .map((p) => `        <p>${esc(p)}</p>`)
     .join("\n");
@@ -234,15 +234,15 @@ ${footer()}`;
 }
 
 const aboutBody = `      <h1>About ${SITE_NAME}</h1>
-      <p>${SITE_NAME} is a trivia website built for people who enjoy testing their knowledge of the shows, films, and games they love. Each quiz is themed around a specific topic and made up of multiple-choice questions, so you can jump in, play, and get a score in just a few minutes.</p>
-      <h2>What the site focuses on</h2>
-      <p>The site is built around themed quizzes with a strong focus on entertainment and fandom topics. The aim is to create quizzes that are enjoyable for casual players but still rewarding for people who know a topic well and want something more detailed.</p>
-      <h2>How quizzes are created</h2>
-      <p>Quiz sets are organised around specific themes, franchises, and categories. Depending on the topic, questions may cover characters, storylines, locations, facts, cultural moments, or other recognisable details connected to the subject. Short descriptions are added to help visitors understand what each quiz covers before they start playing.</p>
-      <h2>Ongoing updates</h2>
-      <p>The site grows over time with new quizzes and additional supporting content. New themes are added regularly and existing quizzes are reviewed and improved.</p>
-      <h2>Contact</h2>
-      <p>If you want to get in touch about the site, feedback, or corrections, visit the <a href="contact.html">contact page</a>.</p>`;
+      <p>${SITE_NAME} is a free collection of themed trivia quizzes for fans who like putting their knowledge to the test. Pick a topic you love &mdash; a show, a film, a game &mdash; answer a set of multiple-choice questions, and see your score in a couple of minutes. There is nothing to install and no account to make.</p>
+      <h2>How it works</h2>
+      <p>Every quiz lives on its own page with all of its questions laid out in front of you. Choose an answer to find out straight away whether you got it right, watch your running total climb, and see a final score once you reach the end. If you want another go, you can reset and replay any quiz as many times as you like.</p>
+      <h2>What you'll find here</h2>
+      <p>The quizzes lean toward entertainment and fandom &mdash; popular series, movies, anime, and video games &mdash; with questions written to be approachable for newcomers while still holding a few surprises for people who know a subject inside out. Each topic comes with a short write-up so you know what the quiz covers before you dive in.</p>
+      <h2>Growing over time</h2>
+      <p>New quiz topics are added regularly, and older ones are revisited and refined. If there is a subject you would like to see covered, suggestions are always welcome.</p>
+      <h2>Get in touch</h2>
+      <p>For feedback, corrections, or quiz requests, head to the <a href="contact.html">contact page</a>.</p>`;
 
 const contactBody = `      <h1>Contact / Feedback</h1>
       <p>Found a wrong question, want to request a quiz that isn't here yet, spotted a bug, or just want to share feedback? Send it here.</p>

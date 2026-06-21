@@ -53,12 +53,11 @@
         q.dataset.done = "1";
         answered++;
         var chosen = parseInt(opt.getAttribute("data-idx"), 10);
-        if (chosen === answer) score++;
-        opts.forEach(function (o, idx) {
-          o.disabled = true;
-          if (idx === answer) o.classList.add("correct");
-          else if (idx === chosen) o.classList.add("wrong");
-        });
+        opts.forEach(function (o) { o.disabled = true; });
+        // Only mark the option the user actually picked — never reveal the
+        // correct answer on a miss, so the quiz doesn't give answers away.
+        if (chosen === answer) { score++; opt.classList.add("correct"); }
+        else { opt.classList.add("wrong"); }
         updateBar();
         maybeFinish();
       });
