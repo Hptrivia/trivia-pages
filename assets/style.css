@@ -141,6 +141,11 @@ main { padding-top: 22px; }
 .blog-post h2 { font-size: 1.25rem; margin: 1.5em 0 .4em; }
 .blog-post p { margin: 0 0 1.1em; }
 
+.related { margin-top: 36px; }
+.related h2 { margin-bottom: .6em; }
+.related-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+.related-grid .card h3 { margin: 0 0 .6em; font-size: 1.05rem; }
+
 /* ---- forms ---- */
 .panel { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px; }
 .contact-form { display: grid; gap: 6px; margin-top: 10px; }

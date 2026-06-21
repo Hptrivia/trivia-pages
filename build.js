@@ -224,6 +224,7 @@ ${aboutParas}
         <h2>${esc(t.title)} quiz — frequently asked questions</h2>
 ${faqHTML}
       </section>
+${relatedQuizzesHTML(t)}
     </article>
   </main>
   <script type="application/ld+json">${breadcrumbLd([
@@ -233,6 +234,54 @@ ${faqHTML}
   <script type="application/ld+json">${JSON.stringify(faqJsonLd)}</script>
   <script src="assets/quiz.js"></script>
 ${footer()}`;
+}
+
+// "More quizzes like this" — prefer same category, then fill with others.
+function relatedQuizzesHTML(t) {
+  const sameCat = themes.filter((x) => x.slug !== t.slug && x.category === t.category);
+  const others = themes.filter((x) => x.slug !== t.slug && x.category !== t.category);
+  const related = [...sameCat, ...others].slice(0, 4);
+  if (!related.length) return "";
+  const cards = related
+    .map(
+      (r) => `        <a class="card" href="${r.slug}.html">
+          <h3>${esc(r.title)}</h3>
+          <span class="card-cta">Play quiz →</span>
+        </a>`
+    )
+    .join("\n");
+  return `
+      <section class="related">
+        <h2>More quizzes like this</h2>
+        <div class="grid related-grid">
+${cards}
+        </div>
+      </section>`;
+}
+
+// "More articles" — the next few posts in the list (wraps around).
+function relatedArticlesHTML(post) {
+  if (POSTS.length < 2) return "";
+  const idx = POSTS.findIndex((p) => p.file === post.file);
+  const related = [];
+  for (let i = 1; i <= 3 && related.length < POSTS.length - 1; i++) {
+    related.push(POSTS[(idx + i) % POSTS.length]);
+  }
+  const cards = related
+    .map(
+      (r) => `        <a class="card" href="${r.file}">
+          <h3>${esc(r.title)}</h3>
+          <span class="card-cta">Read article →</span>
+        </a>`
+    )
+    .join("\n");
+  return `
+      <section class="related">
+        <h2>More articles</h2>
+        <div class="grid related-grid">
+${cards}
+        </div>
+      </section>`;
 }
 
 function indexPage() {
@@ -352,6 +401,7 @@ function blogPostPage(post) {
     <article class="panel blog-post">
 ${post.html}
     </article>
+${relatedArticlesHTML(post)}
   </main>
   <script type="application/ld+json">${breadcrumbLd([
     { name: "Blog", url: SITE_DOMAIN + "/blog.html" },
