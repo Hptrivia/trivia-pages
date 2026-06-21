@@ -129,6 +129,12 @@ main { padding-top: 22px; }
 .score-msg { color: var(--muted); margin-bottom: 18px; }
 
 .about-quiz { color: #39414f; }
+.about-quiz p { margin: 0 0 1em; }
+
+.faq { color: #39414f; margin-top: 8px; }
+.faq-item { padding: 14px 0; border-top: 1px solid var(--line); }
+.faq-item h3 { font-size: 1.05rem; margin: 0 0 .3em; color: var(--ink); }
+.faq-item p { margin: 0; }
 
 /* ---- forms ---- */
 .panel { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px; }

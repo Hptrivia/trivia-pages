@@ -131,9 +131,41 @@ function themePage(t) {
     `Test your knowledge with this ${t.title} trivia quiz.`;
   const canonical = `${SITE_DOMAIN}/${t.slug}.html`;
 
-  const intro = [t.seoIntro, t.seoDetail].filter(Boolean).map((p) => `      <p>${esc(p)}</p>`).join("\n");
+  // Intro (above the quiz): the strongest, unique per-theme paragraph.
+  const intro = t.seoIntro
+    ? `      <p>${esc(t.seoIntro)}</p>`
+    : `      <p>Test your knowledge of ${esc(t.title)} with this free trivia quiz.</p>`;
 
-  // FAQ-ish supporting block adds original text + a JSON-LD Quiz hint.
+  // "About" block below the quiz: the rest of the per-theme write-up (unique).
+  const aboutParas = [t.seoDetail, t.description]
+    .filter(Boolean)
+    .map((p) => `        <p>${esc(p)}</p>`)
+    .join("\n");
+
+  // A short FAQ — genuinely useful, and emitted as FAQPage structured data.
+  const faqs = [
+    [`How many questions are in this ${t.title} quiz?`,
+     `This ${t.title} quiz has ${questions.length} multiple-choice questions, each with four options and one correct answer.`],
+    [`Is the ${t.title} quiz free to play?`,
+     `Yes. Every quiz on ${SITE_NAME} is completely free to play and there is no sign-up or download required.`],
+    [`Can I retake the quiz?`,
+     `Yes. You can replay this quiz as many times as you like. Use the Play Again button to reset your score and start over.`],
+    [`How is my score calculated?`,
+     `You score one point for each correct answer. Your running score is shown at the top of the quiz, and a final total appears once you have answered every question.`],
+  ];
+  const faqHTML = faqs
+    .map(([q, a]) => `        <div class="faq-item">\n          <h3>${esc(q)}</h3>\n          <p>${esc(a)}</p>\n        </div>`)
+    .join("\n");
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map(([q, a]) => ({
+      "@type": "Question",
+      name: q,
+      acceptedAnswer: { "@type": "Answer", text: a },
+    })),
+  };
+
   return `${head(title, desc, canonical)}
   <main class="container">
     <article>
@@ -147,10 +179,17 @@ ${quizHTML(questions)}
 
       <section class="about-quiz">
         <h2>About this ${esc(t.title)} quiz</h2>
-        <p>This quiz includes ${questions.length} multiple-choice questions covering a range of difficulty. Pick an answer for each question to see if you got it right, then get your final score at the end. There is no time limit, so take it at your own pace and replay it as many times as you like.</p>
+${aboutParas}
+        <p>This quiz includes ${questions.length} multiple-choice questions covering a range of difficulty. Every question is shown on the page, so you can work through them at your own pace, pick an answer to see whether it was correct, and check your final score at the end. There is no time limit and you can replay it as often as you like.</p>
+      </section>
+
+      <section class="faq">
+        <h2>${esc(t.title)} quiz — frequently asked questions</h2>
+${faqHTML}
       </section>
     </article>
   </main>
+  <script type="application/ld+json">${JSON.stringify(faqJsonLd)}</script>
   <script src="assets/quiz.js"></script>
 ${footer()}`;
 }

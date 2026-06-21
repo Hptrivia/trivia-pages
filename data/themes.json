@@ -106,5 +106,122 @@
     "seoIntro": "Disney trivia works because the franchise spans decades of globally recognisable films, iconic characters, emotional stories, and unforgettable music that most people have grown up with in some form. It mixes nostalgia with broad cultural familiarity, making it instantly accessible while still allowing deeper detail for fans.",
     "seoDetail": "A strong Disney quiz can include classic animated films like The Lion King, Aladdin, Beauty and the Beast, and Snow White, alongside modern titles like Frozen, Moana, and Encanto, as well as Pixar films such as Toy Story, Finding Nemo, and Inside Out. It can also cover characters like Mickey Mouse, Elsa, Simba, Ariel, and Buzz Lightyear, along with villains, sidekicks, songs, magical items, kingdoms, and emotional story moments. The theme works because it blends characters, music, storytelling, and animation history into a wide-ranging universe that spans generations and continues to evolve.",
     "questionFile": "data/disney.txt"
+  },
+  {
+    "slug": "the-big-bang-theory",
+    "title": "The Big Bang Theory",
+    "category": "Sitcoms",
+    "description": "A sitcom trivia theme focused on The Big Bang Theory, covering the friend group, apartments, scientific references, relationships, geek culture, recurring jokes, and the habits that define the main cast.",
+    "seoIntro": "The Big Bang Theory trivia works because the series mixes broad sitcom familiarity with specific science references, pop-culture obsessions, relationship developments, and repeated behavioural quirks. Even casual viewers often remember the group's routines and dynamics.",
+    "seoDetail": "A strong The Big Bang Theory quiz can include Sheldon, Leonard, Penny, Howard, Raj, Amy, Bernadette, the apartments, work at Caltech, comic books, gaming, costumes, relationship milestones, recurring side characters, and the many habits, sayings, or rules attached to each person. The theme stays strong because it can balance nerd-culture detail, sitcom relationships, and the small repeated moments that made the show so easy to recognise.",
+    "questionFile": "data/TBBT.txt"
+  },
+  {
+    "slug": "how-i-met-your-mother",
+    "title": "How I Met Your Mother",
+    "category": "Sitcoms",
+    "description": "A sitcom trivia theme centered on How I Met Your Mother, covering Ted, Barney, Robin, Marshall, Lily, long-running callbacks, relationship turns, storytelling tricks, and the group traditions that define the show.",
+    "seoIntro": "How I Met Your Mother trivia works because the series is built around recurring jokes, flashbacks, running stories, relationship milestones, and a very distinctive narration structure. Fans tend to remember both the bigger romances and the smaller repeated bits.",
+    "seoDetail": "A strong How I Met Your Mother quiz can include the gang's hangouts, catchphrases, the slap bet, the playbook, major relationships, weddings, jobs, future narration, timeline tricks, and the long road to meeting the mother. The theme stays strong because it can move between emotional arcs, comedy callbacks, episode structure, and the many repeated traditions that reward people who watched the show closely.",
+    "questionFile": "data/himym.txt"
+  },
+  {
+    "slug": "rick-and-morty",
+    "title": "Rick and Morty",
+    "category": "TV",
+    "description": "An animated sci-fi comedy trivia theme focused on Rick and Morty, covering alternate realities, gadgets, family chaos, recurring characters, bizarre episode concepts, and the dark humour that defines the series.",
+    "seoIntro": "Rick and Morty trivia works because the show is packed with strange inventions, alternate universes, recurring species, family dysfunction, and episode concepts that are too weird to forget. Even one-off details often stick because the world is so chaotic and specific.",
+    "seoDetail": "A strong Rick and Morty quiz can include Rick, Morty, Summer, Beth, Jerry, Portal Guns, alternate dimensions, the Citadel, Council storylines, major villains, recurring aliens, catchphrases, and the many reality-bending scenarios that shape the show. The theme works because it can move between sci-fi parody, emotional family fallout, weird lore, and the very specific comic details fans love remembering.",
+    "questionFile": "data/morty.txt"
+  },
+  {
+    "slug": "demon-slayer",
+    "title": "Demon Slayer",
+    "category": "Anime",
+    "description": "An anime trivia theme focused on Demon Slayer, covering Tanjiro, Nezuko, the Hashira, breathing styles, demons, battles, and the emotional story moments that made the series such a major hit.",
+    "seoIntro": "Demon Slayer trivia works well because the series combines very recognisable characters and powers with dramatic fights, clear ranks, named techniques, and emotional backstories that viewers tend to remember easily. Its visual identity also helps specific moments stick.",
+    "seoDetail": "A strong Demon Slayer quiz can include Tanjiro, Nezuko, Zenitsu, Inosuke, Muzan, the Hashira, breathing styles, demon ranks, swords, training, major arcs, and the key battles that shape the story. The theme stays strong because it can move between character identity, combat techniques, lore, tragic backstories, and the smaller details that fans pick up from both the action and the emotional side of the series.",
+    "questionFile": "data/demon.txt"
+  },
+  {
+    "slug": "one-piece",
+    "title": "One Piece",
+    "category": "Anime",
+    "description": "An anime adventure trivia theme focused on One Piece, covering the Straw Hat crew, Devil Fruits, islands, marines, pirates, rival crews, major arcs, and the massive world-building of the series.",
+    "seoIntro": "One Piece trivia works especially well because the series has an enormous cast, a huge map of memorable locations, many powers, and long story arcs that fans often remember in remarkable detail. It offers both mainstream recognition and very deep fan-level material.",
+    "seoDetail": "A strong One Piece quiz can include Luffy, Zoro, Nami, Sanji, Usopp, Chopper, Robin, the Grand Line, Devil Fruits, Haki, marines, emperors, warlords, major islands, bounties, and the huge arc-by-arc progression of the Straw Hats' journey. The theme stays strong because it can test crew knowledge, powers, factions, geography, rivalries, and the long-running plot threads that make the world feel so unusually vast.",
+    "questionFile": "data/onepiece.txt"
+  },
+  {
+    "slug": "attack-on-titan",
+    "title": "Attack on Titan",
+    "category": "Anime",
+    "description": "A dark anime trivia theme built around Attack on Titan, covering Titans, military factions, hidden truths, battles, shifting loyalties, and the world-changing revelations that define the series.",
+    "seoIntro": "Attack on Titan trivia works because the story combines instantly recognisable action with layered world-building, mystery, named Titan powers, and major reversals that viewers tend to remember clearly. It has both spectacle and detail, which makes it ideal for quiz play.",
+    "seoDetail": "A strong Attack on Titan quiz can include Eren, Mikasa, Armin, Levi, the Survey Corps, Marley, Eldia, the walls, Titan shifters, named Titan forms, military ranks, major battles, and the political and historical truths uncovered across the series. The theme stays rich because it can move between character arcs, powers, factions, geography, ideology, and the constant shift in how the world is understood.",
+    "questionFile": "data/attack.txt"
+  },
+  {
+    "slug": "minecraft",
+    "title": "Minecraft",
+    "category": "Games",
+    "description": "A sandbox game trivia theme covering Minecraft through crafting, mobs, biomes, structures, tools, survival systems, updates, and the building mechanics that made it one of the most influential games ever made.",
+    "seoIntro": "Minecraft trivia works because the game creates very strong memory through repetition, exploration, crafting, and survival. Even players who are not experts often remember recipes, mobs, dimensions, ores, and structures, while long-time players know far more specific mechanics and update-era details.",
+    "seoDetail": "A strong Minecraft quiz can include Creepers, Endermen, villagers, the Nether, the End, redstone, enchantments, biomes, crafting tables, mining resources, generated structures, farming, potions, bosses, and update-driven features. The category works so well because it can cover both broad recognition and real hands-on knowledge, moving from simple survival basics to technical systems that players only learn after spending serious time in the game.",
+    "questionFile": "data/minecraft.txt"
+  },
+  {
+    "slug": "squid-game",
+    "title": "Squid Game",
+    "category": "TV",
+    "description": "A survival thriller trivia theme focused on Squid Game, covering contestants, numbered players, deadly games, masked staff, symbolism, class pressure, and the moral choices that define the series.",
+    "seoIntro": "Squid Game trivia works because the setup is instantly memorable: desperate contestants, childhood games turned lethal, visual symbolism, and a system built on pressure and spectacle. Viewers tend to remember both the structure of the competition and the people trapped inside it.",
+    "seoDetail": "A strong Squid Game quiz can include Gi-hun, Sang-woo, Sae-byeok, Il-nam, Ali, player numbers, game order, masked guards, the Front Man, VIPs, alliances, betrayals, and the social commentary built into each stage of the contest. The theme works because it can move between character memory, game mechanics, visual imagery, and the ethical choices that make the series more than just a death-game thriller.",
+    "questionFile": "data/squid.txt"
+  },
+  {
+    "slug": "money-heist",
+    "title": "Money Heist",
+    "category": "TV",
+    "description": "A crime thriller trivia theme focused on Money Heist, covering the Professor, the robbery crews, codenames, hostages, plans, betrayals, and the twists that made the series such a global hit.",
+    "seoIntro": "Money Heist trivia works because the show is built around a very memorable setup: masked robbers, city-based aliases, layered plans, emotional pressure, and constant reversals. Viewers tend to remember both the broad heist structure and the personal conflicts inside it.",
+    "seoDetail": "A strong Money Heist quiz can include the Professor, Tokyo, Berlin, Nairobi, Rio, Denver, Raquel, the Royal Mint, the Bank of Spain, masks, hostages, negotiations, internal betrayals, and the many plan adjustments that keep the heists alive. The theme works because it can move between strategy, character loyalty, romance, police pressure, and the smaller details that made the show feel tense far beyond a simple robbery plot.",
+    "questionFile": "data/heist.txt"
+  },
+  {
+    "slug": "the-mandalorian",
+    "title": "The Mandalorian",
+    "category": "TV",
+    "description": "A Star Wars trivia theme built around The Mandalorian, following a lone bounty hunter who becomes the protector of a mysterious Force-sensitive child across the outer rim.",
+    "seoIntro": "The Mandalorian trivia works because it brings a western, bounty-hunter feel to the Star Wars galaxy with a beloved central duo and rich world-building. Fans can be tested on Din Djarin, Grogu, and the journey across the outer rim.",
+    "seoDetail": "A strong The Mandalorian quiz can include Din Djarin and the Way of the Mandalore, Grogu and his Force abilities, the Razor Crest, Greef Karga and the Bounty Hunters' Guild, the Armorer and the Covert, beskar and Mandalorian culture, Cara Dune, Kuiil and IG-11, Moff Gideon and the darksaber, Boba Fett and Bo-Katan, the planets and quarry of each chapter, and the themes of loyalty, found family and creed that define the series.",
+    "questionFile": "data/mando.txt"
+  },
+  {
+    "slug": "the-walking-dead",
+    "title": "The Walking Dead",
+    "category": "TV",
+    "description": "A post-apocalyptic horror trivia theme focused on The Walking Dead, covering survivors, walkers, communities, rival groups, losses, and the moral and practical struggle to stay alive.",
+    "seoIntro": "The Walking Dead trivia works because the series combines zombie-survival imagery with changing communities, strong character losses, and repeated clashes over leadership, trust, and violence. Fans often remember both the broad arc and the smaller survival details.",
+    "seoDetail": "A strong The Walking Dead quiz can include Rick, Daryl, Carol, Glenn, Maggie, Michonne, Negan, walkers, the prison, Alexandria, the Governor, the Saviors, weapons, supply runs, and the many deaths and turning points that reshape the group. The theme stays strong because it can move between survival mechanics, faction conflict, emotional fallout, and the recurring question of what kind of people the characters become.",
+    "questionFile": "data/dead.txt"
+  },
+  {
+    "slug": "the-last-of-us",
+    "title": "The Last of Us",
+    "category": "Games",
+    "description": "A post-apocalyptic action-adventure trivia theme focused on The Last of Us, covering Joel, Ellie, factions, infected types, locations, survival mechanics, emotional story beats, and the world shaped by the Cordyceps outbreak.",
+    "seoIntro": "The Last of Us works well as trivia because it combines strong emotional memory with very recognisable enemies, locations, and factions. Players tend to remember both the broad story and the smaller details of survival, relationships, and the harsh world the characters move through.",
+    "seoDetail": "A strong The Last of Us quiz can include Joel, Ellie, Tess, Tommy, Marlene, the Fireflies, FEDRA, hunters, infected stages such as Clickers and Bloaters, major cities, weapons, crafting, stealth, and the key turning points of the journey. The theme has depth because it can balance story knowledge, world-building, enemy recognition, gameplay systems, and the personal decisions that make the series so memorable.",
+    "questionFile": "data/tlou.txt"
+  },
+  {
+    "slug": "seinfeld",
+    "title": "Seinfeld",
+    "category": "Sitcoms",
+    "description": "A sitcom trivia theme centered on Seinfeld, covering Jerry, George, Elaine, Kramer, awkward social conflicts, classic episode setups, recurring side characters, and the tiny details that made the show iconic.",
+    "seoIntro": "Seinfeld trivia works because the show turns trivial everyday situations into highly memorable comedy. Fans often remember not only the most famous episodes, but also the exact social misunderstandings, habits, and minor obsessions that define the characters.",
+    "seoDetail": "A strong Seinfeld quiz can include Jerry, George, Elaine, Kramer, Monk's, jobs, dating disasters, rivalries, recurring neighbours or bosses, famous episode premises, and the many minor arguments that spiral into something absurd. The theme stays rich because it can balance broad recognition with very small observational details, which is exactly what makes the series such a natural fit for trivia.",
+    "questionFile": "data/seinfeld.txt"
   }
 ]
