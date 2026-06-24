@@ -17,7 +17,7 @@ const SITE_NAME = "Trivia Gauntlet";              // <-- change to your brand
 const SITE_DOMAIN = "https://triviagauntletapp.com"; // <-- your domain (no trailing slash)
 const QUESTIONS_PER_QUIZ = 20;
 // AdSense publisher id, e.g. "ca-pub-1234567890123456". Leave "" until approved.
-const ADSENSE_CLIENT = "";
+const ADSENSE_CLIENT = "ca-pub-9506123851374920";
 // ---------------------------------------------------------------------------
 
 const ROOT = __dirname;
@@ -469,5 +469,6 @@ w("terms.html", infoPage("terms", "Terms of Use", termsBody));
 w("sitemap.xml", sitemap());
 w("robots.txt", `User-agent: *\nAllow: /\nSitemap: ${SITE_DOMAIN}/sitemap.xml\n`);
 w("CNAME", `${SITE_DOMAIN.replace(/^https?:\/\//, "")}\n`); // GitHub Pages custom domain
+w("ads.txt", `google.com, ${ADSENSE_CLIENT.replace(/^ca-/, "")}, DIRECT, f08c47fec0942fa0\n`); // AdSense authorized sellers
 
 console.log(`Generated ${count} files for ${themes.length} themes.`);
