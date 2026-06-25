@@ -23,6 +23,10 @@ const ADSENSE_CLIENT = "ca-pub-9506123851374920";
 const ROOT = __dirname;
 const themes = JSON.parse(fs.readFileSync(path.join(ROOT, "data/themes.json"), "utf8"));
 
+// Public URL slug for a theme: data slug + "-trivia" (better keyword match in URL).
+// t.slug stays the data identity (used for question files + dedup); only URLs change.
+const urlSlug = (t) => `${t.slug}-trivia`;
+
 // Blog posts: each file in posts/ is the inner HTML of one article (starts <h1>).
 const POSTS_DIR = path.join(ROOT, "posts");
 const POSTS = (fs.existsSync(POSTS_DIR) ? fs.readdirSync(POSTS_DIR) : [])
@@ -167,7 +171,7 @@ function themePage(t) {
     t.description ||
     t.seoIntro ||
     `Test your knowledge with this ${t.title} trivia quiz.`;
-  const canonical = `${SITE_DOMAIN}/${t.slug}.html`;
+  const canonical = `${SITE_DOMAIN}/${urlSlug(t)}.html`;
 
   // Intro (above the quiz): the strongest, unique per-theme paragraph.
   const intro = t.seoIntro
@@ -244,7 +248,7 @@ function relatedQuizzesHTML(t) {
   if (!related.length) return "";
   const cards = related
     .map(
-      (r) => `        <a class="card" href="${r.slug}.html">
+      (r) => `        <a class="card" href="${urlSlug(r)}.html">
           <h3>${esc(r.title)}</h3>
           <span class="card-cta">Play quiz →</span>
         </a>`
@@ -288,7 +292,7 @@ function indexPage() {
   const cards = themes
     .map((t) => {
       const blurb = t.seoIntro || t.description || "";
-      return `      <a class="card" href="${t.slug}.html">
+      return `      <a class="card" href="${urlSlug(t)}.html">
         <h2>${esc(t.title)}</h2>
         <p>${esc(blurb.slice(0, 140))}${blurb.length > 140 ? "…" : ""}</p>
         <span class="card-cta">Start quiz →</span>
@@ -436,7 +440,7 @@ ${footer()}`;
 function sitemap() {
   const urls = [
     "",
-    ...themes.map((t) => `${t.slug}.html`),
+    ...themes.map((t) => `${urlSlug(t)}.html`),
     "blog.html",
     ...POSTS.map((p) => p.file),
     "about.html",
@@ -458,7 +462,27 @@ function w(file, content) {
   count++;
 }
 
-themes.forEach((t) => w(`${t.slug}.html`, themePage(t)));
+// Redirect stub for the old (pre "-trivia") slug → new URL. Canonical + instant
+// meta-refresh is how GitHub Pages does a "301": Google folds the old URL in and
+// it kills duplicate-content from the previously-built bare-slug files.
+function redirectStub(toUrl) {
+  return `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Redirecting…</title>
+<link rel="canonical" href="${toUrl}">
+<meta http-equiv="refresh" content="0; url=${toUrl}">
+</head>
+<body><p>This quiz has moved to <a href="${toUrl}">${toUrl}</a>.</p></body>
+</html>
+`;
+}
+
+themes.forEach((t) => {
+  w(`${urlSlug(t)}.html`, themePage(t));
+  w(`${t.slug}.html`, redirectStub(`${SITE_DOMAIN}/${urlSlug(t)}.html`)); // old slug → new
+});
 POSTS.forEach((p) => w(p.file, blogPostPage(p)));
 w("blog.html", blogIndexPage());
 w("index.html", indexPage());
