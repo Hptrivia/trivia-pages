@@ -223,5 +223,23 @@
     "seoIntro": "Seinfeld is the famous comedy \"about nothing,\" following stand-up comedian Jerry Seinfeld and his friends — the neurotic, perpetually scheming George Costanza, eccentric across-the-hall neighbour Kramer, and sharp ex-girlfriend Elaine — as they obsess over the tiny absurdities of everyday life in New York City.",
     "seoDetail": "Questions cover the show about nothing — Jerry, George, Elaine, and Kramer, their New York haunts, the running gags, and famous episodes like \"The Contest\" and \"The Soup Nazi.\"",
     "questionFile": "data/seinfeld.txt"
+  },
+  {
+    "slug": "the-wire",
+    "title": "The Wire",
+    "category": "TV",
+    "description": "All the pieces matter. Take this 20-question The Wire trivia quiz on Baltimore, the Barksdale crew, McNulty and the game.",
+    "seoIntro": "The Wire is HBO's sprawling Baltimore crime drama that examines the city one institution at a time — the drug trade, the police, the docks, City Hall, the schools, and the newspaper. Across five seasons it follows detective Jimmy McNulty and a struggling police unit as they chase the Barksdale and Stanfield organisations, while showing how the same broken systems trap cops and corner kids alike.",
+    "seoDetail": "Questions span all five seasons — McNulty, Bunk and the detail, Avon Barksdale and Stringer Bell, Omar Little, Marlo Stanfield, the dockworkers, the Hamsterdam experiment, the schools, and the Baltimore Sun — covering the characters, the catchphrases, and the moments that made the show.",
+    "questionFile": "data/wire.txt"
+  },
+  {
+    "slug": "the-sopranos",
+    "title": "The Sopranos",
+    "category": "TV",
+    "description": "Whaddya gonna do? Test yourself with 20 The Sopranos trivia questions on Tony, the DiMeo family, therapy and New Jersey.",
+    "seoIntro": "The Sopranos follows Tony Soprano, a New Jersey mob boss juggling two families — his crew in the DiMeo crime organisation and his wife and kids at home — while secretly seeing a psychiatrist for panic attacks. Over six seasons the HBO drama blends gangster violence with dark comedy and family dysfunction, redefining what television could do.",
+    "seoDetail": "Questions cover all six seasons — Tony, Carmela, Christopher and the crew, Dr. Melfi's therapy sessions, rivals like Phil Leotardo and Richie Aprile, classic episodes, and the famous cut-to-black ending — testing both casual viewers and devoted fans.",
+    "questionFile": "data/sopranos.txt"
   }
 ]

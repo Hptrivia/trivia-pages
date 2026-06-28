@@ -124,13 +124,37 @@ function footer() {
 </html>`;
 }
 
-// Pick the first N questions that have valid options + a matchable answer.
+// Pick a difficulty-balanced set: 5 easy, 5 medium, 5 hard, 5 expert (first of
+// each, in file order). When a theme has no expert questions, use 10 hard
+// instead. If any tier is short, backfill from the remaining valid questions so
+// we still reach QUESTIONS_PER_QUIZ. Output is ordered easy → expert.
 function pickQuestions(file) {
   const raw = JSON.parse(fs.readFileSync(path.join(ROOT, file), "utf8"));
   const valid = raw.filter(
     (q) => q && q.question && Array.isArray(q.options) && q.options.length >= 2 && q.options.includes(q.answer)
   );
-  return valid.slice(0, QUESTIONS_PER_QUIZ);
+  const PER = 5;
+  const byDiff = (d) => valid.filter((q) => (q.difficulty || "").toLowerCase() === d);
+  const easy = byDiff("easy");
+  const medium = byDiff("medium");
+  const hard = byDiff("hard");
+  const expert = byDiff("expert");
+
+  const picked = expert.length === 0
+    ? [...easy.slice(0, PER), ...medium.slice(0, PER), ...hard.slice(0, PER * 2)]
+    : [...easy.slice(0, PER), ...medium.slice(0, PER), ...hard.slice(0, PER), ...expert.slice(0, PER)];
+
+  // Backfill any shortfall (a tier was short, or the file has no difficulty
+  // tags). Lean harder: pull from expert → hard → medium → easy, then anything.
+  if (picked.length < QUESTIONS_PER_QUIZ) {
+    const used = new Set(picked);
+    const fillOrder = [...expert, ...hard, ...medium, ...easy, ...valid];
+    for (const q of fillOrder) {
+      if (picked.length >= QUESTIONS_PER_QUIZ) break;
+      if (!used.has(q)) { picked.push(q); used.add(q); }
+    }
+  }
+  return picked.slice(0, QUESTIONS_PER_QUIZ);
 }
 
 function quizHTML(questions) {
