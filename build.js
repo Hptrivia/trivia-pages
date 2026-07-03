@@ -22,6 +22,9 @@ const ADSENSE_CLIENT = "ca-pub-9506123851374920";
 
 const ROOT = __dirname;
 const themes = JSON.parse(fs.readFileSync(path.join(ROOT, "data/themes.json"), "utf8"));
+// Per-theme original editorial (whyTrivia / covers / show-specific faqs).
+// Keyed by theme slug. This is the unique, value-adding prose on each quiz page.
+const editorial = JSON.parse(fs.readFileSync(path.join(ROOT, "data/editorial.json"), "utf8"));
 
 // Public URL slug for a theme: data slug + "-trivia" (better keyword match in URL).
 // t.slug stays the data identity (used for question files + dedup); only URLs change.
@@ -209,6 +212,7 @@ ${heading ? `        <h2>${esc(heading)}</h2>\n` : ""}        <div class="search
 
 function themePage(t) {
   const questions = pickQuestions(t.questionFile);
+  const ed = editorial[t.slug] || {};
   const title = `${t.title} Trivia Quiz – ${questions.length} Questions | ${SITE_NAME}`;
   const desc =
     t.description ||
@@ -221,23 +225,29 @@ function themePage(t) {
     ? `      <p>${esc(t.seoIntro)}</p>`
     : `      <p>Test your knowledge of ${esc(t.title)} with this free trivia quiz.</p>`;
 
-  // "About" block below the quiz: the rest of the per-theme write-up (unique).
-  const aboutParas = [t.seoDetail]
+  // "About" block below the quiz: original per-theme editorial (unique prose).
+  // whyTrivia = what makes the show good trivia; falls back to seoDetail.
+  const aboutParas = [ed.whyTrivia, t.seoDetail]
     .filter(Boolean)
     .map((p) => `        <p>${esc(p)}</p>`)
     .join("\n");
 
-  // A short FAQ — genuinely useful, and emitted as FAQPage structured data.
-  const faqs = [
-    [`How many questions are in this ${t.title} quiz?`,
-     `This ${t.title} quiz has ${questions.length} multiple-choice questions, each with four options and one correct answer.`],
-    [`Is the ${t.title} quiz free to play?`,
-     `Yes. Every quiz on ${SITE_NAME} is completely free to play and there is no sign-up or download required.`],
-    [`Can I retake the quiz?`,
-     `Yes. You can replay this quiz as many times as you like. Use the Play Again button to reset your score and start over.`],
-    [`How is my score calculated?`,
-     `You score one point for each correct answer. Your running score is shown at the top of the quiz, and a final total appears once you have answered every question.`],
-  ];
+  // "What this quiz covers" — the coverage write-up (unique per theme).
+  const coversText = ed.covers || t.seoDetail || "";
+
+  // How-to-play block — short, practical, non-boilerplate framing of the quiz.
+  const howToPlay = `This ${esc(t.title)} quiz runs ${questions.length} multiple-choice questions, each with four options and one correct answer. Tap an option to lock it in and see straight away whether you got it right, watch your score climb as you go, and get a final total at the end. There is no sign-up, no download, and no time limit — and you can hit Play Again to reset and try for a perfect run.`;
+
+  // A short FAQ — show-specific (from editorial.json) so it is NOT duplicated
+  // across pages. Falls back to a couple of generic entries only if missing.
+  const faqs = Array.isArray(ed.faqs) && ed.faqs.length
+    ? ed.faqs
+    : [
+        [`Is the ${t.title} quiz free to play?`,
+         `Yes. Every quiz on ${SITE_NAME} is completely free to play, with no sign-up or download required.`],
+        [`Can I retake the quiz?`,
+         `Yes. Use the Play Again button to reset your score and start over as many times as you like.`],
+      ];
   const faqHTML = faqs
     .map(([q, a]) => `        <div class="faq-item">\n          <h3>${esc(q)}</h3>\n          <p>${esc(a)}</p>\n        </div>`)
     .join("\n");
@@ -263,8 +273,18 @@ ${intro}
 ${quizHTML(questions)}
 
       <section class="about-quiz">
-        <h2>About this ${esc(t.title)} quiz</h2>
+        <h2>About the ${esc(t.title)} quiz</h2>
 ${aboutParas}
+      </section>
+
+      <section class="about-quiz covers">
+        <h2>What this ${esc(t.title)} quiz covers</h2>
+        <p>${esc(coversText)}</p>
+      </section>
+
+      <section class="about-quiz how-to-play">
+        <h2>How to play</h2>
+        <p>${howToPlay}</p>
       </section>
 
       <section class="faq">
