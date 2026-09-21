@@ -108,6 +108,7 @@ function head(title, description, canonical) {
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}" />
   <meta name="theme-color" content="#4f46e5" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="canonical" href="${canonical}" />
   <meta property="og:title" content="${esc(title)}" />
   <meta property="og:description" content="${esc(description)}" />
@@ -626,6 +627,31 @@ function searchScript() {
 `;
 }
 
+// Branded 404 for GitHub Pages. <base href="/"> keeps CSS/links working on deep URLs.
+function notFoundPage() {
+  const popular = ["friends", "the-office", "harry-potter", "breaking-bad", "star-wars", "minecraft"]
+    .map((slug) => themes.find((t) => t.slug === slug))
+    .filter(Boolean)
+    .map((t) => `        <li><a href="${urlSlug(t)}.html">${esc(t.title)} quiz</a></li>`)
+    .join("\n");
+  const page = `${head(`Page not found | ${SITE_NAME}`, "The page you were looking for could not be found.", SITE_DOMAIN + "/")}
+  <main class="container narrow">
+    <article class="panel">
+      <h1>Page not found</h1>
+      <p>Sorry, we could not find that page. It may have been moved or removed, or the link may have a typo.</p>
+      <p>Here are some places to go next:</p>
+      <ul>
+        <li><a href="index.html">Browse all ${themes.length} quizzes</a></li>
+${popular}
+        <li><a href="blog.html">Read the blog</a></li>
+        <li><a href="contact.html">Report a broken link</a></li>
+      </ul>
+    </article>
+  </main>
+${footer()}`;
+  return page.replace("<head>", '<head>\n  <base href="/" />\n  <meta name="robots" content="noindex" />');
+}
+
 function sitemap() {
   const urls = [
     "",
@@ -657,6 +683,7 @@ themes.forEach((t) => {
 POSTS.forEach((p) => w(p.file, blogPostPage(p)));
 w("blog.html", blogIndexPage());
 w("index.html", indexPage());
+w("404.html", notFoundPage());
 w("about.html", infoPage("about", "About", aboutBody));
 w("contact.html", infoPage("contact", "Contact", contactBody));
 w("privacy.html", infoPage("privacy", "Privacy Policy", privacyBody));
