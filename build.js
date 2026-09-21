@@ -363,29 +363,96 @@ ${cards}
       </section>`;
 }
 
+// Homepage groups (slugs must cover every theme exactly once).
+const HOME_GROUPS = [
+  { title: "Sitcoms & Comedy", blurb: "Rewatchable comedies where the running jokes and catchphrases are half the fun.",
+    slugs: ["friends", "the-office", "the-big-bang-theory", "how-i-met-your-mother", "seinfeld", "rick-and-morty"] },
+  { title: "Drama, Crime & Thriller Series", blurb: "Gripping series that reward close attention to characters, plot twists and small details.",
+    slugs: ["breaking-bad", "the-wire", "the-sopranos", "squid-game", "money-heist", "stranger-things", "the-walking-dead"] },
+  { title: "Fantasy, Sci-Fi & Family", blurb: "Big worlds with their own rules, heroes, villains and lore, from Hogwarts to a galaxy far, far away.",
+    slugs: ["harry-potter", "game-of-thrones", "lord-of-the-rings", "star-wars", "the-mandalorian", "avatar-the-last-airbender", "disney"] },
+  { title: "Anime", blurb: "Long-running anime with huge casts, memorable techniques and passionate fans.",
+    slugs: ["naruto", "demon-slayer", "one-piece", "attack-on-titan"] },
+  { title: "Video Games", blurb: "Worlds you have played in for hours, tested on what you actually remember.",
+    slugs: ["pokemon", "minecraft", "the-last-of-us"] },
+];
+const HOME_FEATURED_POSTS = [
+  "how-to-host-a-tv-trivia-night.html",
+  "top-tv-series-and-what-their-trivia-looks-like.html",
+  "how-quiz-difficulty-works.html",
+];
+
 function indexPage() {
-  const cards = themes
-    .map((t) => {
-      const blurb = t.seoIntro || t.description || "";
-      return `      <a class="card" href="${urlSlug(t)}.html">
-        <h2>${esc(t.title)}</h2>
-        <p>${esc(blurb.slice(0, 140))}${blurb.length > 140 ? "…" : ""}</p>
-        <span class="card-cta">Start quiz →</span>
-      </a>`;
-    })
+  const bySlug = Object.fromEntries(themes.map((t) => [t.slug, t]));
+  const covered = HOME_GROUPS.flatMap((g) => g.slugs);
+  if (covered.length !== themes.length || themes.some((t) => !covered.includes(t.slug))) {
+    throw new Error("HOME_GROUPS must list every theme exactly once");
+  }
+  const card = (t) => {
+    const blurb = t.seoIntro || t.description || "";
+    return `        <a class="card" href="${urlSlug(t)}.html">
+          <h3>${esc(t.title)}</h3>
+          <p>${esc(blurb.slice(0, 140))}${blurb.length > 140 ? "…" : ""}</p>
+          <span class="card-cta">Start quiz →</span>
+        </a>`;
+  };
+  const groups = HOME_GROUPS.map(
+    (g) => `    <section class="home-group">
+      <h2>${esc(g.title)}</h2>
+      <p class="group-blurb">${esc(g.blurb)}</p>
+      <div class="grid">
+${g.slugs.map((s) => card(bySlug[s])).join("\n")}
+      </div>
+    </section>`
+  ).join("\n");
+
+  const featured = HOME_FEATURED_POSTS.map((f) => POSTS.find((p) => p.file === f))
+    .filter(Boolean)
+    .map(
+      (p) => `        <a class="card" href="${p.file}">
+          <h3>${esc(p.title)}</h3>
+          <p>${esc(p.snippet.slice(0, 130))}${p.snippet.length > 130 ? "…" : ""}</p>
+          <span class="card-cta">Read article →</span>
+        </a>`
+    )
     .join("\n");
 
   const title = `${SITE_NAME} – Free Themed Trivia Quizzes`;
-  const desc = `Play free themed trivia quizzes across TV, movies, and games. Multiple-choice questions, instant scoring, no sign-up needed.`;
+  const desc = `Free trivia quizzes on TV shows, anime, films and games. Each quiz has 20 questions with answers and short explanations, and no sign-up is needed.`;
   return `${head(title, desc, SITE_DOMAIN + "/")}
   <main class="container">
     <section class="hero">
       <h1>${esc(SITE_NAME)}</h1>
-      <p>Free, fast, themed trivia quizzes. Pick a topic, answer the questions, and get your score &mdash; no sign-up required.</p>
+      <p>Free trivia quizzes on your favourite TV shows, anime, films and games. Every quiz has 20 questions, and every answer comes with a short explanation. No sign-up needed.</p>
     </section>
 ${searchBarHTML("home-search")}
-    <section class="grid">
-${cards}
+${groups}
+
+    <section class="home-section how-it-works">
+      <h2>How ${esc(SITE_NAME)} Works</h2>
+      <div class="steps">
+        <div class="step">
+          <h3>20 questions, four levels</h3>
+          <p>Each quiz has five easy, five medium, five hard and five expert questions, so it suits casual viewers and dedicated fans alike.</p>
+        </div>
+        <div class="step">
+          <h3>Answers with explanations</h3>
+          <p>Pick an answer to see the right one straight away with a short explanation. The full answer key is printed under every quiz.</p>
+        </div>
+        <div class="step">
+          <h3>Free and simple</h3>
+          <p>There are no accounts, downloads or time limits. Replay any quiz as often as you like and try to beat your score.</p>
+        </div>
+      </div>
+      <p class="home-note">Quizzes are drafted with AI tools and reviewed by the site editor. Spotted a mistake? Please <a href="contact.html">tell us</a>. You can read more <a href="about.html">about the site</a> and <a href="how-i-create-trivia-questions.html">how the questions are made</a>.</p>
+    </section>
+
+    <section class="home-section">
+      <h2>From the Blog</h2>
+      <div class="grid">
+${featured}
+      </div>
+      <p class="home-note"><a href="blog.html">See all articles →</a></p>
     </section>
   </main>
 ${footer()}`;

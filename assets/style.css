@@ -107,7 +107,15 @@ img { max-width: 100%; }
   transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
 }
 .card:hover { text-decoration: none; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(20,30,60,.08); border-color: #cdd2df; }
-.card h2 { margin: 0 0 .4em; font-size: 1.15rem; }
+.card h2, .card h3 { margin: 0 0 .4em; font-size: 1.15rem; }
+.home-group, .home-section { margin-top: 36px; }
+.home-group h2, .home-section h2 { margin-bottom: .2em; }
+.group-blurb { color: var(--muted); margin: 0 0 14px; }
+.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 14px; }
+.step { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; }
+.step h3 { margin: 0 0 .4em; font-size: 1.05rem; }
+.step p { margin: 0; color: #39414f; }
+.home-note { margin-top: 16px; color: #39414f; }
 .card p { color: var(--muted); font-size: .9rem; margin: 0 0 .8em; }
 .card-cta { color: var(--accent); font-weight: 600; font-size: .9rem; }
 
