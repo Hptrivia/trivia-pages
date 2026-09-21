@@ -1,0 +1,242 @@
+[
+ {
+  "question": "Which platform at King's Cross station do students use to board the Hogwarts Express?",
+  "options": [
+   "Platform 7½",
+   "Platform 12",
+   "Platform 9¾",
+   "Platform 10¾"
+  ],
+  "answer": "Platform 9¾",
+  "difficulty": "easy",
+  "explanation": "Students reach Platform 9¾ by walking through the barrier between platforms 9 and 10."
+ },
+ {
+  "question": "What position does Harry play on the Gryffindor Quidditch team?",
+  "options": [
+   "Seeker",
+   "Keeper",
+   "Chaser",
+   "Beater"
+  ],
+  "answer": "Seeker",
+  "difficulty": "easy",
+  "explanation": "Harry is the youngest Seeker in a century, chasing the Golden Snitch."
+ },
+ {
+  "question": "Which Hogwarts house is Harry sorted into?",
+  "options": [
+   "Slytherin",
+   "Ravenclaw",
+   "Hufflepuff",
+   "Gryffindor"
+  ],
+  "answer": "Gryffindor",
+  "difficulty": "easy",
+  "explanation": "The Sorting Hat places Harry in Gryffindor after he asks not to be put in Slytherin."
+ },
+ {
+  "question": "What is the name of Harry's snowy owl?",
+  "options": [
+   "Hedwig",
+   "Errol",
+   "Pigwidgeon",
+   "Hermes"
+  ],
+  "answer": "Hedwig",
+  "difficulty": "easy",
+  "explanation": "Hagrid gives Hedwig to Harry as an eleventh birthday present."
+ },
+ {
+  "question": "Who is the gamekeeper who tells Harry, \"You're a wizard\"?",
+  "options": [
+   "Rubeus Hagrid",
+   "Argus Filch",
+   "Remus Lupin",
+   "Sirius Black"
+  ],
+  "answer": "Rubeus Hagrid",
+  "difficulty": "easy",
+  "explanation": "Hagrid arrives on Harry's eleventh birthday to bring him news of his magical heritage."
+ },
+ {
+  "question": "What is the core of Harry's wand?",
+  "options": [
+   "Dragon heartstring",
+   "Unicorn hair",
+   "Phoenix feather",
+   "Thestral tail hair"
+  ],
+  "answer": "Phoenix feather",
+  "difficulty": "medium",
+  "explanation": "Harry's holly wand contains a feather from Fawkes, Dumbledore's phoenix."
+ },
+ {
+  "question": "Which potion do Harry and Ron use to disguise themselves in Chamber of Secrets?",
+  "options": [
+   "Felix Felicis",
+   "Veritaserum",
+   "Polyjuice Potion",
+   "Amortentia"
+  ],
+  "answer": "Polyjuice Potion",
+  "difficulty": "medium",
+  "explanation": "Polyjuice Potion lets the drinker take another person's appearance for an hour."
+ },
+ {
+  "question": "What is the name of the three-headed dog guarding the Philosopher's Stone?",
+  "options": [
+   "Norbert",
+   "Buckbeak",
+   "Fang",
+   "Fluffy"
+  ],
+  "answer": "Fluffy",
+  "difficulty": "medium",
+  "explanation": "Hagrid's dog Fluffy is put to sleep by music, which is how Harry and friends get past."
+ },
+ {
+  "question": "Who teaches Potions at Hogwarts during Harry's first year?",
+  "options": [
+   "Horace Slughorn",
+   "Quirinus Quirrell",
+   "Severus Snape",
+   "Minerva McGonagall"
+  ],
+  "answer": "Severus Snape",
+  "difficulty": "medium",
+  "explanation": "Snape is Potions master and head of Slytherin House when Harry arrives."
+ },
+ {
+  "question": "What is the name of the wizarding bank run by goblins?",
+  "options": [
+   "Borgin and Burkes",
+   "Flourish and Blotts",
+   "Gringotts",
+   "Ollivanders"
+  ],
+  "answer": "Gringotts",
+  "difficulty": "medium",
+  "explanation": "Gringotts is located in Diagon Alley, and its vaults are protected by dragons and other guards."
+ },
+ {
+  "question": "Which spell conjures the Dark Mark in the sky?",
+  "options": [
+   "Sectumsempra",
+   "Avada Kedavra",
+   "Expulso",
+   "Morsmordre"
+  ],
+  "answer": "Morsmordre",
+  "difficulty": "hard",
+  "explanation": "Death Eaters cast Morsmordre to signal a killing, as seen after the Quidditch World Cup."
+ },
+ {
+  "question": "Which member of the Marauders is known as Padfoot?",
+  "options": [
+   "Sirius Black",
+   "Remus Lupin",
+   "Peter Pettigrew",
+   "James Potter"
+  ],
+  "answer": "Sirius Black",
+  "difficulty": "hard",
+  "explanation": "Sirius turned into a large black dog, which earned him the nickname Padfoot."
+ },
+ {
+  "question": "Which ghost haunts Slytherin House?",
+  "options": [
+   "The Bloody Baron",
+   "The Fat Friar",
+   "Nearly Headless Nick",
+   "The Grey Lady"
+  ],
+  "answer": "The Bloody Baron",
+  "difficulty": "hard",
+  "explanation": "The Bloody Baron is the silent, blood-stained ghost of Slytherin, and only Peeves fears him."
+ },
+ {
+  "question": "What is the name of Fred and George Weasley's joke shop?",
+  "options": [
+   "Weasleys' Wizard Wheezes",
+   "Zonko's Joke Shop",
+   "Honeydukes",
+   "Gambol and Japes"
+  ],
+  "answer": "Weasleys' Wizard Wheezes",
+  "difficulty": "hard",
+  "explanation": "The twins open their shop in Diagon Alley using Harry's Triwizard winnings."
+ },
+ {
+  "question": "What is the name of Neville Longbottom's pet toad?",
+  "options": [
+   "Hermes",
+   "Trevor",
+   "Scabbers",
+   "Crookshanks"
+  ],
+  "answer": "Trevor",
+  "difficulty": "hard",
+  "explanation": "Neville keeps losing Trevor, who hops around the Hogwarts Express in the first book."
+ },
+ {
+  "question": "Who destroys Slytherin's locket Horcrux with the Sword of Gryffindor?",
+  "options": [
+   "Harry Potter",
+   "Ron Weasley",
+   "Hermione Granger",
+   "Neville Longbottom"
+  ],
+  "answer": "Ron Weasley",
+  "difficulty": "expert",
+  "explanation": "Ron destroys the locket after Harry retrieves the sword from a frozen pool."
+ },
+ {
+  "question": "Which spell is labelled \"for enemies\" in the Half-Blood Prince's textbook?",
+  "options": [
+   "Sectumsempra",
+   "Levicorpus",
+   "Muffliato",
+   "Langlock"
+  ],
+  "answer": "Sectumsempra",
+  "difficulty": "expert",
+  "explanation": "Snape invented Sectumsempra, which Harry later uses on Draco Malfoy."
+ },
+ {
+  "question": "How many children do Arthur and Molly Weasley have?",
+  "options": [
+   "Seven",
+   "Six",
+   "Five",
+   "Eight"
+  ],
+  "answer": "Seven",
+  "difficulty": "expert",
+  "explanation": "Bill, Charlie, Percy, Fred, George, Ron and Ginny are the seven Weasley children."
+ },
+ {
+  "question": "Which of these is one of Albus Dumbledore's middle names?",
+  "options": [
+   "Wulfric",
+   "Cuthbert",
+   "Alastor",
+   "Ignatius"
+  ],
+  "answer": "Wulfric",
+  "difficulty": "expert",
+  "explanation": "His full name is Albus Percival Wulfric Brian Dumbledore."
+ },
+ {
+  "question": "What is the real name of the Grey Lady, the ghost of Ravenclaw?",
+  "options": [
+   "Helena Ravenclaw",
+   "Ariana Dumbledore",
+   "Lavender Brown",
+   "Myrtle Warren"
+  ],
+  "answer": "Helena Ravenclaw",
+  "difficulty": "expert",
+  "explanation": "Helena, the daughter of Rowena Ravenclaw, is revealed as the Grey Lady in the final book."
+ }
+]

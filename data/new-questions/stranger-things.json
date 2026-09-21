@@ -1,0 +1,242 @@
+[
+ {
+  "question": "In which fictional town is Stranger Things set?",
+  "options": [
+   "Derry, Maine",
+   "Castle Rock, Maine",
+   "Hawkins, Indiana",
+   "Sunnydale, California"
+  ],
+  "answer": "Hawkins, Indiana",
+  "difficulty": "easy",
+  "explanation": "Hawkins is a small Indiana town that hides a secret government laboratory."
+ },
+ {
+  "question": "Which breakfast food does Eleven love?",
+  "options": [
+   "Pancakes",
+   "Cereal",
+   "Toast",
+   "Eggo waffles"
+  ],
+  "answer": "Eggo waffles",
+  "difficulty": "easy",
+  "explanation": "Eleven's love of Eggo waffles becomes a running gag from the first season."
+ },
+ {
+  "question": "Which tabletop game do Mike, Dustin, Lucas and Will play in the opening scene?",
+  "options": [
+   "Monopoly",
+   "Risk",
+   "Dungeons & Dragons",
+   "Clue"
+  ],
+  "answer": "Dungeons & Dragons",
+  "difficulty": "easy",
+  "explanation": "The boys use the game's monsters to name the creatures they meet, including the Demogorgon."
+ },
+ {
+  "question": "Which young character disappears in the first episode?",
+  "options": [
+   "Mike Wheeler",
+   "Dustin Henderson",
+   "Lucas Sinclair",
+   "Will Byers"
+  ],
+  "answer": "Will Byers",
+  "difficulty": "easy",
+  "explanation": "Will vanishes after riding his bike home, which starts the search for him."
+ },
+ {
+  "question": "What is the name of the dark alternate dimension in the series?",
+  "options": [
+   "The Void",
+   "The Other Side",
+   "The Shadow Realm",
+   "The Upside Down"
+  ],
+  "answer": "The Upside Down",
+  "difficulty": "easy",
+  "explanation": "The Upside Down is a twisted copy of Hawkins covered in vines and spores."
+ },
+ {
+  "question": "Who is the chief of police in Hawkins?",
+  "options": [
+   "Jim Hopper",
+   "Steve Harrington",
+   "Billy Hargrove",
+   "Bob Newby"
+  ],
+  "answer": "Jim Hopper",
+  "difficulty": "medium",
+  "explanation": "Hopper is a gruff chief who becomes a guardian for Eleven."
+ },
+ {
+  "question": "What is the name of the monster in season one?",
+  "options": [
+   "The Mind Flayer",
+   "Vecna",
+   "The Demogorgon",
+   "Thessalhydra"
+  ],
+  "answer": "The Demogorgon",
+  "difficulty": "medium",
+  "explanation": "The Demogorgon comes through a gate from the Upside Down to hunt in Hawkins."
+ },
+ {
+  "question": "How does Joyce Byers communicate with Will in season one?",
+  "options": [
+   "By radio",
+   "By telephone",
+   "Through Christmas lights",
+   "By Morse code"
+  ],
+  "answer": "Through Christmas lights",
+  "difficulty": "medium",
+  "explanation": "Joyce hangs lights on her wall, and they blink to spell out messages from Will."
+ },
+ {
+  "question": "What is Eleven's real first name?",
+  "options": [
+   "Sarah",
+   "Mary",
+   "Elle",
+   "Jane"
+  ],
+  "answer": "Jane",
+  "difficulty": "medium",
+  "explanation": "Eleven is known as Jane Hopper after Hopper adopts her."
+ },
+ {
+  "question": "Which ice cream shop does Steve Harrington work at in season three?",
+  "options": [
+   "Baskin Robbins",
+   "Dairy Queen",
+   "Scoops Ahoy",
+   "Cold Stone"
+  ],
+  "answer": "Scoops Ahoy",
+  "difficulty": "medium",
+  "explanation": "Steve and Robin work at Scoops Ahoy, the ice cream parlour in Starcourt Mall."
+ },
+ {
+  "question": "Which facility does Dr. Martin Brenner run?",
+  "options": [
+   "Starcourt Mall Lab",
+   "Camp Hawkins",
+   "Hawkins National Laboratory",
+   "The Brimborn Institute"
+  ],
+  "answer": "Hawkins National Laboratory",
+  "difficulty": "hard",
+  "explanation": "Hawkins Lab is the secret facility where Eleven was raised and trained."
+ },
+ {
+  "question": "Which Kate Bush song saves Max in season four?",
+  "options": [
+   "Wuthering Heights",
+   "Cloudbusting",
+   "Hounds of Love",
+   "Running Up That Hill"
+  ],
+  "answer": "Running Up That Hill",
+  "difficulty": "hard",
+  "explanation": "Max plays her favourite track, and the song helps her to escape Vecna's grasp."
+ },
+ {
+  "question": "Who is the main villain of season four?",
+  "options": [
+   "The Demogorgon",
+   "The Mind Flayer",
+   "Vecna",
+   "Billy Hargrove"
+  ],
+  "answer": "Vecna",
+  "difficulty": "hard",
+  "explanation": "Vecna hunts young people in Hawkins in the fourth season."
+ },
+ {
+  "question": "What is the name of the shopping mall that opens in season three?",
+  "options": [
+   "Hawkins Plaza",
+   "Galleria",
+   "Valley View",
+   "Starcourt Mall"
+  ],
+  "answer": "Starcourt Mall",
+  "difficulty": "hard",
+  "explanation": "The Starcourt Mall hides a Russian base underneath it."
+ },
+ {
+  "question": "What is the name of Dustin's pet who turns out to be a Demodog?",
+  "options": [
+   "Dart",
+   "Mews",
+   "Chester",
+   "Rex"
+  ],
+  "answer": "Dart",
+  "difficulty": "hard",
+  "explanation": "Dustin finds Dart in a garbage can and feeds him candy, unaware he is a baby Demodog."
+ },
+ {
+  "question": "In which year does the first season of Stranger Things take place?",
+  "options": [
+   "1983",
+   "1984",
+   "1985",
+   "1986"
+  ],
+  "answer": "1983",
+  "difficulty": "expert",
+  "explanation": "The story begins in November 1983 in a small Indiana town."
+ },
+ {
+  "question": "Who created Stranger Things?",
+  "options": [
+   "The Duffer Brothers",
+   "The Russo Brothers",
+   "The Wachowskis",
+   "The Coen Brothers"
+  ],
+  "answer": "The Duffer Brothers",
+  "difficulty": "expert",
+  "explanation": "Matt and Ross Duffer created the show, and released it on Netflix in 2016."
+ },
+ {
+  "question": "What is the name of Will's older brother?",
+  "options": [
+   "Mike",
+   "Jonathan",
+   "Steve",
+   "Billy"
+  ],
+  "answer": "Jonathan",
+  "difficulty": "expert",
+  "explanation": "Jonathan Byers loves photography and music, and helps to find Will."
+ },
+ {
+  "question": "Which actor plays Eleven?",
+  "options": [
+   "Millie Bobby Brown",
+   "Sadie Sink",
+   "Natalia Dyer",
+   "Maya Hawke"
+  ],
+  "answer": "Millie Bobby Brown",
+  "difficulty": "expert",
+  "explanation": "Millie Bobby Brown was cast as Eleven when she was only twelve years old."
+ },
+ {
+  "question": "Which actor plays Joyce Byers, Will's mother?",
+  "options": [
+   "Sadie Sink",
+   "Natalia Dyer",
+   "Winona Ryder",
+   "Maya Hawke"
+  ],
+  "answer": "Winona Ryder",
+  "difficulty": "expert",
+  "explanation": "Winona Ryder plays Joyce, who will do anything to find her missing son."
+ }
+]

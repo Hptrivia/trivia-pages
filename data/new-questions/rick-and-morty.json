@@ -1,0 +1,242 @@
+[
+ {
+  "question": "Which device does Rick use to travel between dimensions?",
+  "options": [
+   "A time machine",
+   "A teleporter",
+   "A portal gun",
+   "A warp drive"
+  ],
+  "answer": "A portal gun",
+  "difficulty": "easy",
+  "explanation": "Rick's green portal gun lets him travel to any dimension and planet."
+ },
+ {
+  "question": "How is Rick related to Morty?",
+  "options": [
+   "He is Morty's father",
+   "He is Morty's uncle",
+   "He is Morty's brother",
+   "He is Morty's grandfather"
+  ],
+  "answer": "He is Morty's grandfather",
+  "difficulty": "easy",
+  "explanation": "Rick is Beth's father and the grandfather of Morty and Summer."
+ },
+ {
+  "question": "Who is Morty's father?",
+  "options": [
+   "Rick Sanchez",
+   "Birdperson",
+   "Jerry Smith",
+   "Squanchy"
+  ],
+  "answer": "Jerry Smith",
+  "difficulty": "easy",
+  "explanation": "Jerry is Beth's husband and often finds himself out of his depth in Rick's world."
+ },
+ {
+  "question": "Which pair created Rick and Morty?",
+  "options": [
+   "Justin Roiland and Dan Harmon",
+   "Seth MacFarlane and Mike Judge",
+   "Matt Groening and David X. Cohen",
+   "Trey Parker and Matt Stone"
+  ],
+  "answer": "Justin Roiland and Dan Harmon",
+  "difficulty": "easy",
+  "explanation": "The two co-created the show, which premiered in 2013."
+ },
+ {
+  "question": "What does Rick's catchphrase \"Wubba lubba dub dub\" actually mean, according to Birdperson?",
+  "options": [
+   "\"I am in great pain, please help me\"",
+   "\"I am the smartest man in the universe\"",
+   "\"Let's go on an adventure\"",
+   "\"Pass the butter\""
+  ],
+  "answer": "\"I am in great pain, please help me\"",
+  "difficulty": "easy",
+  "explanation": "Rick's catchphrase is revealed to be a cry for help, which hints at his inner turmoil."
+ },
+ {
+  "question": "Which blue creatures appear when a button is pressed and exist only to complete a task?",
+  "options": [
+   "Mr. Meeseeks",
+   "Gromflomites",
+   "Cronenbergs",
+   "Plumbuses"
+  ],
+  "answer": "Mr. Meeseeks",
+  "difficulty": "medium",
+  "explanation": "Mr. Meeseeks are summoned with a box, and they start to suffer if a task is hard."
+ },
+ {
+  "question": "Which version of Morty seeks to overthrow the Citadel of Ricks?",
+  "options": [
+   "Rick Prime",
+   "Tiny Rick",
+   "Evil Morty",
+   "Fart"
+  ],
+  "answer": "Evil Morty",
+  "difficulty": "medium",
+  "explanation": "Evil Morty is a Morty who has an eyepatch and a plan of his own."
+ },
+ {
+  "question": "Into what does Rick turn himself in a famous episode?",
+  "options": [
+   "A pickle",
+   "A tomato",
+   "A cucumber",
+   "A carrot"
+  ],
+  "answer": "A pickle",
+  "difficulty": "medium",
+  "explanation": "Pickle Rick is the famous episode in which Rick turns himself into a pickle to avoid family therapy."
+ },
+ {
+  "question": "What is Beth Smith's job?",
+  "options": [
+   "She is a dentist",
+   "She is a nurse",
+   "She is a teacher",
+   "She is a horse surgeon"
+  ],
+  "answer": "She is a horse surgeon",
+  "difficulty": "medium",
+  "explanation": "Beth works as a surgeon for horses, and this is a source of pride and jokes."
+ },
+ {
+  "question": "What is Rick's dimension designation in the main show?",
+  "options": [
+   "C-132",
+   "D-99",
+   "C-137",
+   "B-52"
+  ],
+  "answer": "C-137",
+  "difficulty": "medium",
+  "explanation": "Rick C-137 is the version of Rick who Morty follows."
+ },
+ {
+  "question": "What is the name of the Smith family dog?",
+  "options": [
+   "Spot",
+   "Snuffles",
+   "Buddy",
+   "Max"
+  ],
+  "answer": "Snuffles",
+  "difficulty": "hard",
+  "explanation": "Snuffles is the family dog, and he is given intelligence in the episode \"Lawnmower Dog\"."
+ },
+ {
+  "question": "Which cat-like friend of Rick says \"squanch\" all the time?",
+  "options": [
+   "Birdperson",
+   "Abradolf Lincler",
+   "Squanchy",
+   "Gearhead"
+  ],
+  "answer": "Squanchy",
+  "difficulty": "hard",
+  "explanation": "Squanchy is a cat-like alien who uses the word \"squanch\" to mean anything."
+ },
+ {
+  "question": "What is the name of the theme park inside a human body?",
+  "options": [
+   "Blips and Chitz",
+   "Pirate Planet",
+   "Interdimensional Cable",
+   "Anatomy Park"
+  ],
+  "answer": "Anatomy Park",
+  "difficulty": "hard",
+  "explanation": "Anatomy Park is set inside a man named Reuben, and it starts out as an idea from Rick."
+ },
+ {
+  "question": "What is the name of the city where thousands of Ricks and Mortys live?",
+  "options": [
+   "Rick Town",
+   "The Citadel of Ricks",
+   "The Council",
+   "Cronenberg City"
+  ],
+  "answer": "The Citadel of Ricks",
+  "difficulty": "hard",
+  "explanation": "The Citadel is a hidden city that is home to all the Ricks who have left their dimensions."
+ },
+ {
+  "question": "What must Earth's citizens do in the episode \"Get Schwifty\" to stay alive?",
+  "options": [
+   "Fight a giant",
+   "Solve a puzzle",
+   "Sing a song",
+   "Cook a meal"
+  ],
+  "answer": "Sing a song",
+  "difficulty": "hard",
+  "explanation": "A giant floating head demands a great song from Earth, and Rick and Morty write \"Get Schwifty\"."
+ },
+ {
+  "question": "What is the name of Rick's wife, who was killed?",
+  "options": [
+   "Beth",
+   "Unity",
+   "Joyce",
+   "Diane"
+  ],
+  "answer": "Diane",
+  "difficulty": "expert",
+  "explanation": "Diane is Rick's wife and the mother of Beth, and her death is a major driver of his story."
+ },
+ {
+  "question": "Which network first aired Rick and Morty?",
+  "options": [
+   "Adult Swim",
+   "Comedy Central",
+   "Fox",
+   "Netflix"
+  ],
+  "answer": "Adult Swim",
+  "difficulty": "expert",
+  "explanation": "The show is part of Adult Swim's line-up on Cartoon Network."
+ },
+ {
+  "question": "In which year did Rick and Morty premiere?",
+  "options": [
+   "2010",
+   "2015",
+   "2013",
+   "2017"
+  ],
+  "answer": "2013",
+  "difficulty": "expert",
+  "explanation": "The pilot aired in December 2013."
+ },
+ {
+  "question": "What kind of company does Jerry Smith work at during the early seasons?",
+  "options": [
+   "A bank",
+   "A law firm",
+   "An advertising agency",
+   "A tech start-up"
+  ],
+  "answer": "An advertising agency",
+  "difficulty": "expert",
+  "explanation": "Jerry works in advertising, and he often struggles with his career."
+ },
+ {
+  "question": "What is Rick called when he places his mind in a teenage clone body?",
+  "options": [
+   "Young Rick",
+   "Tiny Rick",
+   "Baby Rick",
+   "Rick Junior"
+  ],
+  "answer": "Tiny Rick",
+  "difficulty": "expert",
+  "explanation": "Tiny Rick is a youthful clone body that Rick uses to go to school as a teenager."
+ }
+]

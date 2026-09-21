@@ -1,0 +1,242 @@
+[
+ {
+  "question": "Which actor voices Future Ted, the narrator?",
+  "options": [
+   "Bob Saget",
+   "Josh Radnor",
+   "Neil Patrick Harris",
+   "Alan Thicke"
+  ],
+  "answer": "Bob Saget",
+  "difficulty": "easy",
+  "explanation": "Bob Saget's voice tells the story to Ted's kids in 2030."
+ },
+ {
+  "question": "What is the name of the bar where the friends hang out?",
+  "options": [
+   "MacLaren's",
+   "Paddy's",
+   "Moe's",
+   "The Drunken Clam"
+  ],
+  "answer": "MacLaren's",
+  "difficulty": "easy",
+  "explanation": "MacLaren's Pub is a New York bar that becomes the group's second home."
+ },
+ {
+  "question": "What is Barney Stinson's famous catchphrase?",
+  "options": [
+   "\"Bazinga!\"",
+   "\"How you doin'?\"",
+   "\"Legen—wait for it—dary!\"",
+   "\"That's what she said\""
+  ],
+  "answer": "\"Legen—wait for it—dary!\"",
+  "difficulty": "easy",
+  "explanation": "Barney turns \"legendary\" into a joke by leaving a pause before \"dary\"."
+ },
+ {
+  "question": "What is Ted Mosby's profession?",
+  "options": [
+   "Architect",
+   "Lawyer",
+   "Doctor",
+   "Teacher"
+  ],
+  "answer": "Architect",
+  "difficulty": "easy",
+  "explanation": "Ted starts as an architect, and later he becomes a college professor."
+ },
+ {
+  "question": "Which country is Robin Scherbatsky from?",
+  "options": [
+   "The United States",
+   "The United Kingdom",
+   "Canada",
+   "Australia"
+  ],
+  "answer": "Canada",
+  "difficulty": "easy",
+  "explanation": "Robin comes from Canada, and there are jokes about her pop star past."
+ },
+ {
+  "question": "What is the name of the mother of Ted's children?",
+  "options": [
+   "Robin Scherbatsky",
+   "Tracy McConnell",
+   "Stella Zinman",
+   "Victoria"
+  ],
+  "answer": "Tracy McConnell",
+  "difficulty": "medium",
+  "explanation": "Tracy, nicknamed \"The Mother\", appears in person in the final season, and is the show's big reveal."
+ },
+ {
+  "question": "What is Marshall Eriksen's profession?",
+  "options": [
+   "Architect",
+   "Journalist",
+   "Chef",
+   "Lawyer"
+  ],
+  "answer": "Lawyer",
+  "difficulty": "medium",
+  "explanation": "Marshall wants to be an environmental lawyer but takes a corporate job to pay bills."
+ },
+ {
+  "question": "What is Lily Aldrin's job at the start of the series?",
+  "options": [
+   "Painter",
+   "Lawyer",
+   "Kindergarten teacher",
+   "Journalist"
+  ],
+  "answer": "Kindergarten teacher",
+  "difficulty": "medium",
+  "explanation": "Lily teaches kindergarten and paints, and later works as an art consultant."
+ },
+ {
+  "question": "What does Ted steal to impress Robin on their first date?",
+  "options": [
+   "A blue French horn",
+   "A yellow umbrella",
+   "A red boot",
+   "A stuffed bear"
+  ],
+  "answer": "A blue French horn",
+  "difficulty": "medium",
+  "explanation": "The blue French horn is a running symbol of Ted's feelings for Robin."
+ },
+ {
+  "question": "What is the name of Robin's Canadian pop star alter ego?",
+  "options": [
+   "Robin Glitter",
+   "Robin Sparkles",
+   "Robin Rose",
+   "Robin Shine"
+  ],
+  "answer": "Robin Sparkles",
+  "difficulty": "medium",
+  "explanation": "Robin Sparkles' song \"Let's Go to the Mall\" is a hit."
+ },
+ {
+  "question": "What is Barney's job, as summed up in his own acronym?",
+  "options": [
+   "LEGAL",
+   "COINS",
+   "PLEASE",
+   "BRO"
+  ],
+  "answer": "PLEASE",
+  "difficulty": "hard",
+  "explanation": "Barney says his job is PLEASE, an acronym that no one can explain."
+ },
+ {
+  "question": "What is the name of the bet where Marshall can slap Barney?",
+  "options": [
+   "The Slap Bet",
+   "The Bro Code",
+   "The Playbook",
+   "The Goat"
+  ],
+  "answer": "The Slap Bet",
+  "difficulty": "hard",
+  "explanation": "Marshall wins the right to slap Barney, and he uses the slaps very sparingly."
+ },
+ {
+  "question": "Which actor plays Tracy McConnell, the Mother?",
+  "options": [
+   "Alyson Hannigan",
+   "Cobie Smulders",
+   "Jennifer Morrison",
+   "Cristin Milioti"
+  ],
+  "answer": "Cristin Milioti",
+  "difficulty": "hard",
+  "explanation": "Cristin Milioti joined the cast for the final season."
+ },
+ {
+  "question": "What is the name of Barney's book of seduction schemes?",
+  "options": [
+   "The Bro Code",
+   "The Legendary Guide",
+   "The Suit Manual",
+   "The Playbook"
+  ],
+  "answer": "The Playbook",
+  "difficulty": "hard",
+  "explanation": "Barney has a set of elaborate schemes recorded in the Playbook."
+ },
+ {
+  "question": "What is the name of Marshall and Lily's son?",
+  "options": [
+   "Marcus",
+   "Marvin",
+   "Martin",
+   "Miles"
+  ],
+  "answer": "Marvin",
+  "difficulty": "hard",
+  "explanation": "Marvin Waitforit Eriksen is named in a joke on Barney."
+ },
+ {
+  "question": "In which year did How I Met Your Mother first air?",
+  "options": [
+   "2003",
+   "2008",
+   "2010",
+   "2005"
+  ],
+  "answer": "2005",
+  "difficulty": "expert",
+  "explanation": "The show premiered on CBS in September 2005 and ran for nine seasons."
+ },
+ {
+  "question": "Who does Ted end up with in the final scene of the series?",
+  "options": [
+   "Tracy",
+   "Victoria",
+   "Stella",
+   "Robin"
+  ],
+  "answer": "Robin",
+  "difficulty": "expert",
+  "explanation": "In the last scene, Ted arrives at Robin's window with the blue French horn."
+ },
+ {
+  "question": "What is the name of Barney's brother?",
+  "options": [
+   "Marcus",
+   "Jerome",
+   "Sam",
+   "James"
+  ],
+  "answer": "James",
+  "difficulty": "expert",
+  "explanation": "James Stinson is Barney's older brother, and he is in a happy marriage."
+ },
+ {
+  "question": "Which actor plays Barney Stinson?",
+  "options": [
+   "Neil Patrick Harris",
+   "Jason Segel",
+   "Josh Radnor",
+   "Bob Saget"
+  ],
+  "answer": "Neil Patrick Harris",
+  "difficulty": "expert",
+  "explanation": "Neil Patrick Harris played Barney, and earned multiple Emmy nominations for it."
+ },
+ {
+  "question": "Which actor plays Marshall Eriksen?",
+  "options": [
+   "Jason Segel",
+   "Josh Radnor",
+   "Neil Patrick Harris",
+   "Bob Saget"
+  ],
+  "answer": "Jason Segel",
+  "difficulty": "expert",
+  "explanation": "Jason Segel plays Marshall, the big-hearted friend from Minnesota."
+ }
+]

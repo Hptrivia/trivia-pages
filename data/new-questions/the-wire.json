@@ -1,0 +1,242 @@
+[
+ {
+  "question": "In which US city is The Wire set?",
+  "options": [
+   "Baltimore",
+   "Philadelphia",
+   "New York",
+   "Washington, D.C."
+  ],
+  "answer": "Baltimore",
+  "difficulty": "easy",
+  "explanation": "The show is based in Baltimore and follows the city through different institutions."
+ },
+ {
+  "question": "Which network first aired The Wire?",
+  "options": [
+   "AMC",
+   "Showtime",
+   "HBO",
+   "FX"
+  ],
+  "answer": "HBO",
+  "difficulty": "easy",
+  "explanation": "The Wire ran on HBO from 2002 to 2008."
+ },
+ {
+  "question": "Who is the mayor of Baltimore at the start of the series?",
+  "options": [
+   "Tommy Carcetti",
+   "Clarence Royce",
+   "Clay Davis",
+   "Ervin Burrell"
+  ],
+  "answer": "Clarence Royce",
+  "difficulty": "easy",
+  "explanation": "Royce is the mayor who is facing an election while the police investigate the Barksdale group."
+ },
+ {
+  "question": "Which robber is famous for stealing from drug dealers?",
+  "options": [
+   "Stringer Bell",
+   "Marlo Stanfield",
+   "Bubbles",
+   "Omar Little"
+  ],
+  "answer": "Omar Little",
+  "difficulty": "easy",
+  "explanation": "Omar is a lone stick-up artist with a strict code."
+ },
+ {
+  "question": "Who is the leader of the Barksdale drug organisation?",
+  "options": [
+   "Stringer Bell",
+   "Avon Barksdale",
+   "Marlo Stanfield",
+   "Proposition Joe"
+  ],
+  "answer": "Avon Barksdale",
+  "difficulty": "easy",
+  "explanation": "Avon is the boss of a large Baltimore drug operation, and is the target of the first police investigation."
+ },
+ {
+  "question": "Who is Avon Barksdale's right-hand man who studies economics?",
+  "options": [
+   "D'Angelo Barksdale",
+   "Wee-Bey",
+   "Slim Charles",
+   "Stringer Bell"
+  ],
+  "answer": "Stringer Bell",
+  "difficulty": "medium",
+  "explanation": "Stringer runs the business and takes classes at a community college."
+ },
+ {
+  "question": "Which young gang leader takes over the drug trade in later seasons?",
+  "options": [
+   "Proposition Joe",
+   "Marlo Stanfield",
+   "Cheese",
+   "Brother Mouzone"
+  ],
+  "answer": "Marlo Stanfield",
+  "difficulty": "medium",
+  "explanation": "Marlo takes control of the western side of Baltimore by force and fear."
+ },
+ {
+  "question": "Who is McNulty's partner and friend in the homicide unit?",
+  "options": [
+   "Lester Freamon",
+   "Kima Greggs",
+   "Cedric Daniels",
+   "William \"Bunk\" Moreland"
+  ],
+  "answer": "William \"Bunk\" Moreland",
+  "difficulty": "medium",
+  "explanation": "Bunk is a sharp detective who works with McNulty on a number of cases."
+ },
+ {
+  "question": "Which patient detective builds miniature furniture in his spare time?",
+  "options": [
+   "Bunk Moreland",
+   "Kima Greggs",
+   "Herc",
+   "Lester Freamon"
+  ],
+  "answer": "Lester Freamon",
+  "difficulty": "medium",
+  "explanation": "Lester is a skilled and patient investigator who builds tiny furniture as a hobby."
+ },
+ {
+  "question": "Which ambitious city councilman runs for mayor of Baltimore?",
+  "options": [
+   "Clarence Royce",
+   "Tommy Carcetti",
+   "Ervin Burrell",
+   "Clay Davis"
+  ],
+  "answer": "Tommy Carcetti",
+  "difficulty": "medium",
+  "explanation": "Tommy Carcetti wants power and wins the election, but then finds it hard to run the city."
+ },
+ {
+  "question": "Which union leader is at the centre of season two on the docks?",
+  "options": [
+   "Nick Sobotka",
+   "Frank Sobotka",
+   "Ziggy Sobotka",
+   "The Greek"
+  ],
+  "answer": "Frank Sobotka",
+  "difficulty": "hard",
+  "explanation": "Frank is a stevedores' union leader who gets involved with smugglers to help his union."
+ },
+ {
+  "question": "Which four boys are at the centre of season four?",
+  "options": [
+   "D'Angelo, Wallace, Bodie and Poot",
+   "Namond, Randy, Michael and Dukie",
+   "Cheese, Snoop, Chris and Bubbles",
+   "Justin, Cutty, Slim and Wee-Bey"
+  ],
+  "answer": "Namond, Randy, Michael and Dukie",
+  "difficulty": "hard",
+  "explanation": "Season four follows four schoolboys at the same middle school, and examines the education system."
+ },
+ {
+  "question": "Which nursery tune does Omar whistle when he is near?",
+  "options": [
+   "\"The Farmer in the Dell\"",
+   "\"Twinkle, Twinkle, Little Star\"",
+   "\"Jingle Bells\"",
+   "\"Row, Row, Row Your Boat\""
+  ],
+  "answer": "\"The Farmer in the Dell\"",
+  "difficulty": "hard",
+  "explanation": "Omar's whistling is a sign of trouble and makes the street clear."
+ },
+ {
+  "question": "Which lieutenant leads the detail investigating the Barksdale organisation?",
+  "options": [
+   "Ervin Burrell",
+   "Bunk Moreland",
+   "Cedric Daniels",
+   "William Rawls"
+  ],
+  "answer": "Cedric Daniels",
+  "difficulty": "hard",
+  "explanation": "Daniels is an honest officer who tries to lead the detail while facing pressure from above."
+ },
+ {
+  "question": "Which season of The Wire focuses on the port of Baltimore?",
+  "options": [
+   "Season two",
+   "Season one",
+   "Season three",
+   "Season four"
+  ],
+  "answer": "Season two",
+  "difficulty": "hard",
+  "explanation": "Season two follows the dockworkers and the smuggling of goods through the port."
+ },
+ {
+  "question": "Who created The Wire?",
+  "options": [
+   "Ed Burns",
+   "David Simon",
+   "George Pelecanos",
+   "Dennis Lehane"
+  ],
+  "answer": "David Simon",
+  "difficulty": "expert",
+  "explanation": "David Simon is a former Baltimore Sun reporter who created the show, and co-wrote it with Ed Burns."
+ },
+ {
+  "question": "In which years was The Wire first broadcast?",
+  "options": [
+   "2002 to 2008",
+   "2000 to 2005",
+   "2004 to 2010",
+   "2005 to 2009"
+  ],
+  "answer": "2002 to 2008",
+  "difficulty": "expert",
+  "explanation": "The show ran for five seasons on HBO."
+ },
+ {
+  "question": "Who is Avon Barksdale's nephew who works in the low-rise projects?",
+  "options": [
+   "Wallace",
+   "Bodie",
+   "D'Angelo Barksdale",
+   "Poot"
+  ],
+  "answer": "D'Angelo Barksdale",
+  "difficulty": "expert",
+  "explanation": "D'Angelo is a thoughtful young man who runs part of the operation but has doubts about the life."
+ },
+ {
+  "question": "Which state senator is known for his drawn-out \"sheeeeit\"?",
+  "options": [
+   "Clarence Royce",
+   "Tommy Carcetti",
+   "Ervin Burrell",
+   "Clay Davis"
+  ],
+  "answer": "Clay Davis",
+  "difficulty": "expert",
+  "explanation": "Clay Davis is a corrupt and charming senator, who uses his catchphrase whenever he is accused."
+ },
+ {
+  "question": "Which season focuses on the newspaper?",
+  "options": [
+   "Season four",
+   "Season three",
+   "Season two",
+   "Season five"
+  ],
+  "answer": "Season five",
+  "difficulty": "expert",
+  "explanation": "The final season looks at the Baltimore Sun and its coverage of the city."
+ }
+]

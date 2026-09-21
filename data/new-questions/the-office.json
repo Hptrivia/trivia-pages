@@ -1,0 +1,242 @@
+[
+ {
+  "question": "Which paper company do the main characters of The Office work for?",
+  "options": [
+   "Sabre",
+   "Dunder Mifflin",
+   "Vance Refrigeration",
+   "Prestige Paper"
+  ],
+  "answer": "Dunder Mifflin",
+  "difficulty": "easy",
+  "explanation": "Dunder Mifflin is a paper supplier with a branch in Scranton."
+ },
+ {
+  "question": "In which Pennsylvania city is the main branch of The Office set?",
+  "options": [
+   "Philadelphia",
+   "Scranton",
+   "Pittsburgh",
+   "Harrisburg"
+  ],
+  "answer": "Scranton",
+  "difficulty": "easy",
+  "explanation": "The show is set in Scranton, which was also chosen for its ordinary charm."
+ },
+ {
+  "question": "Who is the regional manager of the Scranton branch?",
+  "options": [
+   "Dwight Schrute",
+   "Jim Halpert",
+   "Michael Scott",
+   "Andy Bernard"
+  ],
+  "answer": "Michael Scott",
+  "difficulty": "easy",
+  "explanation": "Michael Scott, played by Steve Carell, is an eager manager who wants to be loved."
+ },
+ {
+  "question": "What is the name of the beet farm owned by Dwight's family?",
+  "options": [
+   "Bear Mountain",
+   "Beet Acres",
+   "Schrute Farms",
+   "Gardener Farms"
+  ],
+  "answer": "Schrute Farms",
+  "difficulty": "easy",
+  "explanation": "Dwight runs Schrute Farms as a bed and breakfast."
+ },
+ {
+  "question": "Which colleague does Jim Halpert have a crush on at the start of the series?",
+  "options": [
+   "Karen Filippelli",
+   "Angela Martin",
+   "Kelly Kapoor",
+   "Pam Beesly"
+  ],
+  "answer": "Pam Beesly",
+  "difficulty": "easy",
+  "explanation": "Jim is in love with Pam, the receptionist, and the two later marry."
+ },
+ {
+  "question": "What does the mug on Michael Scott's desk say?",
+  "options": [
+   "Best Boss Ever",
+   "Number One Manager",
+   "World's Best Boss",
+   "#1 Boss"
+  ],
+  "answer": "World's Best Boss",
+  "difficulty": "medium",
+  "explanation": "Michael buys the mug for himself after a tough day."
+ },
+ {
+  "question": "What is the name of the company Michael starts after leaving Dunder Mifflin?",
+  "options": [
+   "Scott's Tots",
+   "The Michael Scott Paper Company",
+   "Threat Level Paper",
+   "Michael Scott Sales"
+  ],
+  "answer": "The Michael Scott Paper Company",
+  "difficulty": "medium",
+  "explanation": "Michael starts a rival firm with Pam and Ryan, and it forces Dunder Mifflin to buy it out."
+ },
+ {
+  "question": "Which accountant at Dunder Mifflin loves cats?",
+  "options": [
+   "Kelly Kapoor",
+   "Meredith Palmer",
+   "Phyllis Vance",
+   "Angela Martin"
+  ],
+  "answer": "Angela Martin",
+  "difficulty": "medium",
+  "explanation": "Angela is the uptight head of the accounting team and her cats are a constant source of jokes."
+ },
+ {
+  "question": "Who is the HR representative that Michael dislikes?",
+  "options": [
+   "Oscar Martinez",
+   "Toby Flenderson",
+   "Creed Bratton",
+   "Stanley Hudson"
+  ],
+  "answer": "Toby Flenderson",
+  "difficulty": "medium",
+  "explanation": "Toby works in HR, and Michael takes every chance to insult him."
+ },
+ {
+  "question": "Which line is Michael Scott best known for saying?",
+  "options": [
+   "\"Bazinga!\"",
+   "\"That's what she said\"",
+   "\"How you doin'?\"",
+   "\"Hasta la vista\""
+  ],
+  "answer": "\"That's what she said\"",
+  "difficulty": "medium",
+  "explanation": "Michael uses the joke often, and it became one of the most famous lines from the show."
+ },
+ {
+  "question": "What is the name of Kevin Malone's band?",
+  "options": [
+   "Mouse Rat",
+   "Scrantonicity",
+   "Sweaty Palms",
+   "The Nard Dogs"
+  ],
+  "answer": "Scrantonicity",
+  "difficulty": "hard",
+  "explanation": "Kevin plays drums in Scrantonicity, a band that only covers songs from The Police."
+ },
+ {
+  "question": "Which employee works in quality assurance?",
+  "options": [
+   "Creed Bratton",
+   "Kevin Malone",
+   "Oscar Martinez",
+   "Stanley Hudson"
+  ],
+  "answer": "Creed Bratton",
+  "difficulty": "hard",
+  "explanation": "Creed is the strange, mysterious quality assurance rep."
+ },
+ {
+  "question": "Which university did Andy Bernard attend?",
+  "options": [
+   "Harvard",
+   "Yale",
+   "Brown",
+   "Cornell"
+  ],
+  "answer": "Cornell",
+  "difficulty": "hard",
+  "explanation": "Andy mentions Cornell constantly, and he even sings songs from its glee club."
+ },
+ {
+  "question": "What does Jim famously put Dwight's stapler in?",
+  "options": [
+   "Ice",
+   "Jell-O",
+   "Plaster",
+   "Aluminium foil"
+  ],
+  "answer": "Jell-O",
+  "difficulty": "hard",
+  "explanation": "Jim's Jell-O prank is one of the most popular pranks in the series."
+ },
+ {
+  "question": "Who is Michael Scott's boss at the corporate office early in the series?",
+  "options": [
+   "Jan Levinson",
+   "David Wallace",
+   "Robert California",
+   "Deangelo Vickers"
+  ],
+  "answer": "Jan Levinson",
+  "difficulty": "hard",
+  "explanation": "Jan is the vice president who manages Michael, and later becomes involved with him."
+ },
+ {
+  "question": "To which Dunder Mifflin branch does Jim transfer in season two?",
+  "options": [
+   "Utica",
+   "Stamford",
+   "Nashua",
+   "Albany"
+  ],
+  "answer": "Stamford",
+  "difficulty": "expert",
+  "explanation": "Jim moves to Stamford after Pam turns down his confession, and returns after the branches merge."
+ },
+ {
+  "question": "Which actor plays Dwight Schrute?",
+  "options": [
+   "Steve Carell",
+   "Rainn Wilson",
+   "Craig Robinson",
+   "B.J. Novak"
+  ],
+  "answer": "Rainn Wilson",
+  "difficulty": "expert",
+  "explanation": "Rainn Wilson plays Dwight, the intense assistant to the regional manager, for all nine seasons."
+ },
+ {
+  "question": "What is the name of Dwight's cousin who works on the beet farm?",
+  "options": [
+   "Mose",
+   "Zeke",
+   "Moe",
+   "Isaac"
+  ],
+  "answer": "Mose",
+  "difficulty": "expert",
+  "explanation": "Mose is a quiet farmhand who has a few strange habits."
+ },
+ {
+  "question": "Which actor plays Michael Scott?",
+  "options": [
+   "Rainn Wilson",
+   "John Krasinski",
+   "Ed Helms",
+   "Steve Carell"
+  ],
+  "answer": "Steve Carell",
+  "difficulty": "expert",
+  "explanation": "Steve Carell played Michael from 2005 to 2011."
+ },
+ {
+  "question": "What is Ryan Howard's job when he first joins Dunder Mifflin?",
+  "options": [
+   "Sales rep",
+   "Accountant",
+   "Receptionist",
+   "Temp"
+  ],
+  "answer": "Temp",
+  "difficulty": "expert",
+  "explanation": "Ryan starts as a temp and rises to a corporate role before a very public fall."
+ }
+]

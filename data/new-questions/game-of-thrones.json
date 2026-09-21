@@ -1,0 +1,242 @@
+[
+ {
+  "question": "What colour are the eyes of Jon Snow's albino direwolf?",
+  "options": [
+   "Green",
+   "Gold",
+   "Red",
+   "Blue"
+  ],
+  "answer": "Red",
+  "difficulty": "easy",
+  "explanation": "Ghost, with white fur and red eyes, is the only direwolf that is albino."
+ },
+ {
+  "question": "Which noble house has a lion as its sigil?",
+  "options": [
+   "House Lannister",
+   "House Stark",
+   "House Targaryen",
+   "House Baratheon"
+  ],
+  "answer": "House Lannister",
+  "difficulty": "easy",
+  "explanation": "The golden lion of Lannister is the sigil of the family from Casterly Rock."
+ },
+ {
+  "question": "Who sits on the Iron Throne when the series begins?",
+  "options": [
+   "Joffrey Baratheon",
+   "Aerys Targaryen",
+   "Stannis Baratheon",
+   "Robert Baratheon"
+  ],
+  "answer": "Robert Baratheon",
+  "difficulty": "easy",
+  "explanation": "King Robert took the throne after leading the rebellion against the Mad King."
+ },
+ {
+  "question": "What is Daenerys Targaryen's famous title?",
+  "options": [
+   "Mother of Dragons",
+   "Queen of the Seven Kingdoms",
+   "Lady of Winterfell",
+   "Lord Commander"
+  ],
+  "answer": "Mother of Dragons",
+  "difficulty": "easy",
+  "explanation": "Daenerys hatches three dragon eggs, which earns her the title."
+ },
+ {
+  "question": "What is the motto of House Stark?",
+  "options": [
+   "\"Hear Me Roar\"",
+   "\"Fire and Blood\"",
+   "\"Ours Is the Fury\"",
+   "\"Winter Is Coming\""
+  ],
+  "answer": "\"Winter Is Coming\"",
+  "difficulty": "easy",
+  "explanation": "The words warn of the long winter and are the Stark family's motto."
+ },
+ {
+  "question": "Which Lannister is known as \"the Imp\"?",
+  "options": [
+   "Jaime",
+   "Tywin",
+   "Kevan",
+   "Tyrion"
+  ],
+  "answer": "Tyrion",
+  "difficulty": "medium",
+  "explanation": "Tyrion is short, sharp and clever, and he is despised by his father."
+ },
+ {
+  "question": "What is the name of the Night's Watch's main castle?",
+  "options": [
+   "Winterfell",
+   "The Eyrie",
+   "Dragonstone",
+   "Castle Black"
+  ],
+  "answer": "Castle Black",
+  "difficulty": "medium",
+  "explanation": "Castle Black stands along the Wall, where the Night's Watch guards the north."
+ },
+ {
+  "question": "Which fighting style does Syrio Forel teach Arya Stark?",
+  "options": [
+   "Sword dancing",
+   "Wolf fighting",
+   "Dragon dancing",
+   "Water dancing"
+  ],
+  "answer": "Water dancing",
+  "difficulty": "medium",
+  "explanation": "Syrio, a Braavosi sword master, teaches Arya to be quick and to watch closely."
+ },
+ {
+  "question": "How many dragon eggs does Daenerys receive as a wedding gift?",
+  "options": [
+   "Two",
+   "Four",
+   "Five",
+   "Three"
+  ],
+  "answer": "Three",
+  "difficulty": "medium",
+  "explanation": "The three eggs were thought to be petrified until they hatched during Khal Drogo's funeral."
+ },
+ {
+  "question": "What is the capital city of the Seven Kingdoms?",
+  "options": [
+   "King's Landing",
+   "Winterfell",
+   "Highgarden",
+   "Storm's End"
+  ],
+  "answer": "King's Landing",
+  "difficulty": "medium",
+  "explanation": "King's Landing is the seat of the Iron Throne on the east coast of Westeros."
+ },
+ {
+  "question": "Which house has a golden kraken on a black field as its sigil?",
+  "options": [
+   "House Tully",
+   "House Greyjoy",
+   "House Martell",
+   "House Arryn"
+  ],
+  "answer": "House Greyjoy",
+  "difficulty": "hard",
+  "explanation": "The Greyjoys of the Iron Islands are known for the words \"We Do Not Sow\"."
+ },
+ {
+  "question": "What is the name of Jon Snow's Valyrian steel sword?",
+  "options": [
+   "Longclaw",
+   "Ice",
+   "Needle",
+   "Widow's Wail"
+  ],
+  "answer": "Longclaw",
+  "difficulty": "hard",
+  "explanation": "Jeor Mormont gives Longclaw to Jon, and the sword has a wolf's head pommel."
+ },
+ {
+  "question": "Which character is known as \"the Kingslayer\"?",
+  "options": [
+   "Tywin Lannister",
+   "Gregor Clegane",
+   "Jaime Lannister",
+   "Barristan Selmy"
+  ],
+  "answer": "Jaime Lannister",
+  "difficulty": "hard",
+  "explanation": "Jaime earned the name for killing King Aerys II, the Mad King."
+ },
+ {
+  "question": "Which Free City is home to the Faceless Men?",
+  "options": [
+   "Pentos",
+   "Qarth",
+   "Myr",
+   "Braavos"
+  ],
+  "answer": "Braavos",
+  "difficulty": "hard",
+  "explanation": "Arya travels to Braavos to train with the House of Black and White."
+ },
+ {
+  "question": "Which character serves as the Master of Whisperers?",
+  "options": [
+   "Varys",
+   "Petyr Baelish",
+   "Grand Maester Pycelle",
+   "Qyburn"
+  ],
+  "answer": "Varys",
+  "difficulty": "hard",
+  "explanation": "Varys is a eunuch and spymaster who keeps a network of little birds."
+ },
+ {
+  "question": "What are the names of Daenerys's three dragons?",
+  "options": [
+   "Drogon, Rhaegal and Viserion",
+   "Balerion, Vhagar and Meraxes",
+   "Syrax, Caraxes and Meleys",
+   "Ghost, Nymeria and Summer"
+  ],
+  "answer": "Drogon, Rhaegal and Viserion",
+  "difficulty": "expert",
+  "explanation": "Daenerys names her dragons after her husband and her brothers."
+ },
+ {
+  "question": "What is Hodor's real name?",
+  "options": [
+   "Walder",
+   "Willem",
+   "Wylis",
+   "Willis"
+  ],
+  "answer": "Wylis",
+  "difficulty": "expert",
+  "explanation": "Hodor is really named Wylis, though \"Hodor\" is nearly the only thing he says."
+ },
+ {
+  "question": "Which battle sees Jon Snow face Ramsay Bolton?",
+  "options": [
+   "The Battle of the Blackwater",
+   "The Battle of the Bastards",
+   "The Battle of Castle Black",
+   "The Red Wedding"
+  ],
+  "answer": "The Battle of the Bastards",
+  "difficulty": "expert",
+  "explanation": "Jon fights Ramsay outside Winterfell in the ninth episode of season six."
+ },
+ {
+  "question": "What is the title of the first novel in George R.R. Martin's series?",
+  "options": [
+   "A Clash of Kings",
+   "A Game of Thrones",
+   "A Feast for Crows",
+   "A Storm of Swords"
+  ],
+  "answer": "A Game of Thrones",
+  "difficulty": "expert",
+  "explanation": "A Game of Thrones was published in 1996 and is the book the first season adapts."
+ },
+ {
+  "question": "What is House Lannister's official motto?",
+  "options": [
+   "\"Growing Strong\"",
+   "\"Hear Me Roar!\"",
+   "\"We Do Not Sow\"",
+   "\"As High as Honor\""
+  ],
+  "answer": "\"Hear Me Roar!\"",
+  "difficulty": "expert",
+  "explanation": "Lannisters are known for paying debts, but \"Hear Me Roar!\" is their true motto."
+ }
+]

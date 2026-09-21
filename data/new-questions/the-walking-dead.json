@@ -1,0 +1,242 @@
+[
+ {
+  "question": "Which character wakes up from a coma in a hospital at the start?",
+  "options": [
+   "Daryl Dixon",
+   "Shane Walsh",
+   "Rick Grimes",
+   "Glenn Rhee"
+  ],
+  "answer": "Rick Grimes",
+  "difficulty": "easy",
+  "explanation": "Rick wakes up to find the world overrun by walkers."
+ },
+ {
+  "question": "What is the name of Rick's wife at the start of the series?",
+  "options": [
+   "Andrea",
+   "Lori",
+   "Carol",
+   "Maggie"
+  ],
+  "answer": "Lori",
+  "difficulty": "easy",
+  "explanation": "Lori Grimes is Rick's wife and the mother of Carl, and she survives the outbreak with him."
+ },
+ {
+  "question": "Which character is known for using a crossbow?",
+  "options": [
+   "Rick Grimes",
+   "Glenn Rhee",
+   "Shane Walsh",
+   "Daryl Dixon"
+  ],
+  "answer": "Daryl Dixon",
+  "difficulty": "easy",
+  "explanation": "Daryl is a skilled hunter and tracker who has a crossbow."
+ },
+ {
+  "question": "What are zombies called in The Walking Dead?",
+  "options": [
+   "Biters",
+   "Rotters",
+   "Infected",
+   "Walkers"
+  ],
+  "answer": "Walkers",
+  "difficulty": "easy",
+  "explanation": "The characters never use the word zombie, and they refer to them as walkers."
+ },
+ {
+  "question": "In which US state does much of the story take place?",
+  "options": [
+   "Texas",
+   "California",
+   "Ohio",
+   "Georgia"
+  ],
+  "answer": "Georgia",
+  "difficulty": "easy",
+  "explanation": "The show is set in Georgia, and it was filmed there too."
+ },
+ {
+  "question": "Who is Rick's best friend and partner at the start of the series?",
+  "options": [
+   "Shane Walsh",
+   "Glenn Rhee",
+   "Dale Horvath",
+   "Merle Dixon"
+  ],
+  "answer": "Shane Walsh",
+  "difficulty": "medium",
+  "explanation": "Shane is a fellow police officer who protects Rick's family and struggles with his choices."
+ },
+ {
+  "question": "Who is the leader of the Saviors?",
+  "options": [
+   "The Governor",
+   "Alpha",
+   "Negan",
+   "Gabriel"
+  ],
+  "answer": "Negan",
+  "difficulty": "medium",
+  "explanation": "Negan is a brutal but charming leader who rules by fear."
+ },
+ {
+  "question": "What is the name of Negan's barbed-wire baseball bat?",
+  "options": [
+   "Betty",
+   "Jessica",
+   "Dolores",
+   "Lucille"
+  ],
+  "answer": "Lucille",
+  "difficulty": "medium",
+  "explanation": "Negan named his bat after his late wife."
+ },
+ {
+  "question": "Which woman fights with a katana?",
+  "options": [
+   "Carol Peletier",
+   "Michonne",
+   "Maggie Greene",
+   "Andrea"
+  ],
+  "answer": "Michonne",
+  "difficulty": "medium",
+  "explanation": "Michonne is a fierce and skilful fighter who comes to the group with two walkers on chains."
+ },
+ {
+  "question": "Which town is ruled by the Governor?",
+  "options": [
+   "Alexandria",
+   "Hilltop",
+   "Terminus",
+   "Woodbury"
+  ],
+  "answer": "Woodbury",
+  "difficulty": "medium",
+  "explanation": "Woodbury seems peaceful, but its leader has a dark secret."
+ },
+ {
+  "question": "What is the name of the prison where the group settles?",
+  "options": [
+   "Terminus Prison",
+   "West Georgia Correctional Facility",
+   "Alexandria Jail",
+   "Woodbury Penitentiary"
+  ],
+  "answer": "West Georgia Correctional Facility",
+  "difficulty": "hard",
+  "explanation": "The group makes the prison a safe place to live for a time."
+ },
+ {
+  "question": "What was Glenn Rhee's job before the outbreak?",
+  "options": [
+   "Pizza delivery driver",
+   "Police officer",
+   "Veterinarian",
+   "Farmer"
+  ],
+  "answer": "Pizza delivery driver",
+  "difficulty": "hard",
+  "explanation": "Glenn was a quick-thinking pizza delivery driver, and he is very good at finding supplies."
+ },
+ {
+  "question": "Which walled community becomes a home for the group in later seasons?",
+  "options": [
+   "Alexandria",
+   "Woodbury",
+   "Terminus",
+   "Hilltop"
+  ],
+  "answer": "Alexandria",
+  "difficulty": "hard",
+  "explanation": "Alexandria is a walled town in Virginia with a leader named Deanna Monroe."
+ },
+ {
+  "question": "Who is Alpha's second-in-command in the Whisperers?",
+  "options": [
+   "Beta",
+   "Negan",
+   "Gabriel",
+   "Lydia"
+  ],
+  "answer": "Beta",
+  "difficulty": "hard",
+  "explanation": "Beta is a huge, silent man who wears a mask made of walker skin and follows Alpha's orders."
+ },
+ {
+  "question": "Which actor plays Negan?",
+  "options": [
+   "Jeffrey Dean Morgan",
+   "Norman Reedus",
+   "Andrew Lincoln",
+   "David Morrissey"
+  ],
+  "answer": "Jeffrey Dean Morgan",
+  "difficulty": "hard",
+  "explanation": "Jeffrey Dean Morgan joined in season six, and his intro is one of the most talked-about."
+ },
+ {
+  "question": "Who created The Walking Dead comic series?",
+  "options": [
+   "Frank Darabont",
+   "Scott M. Gimple",
+   "Robert Kirkman",
+   "Greg Nicotero"
+  ],
+  "answer": "Robert Kirkman",
+  "difficulty": "expert",
+  "explanation": "Robert Kirkman began the comic in 2003, with artist Tony Moore."
+ },
+ {
+  "question": "Which network airs The Walking Dead?",
+  "options": [
+   "HBO",
+   "Netflix",
+   "AMC",
+   "FX"
+  ],
+  "answer": "AMC",
+  "difficulty": "expert",
+  "explanation": "AMC broadcast the series from 2010 until 2022."
+ },
+ {
+  "question": "In which year did The Walking Dead premiere?",
+  "options": [
+   "2008",
+   "2012",
+   "2014",
+   "2010"
+  ],
+  "answer": "2010",
+  "difficulty": "expert",
+  "explanation": "The show premiered on Halloween night in 2010."
+ },
+ {
+  "question": "What promise is written on the signs that direct survivors to Terminus?",
+  "options": [
+   "Safe haven",
+   "Food for everyone",
+   "Stay together",
+   "Sanctuary for all"
+  ],
+  "answer": "Sanctuary for all",
+  "difficulty": "expert",
+  "explanation": "The signs claim that anyone who arrives will survive, but Terminus is a trap."
+ },
+ {
+  "question": "Which actor plays Rick Grimes?",
+  "options": [
+   "Norman Reedus",
+   "Steven Yeun",
+   "Andrew Lincoln",
+   "Lennie James"
+  ],
+  "answer": "Andrew Lincoln",
+  "difficulty": "expert",
+  "explanation": "Andrew Lincoln played Rick for the first nine seasons."
+ }
+]

@@ -1,0 +1,242 @@
+[
+ {
+  "question": "What is Naruto Uzumaki's dream?",
+  "options": [
+   "To become Kazekage",
+   "To become Hokage",
+   "To become a Sage",
+   "To defeat Sasuke"
+  ],
+  "answer": "To become Hokage",
+  "difficulty": "easy",
+  "explanation": "Naruto wants to become Hokage so that the village will finally acknowledge him."
+ },
+ {
+  "question": "Which creature is sealed inside Naruto?",
+  "options": [
+   "The Eight-Tailed Ox",
+   "The One-Tailed Tanuki",
+   "The Nine-Tailed Fox",
+   "The Three-Tailed Turtle"
+  ],
+  "answer": "The Nine-Tailed Fox",
+  "difficulty": "easy",
+  "explanation": "The Nine-Tailed Fox, Kurama, was sealed in Naruto as a baby."
+ },
+ {
+  "question": "Which ramen shop does Naruto love to eat at?",
+  "options": [
+   "Ichiraku Ramen",
+   "Ramen Ichiban",
+   "Konoha Noodles",
+   "Naruto Noodle House"
+  ],
+  "answer": "Ichiraku Ramen",
+  "difficulty": "easy",
+  "explanation": "Ichiraku Ramen is Naruto's favourite place to eat, and its owner Teuchi treats him kindly."
+ },
+ {
+  "question": "Who is Naruto's rival and best friend?",
+  "options": [
+   "Kakashi Hatake",
+   "Shikamaru Nara",
+   "Gaara",
+   "Sasuke Uchiha"
+  ],
+  "answer": "Sasuke Uchiha",
+  "difficulty": "easy",
+  "explanation": "Sasuke is Naruto's teammate and rival, and their bond drives the story."
+ },
+ {
+  "question": "Who is the sensei who leads Team 7?",
+  "options": [
+   "Kakashi Hatake",
+   "Iruka Umino",
+   "Jiraiya",
+   "Might Guy"
+  ],
+  "answer": "Kakashi Hatake",
+  "difficulty": "easy",
+  "explanation": "Kakashi teaches Naruto, Sasuke and Sakura the value of teamwork."
+ },
+ {
+  "question": "Which technique lets Naruto make multiple solid copies of himself?",
+  "options": [
+   "Rasengan",
+   "Chidori",
+   "Amaterasu",
+   "Shadow Clone Jutsu"
+  ],
+  "answer": "Shadow Clone Jutsu",
+  "difficulty": "medium",
+  "explanation": "Shadow Clone Jutsu is Naruto's favourite technique, and the clones can share memories."
+ },
+ {
+  "question": "What is Sasuke's signature lightning technique?",
+  "options": [
+   "Rasengan",
+   "Fireball Jutsu",
+   "Susanoo",
+   "Chidori"
+  ],
+  "answer": "Chidori",
+  "difficulty": "medium",
+  "explanation": "Kakashi teaches Sasuke Chidori, a technique that concentrates lightning chakra in the hand."
+ },
+ {
+  "question": "Which eye power does the Uchiha clan possess?",
+  "options": [
+   "Byakugan",
+   "Rinnegan",
+   "Sharingan",
+   "Tenseigan"
+  ],
+  "answer": "Sharingan",
+  "difficulty": "medium",
+  "explanation": "The Sharingan lets its user copy techniques and see through illusions."
+ },
+ {
+  "question": "Which of the legendary Sannin trains Naruto?",
+  "options": [
+   "Orochimaru",
+   "Tsunade",
+   "Kabuto",
+   "Jiraiya"
+  ],
+  "answer": "Jiraiya",
+  "difficulty": "medium",
+  "explanation": "Jiraiya, the Toad Sage, trains Naruto and teaches him Rasengan."
+ },
+ {
+  "question": "Who is Naruto and Sasuke's female teammate on Team 7?",
+  "options": [
+   "Hinata Hyuga",
+   "Ino Yamanaka",
+   "Sakura Haruno",
+   "Tenten"
+  ],
+  "answer": "Sakura Haruno",
+  "difficulty": "medium",
+  "explanation": "Sakura is a medical ninja who later trains under Tsunade."
+ },
+ {
+  "question": "Which clan has the Byakugan?",
+  "options": [
+   "The Hyuga clan",
+   "The Uchiha clan",
+   "The Uzumaki clan",
+   "The Nara clan"
+  ],
+  "answer": "The Hyuga clan",
+  "difficulty": "hard",
+  "explanation": "The Byakugan lets Hyuga clan members see chakra and 360 degrees around them."
+ },
+ {
+  "question": "Who becomes the Fifth Hokage?",
+  "options": [
+   "Jiraiya",
+   "Minato Namikaze",
+   "Hiruzen Sarutobi",
+   "Tsunade"
+  ],
+  "answer": "Tsunade",
+  "difficulty": "hard",
+  "explanation": "Tsunade, one of the Sannin, takes the title of Fifth Hokage and is known for her healing skills."
+ },
+ {
+  "question": "Who is Naruto's father?",
+  "options": [
+   "Jiraiya",
+   "Minato Namikaze",
+   "Hiruzen Sarutobi",
+   "Fugaku Uchiha"
+  ],
+  "answer": "Minato Namikaze",
+  "difficulty": "hard",
+  "explanation": "Minato, the Fourth Hokage, sealed the Nine-Tails inside his own son."
+ },
+ {
+  "question": "Which criminal organization wears black cloaks with red clouds?",
+  "options": [
+   "Akatsuki",
+   "Root",
+   "The Sound Four",
+   "ANBU"
+  ],
+  "answer": "Akatsuki",
+  "difficulty": "hard",
+  "explanation": "Akatsuki are S-rank criminals that hunt the Tailed Beasts."
+ },
+ {
+  "question": "Who is the jinchuriki of the One-Tailed Shukaku?",
+  "options": [
+   "Gaara",
+   "Killer B",
+   "Yugito Nii",
+   "Naruto"
+  ],
+  "answer": "Gaara",
+  "difficulty": "hard",
+  "explanation": "Gaara, the Kazekage of the Hidden Sand, carries the One-Tail."
+ },
+ {
+  "question": "Who leads the Akatsuki when it attacks the Hidden Leaf Village?",
+  "options": [
+   "Itachi Uchiha",
+   "Pain",
+   "Kisame",
+   "Deidara"
+  ],
+  "answer": "Pain",
+  "difficulty": "expert",
+  "explanation": "Pain, the leader, destroys the Hidden Leaf Village before Naruto stops him."
+ },
+ {
+  "question": "What is the name of Naruto's mother?",
+  "options": [
+   "Mikoto Uchiha",
+   "Tsunade",
+   "Kushina Uzumaki",
+   "Kurenai"
+  ],
+  "answer": "Kushina Uzumaki",
+  "difficulty": "expert",
+  "explanation": "Kushina was the second jinchuriki of the Nine-Tails, and she had red hair and a fiery temper."
+ },
+ {
+  "question": "Which rotating technique does Naruto learn during his training with Jiraiya?",
+  "options": [
+   "Chidori",
+   "Rasengan",
+   "Shadow Clone Jutsu",
+   "Fireball Jutsu"
+  ],
+  "answer": "Rasengan",
+  "difficulty": "expert",
+  "explanation": "Rasengan is a spinning ball of chakra created by the Fourth Hokage."
+ },
+ {
+  "question": "Which Hidden Leaf ninja is a taijutsu specialist who cannot use ninjutsu?",
+  "options": [
+   "Neji Hyuga",
+   "Rock Lee",
+   "Shino Aburame",
+   "Kiba Inuzuka"
+  ],
+  "answer": "Rock Lee",
+  "difficulty": "expert",
+  "explanation": "Rock Lee works hard to master taijutsu under the guidance of Might Guy."
+ },
+ {
+  "question": "Which village is Gaara's home?",
+  "options": [
+   "Sunagakure, the Hidden Sand Village",
+   "Kirigakure, the Hidden Mist Village",
+   "Iwagakure, the Hidden Rock Village",
+   "Kumogakure, the Hidden Cloud Village"
+  ],
+  "answer": "Sunagakure, the Hidden Sand Village",
+  "difficulty": "expert",
+  "explanation": "Gaara becomes the Fifth Kazekage of Sunagakure."
+ }
+]

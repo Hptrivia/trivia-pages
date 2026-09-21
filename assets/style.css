@@ -168,6 +168,13 @@ main { padding-top: 22px; }
 .score-num { color: var(--accent); }
 .score-msg { color: var(--muted); margin-bottom: 18px; }
 
+.q-explain { margin-top: 10px; padding: 10px 14px; border-left: 3px solid var(--good); background: #f6faf7; border-radius: 6px; color: #2d3440; font-size: 0.95em; }
+.q-explain p { margin: 0; }
+.answer-key { margin-top: 32px; color: #39414f; }
+.answer-key ol { padding-left: 1.4em; }
+.answer-key li { margin: 0 0 1em; }
+.answer-key p { margin: 0 0 .25em; }
+.answer-key .ak-q { font-weight: 600; color: #1f2733; }
 .about-quiz { color: #39414f; }
 .about-quiz p { margin: 0 0 1em; }
 

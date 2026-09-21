@@ -1,0 +1,242 @@
+[
+ {
+  "question": "Who carries the One Ring to Mount Doom?",
+  "options": [
+   "Bilbo Baggins",
+   "Aragorn",
+   "Frodo Baggins",
+   "Gandalf"
+  ],
+  "answer": "Frodo Baggins",
+  "difficulty": "easy",
+  "explanation": "Frodo inherits the Ring from his uncle Bilbo and takes it on the quest to destroy it."
+ },
+ {
+  "question": "What is the name of Frodo's loyal gardener and friend?",
+  "options": [
+   "Merry Brandybuck",
+   "Samwise Gamgee",
+   "Pippin Took",
+   "Gimli"
+  ],
+  "answer": "Samwise Gamgee",
+  "difficulty": "easy",
+  "explanation": "Sam follows Frodo all the way to Mordor and helps carry him up Mount Doom."
+ },
+ {
+  "question": "Which wizard guides the Fellowship of the Ring?",
+  "options": [
+   "Saruman",
+   "Gandalf",
+   "Radagast",
+   "Elrond"
+  ],
+  "answer": "Gandalf",
+  "difficulty": "easy",
+  "explanation": "Gandalf the Grey leads the Fellowship until he falls in Moria."
+ },
+ {
+  "question": "Which creature was once called Sméagol?",
+  "options": [
+   "A Balrog",
+   "Gollum",
+   "An Ent",
+   "An Orc"
+  ],
+  "answer": "Gollum",
+  "difficulty": "easy",
+  "explanation": "The Ring corrupted Sméagol over centuries into the twisted creature called Gollum."
+ },
+ {
+  "question": "What is the name of the land where the hobbits live?",
+  "options": [
+   "Rohan",
+   "Gondor",
+   "The Shire",
+   "Mordor"
+  ],
+  "answer": "The Shire",
+  "difficulty": "easy",
+  "explanation": "The Shire is a peaceful countryside home to the hobbits, Frodo, Sam, Merry and Pippin."
+ },
+ {
+  "question": "What is the name of Frodo's sword, which glows blue near orcs?",
+  "options": [
+   "Glamdring",
+   "Andúril",
+   "Orcrist",
+   "Sting"
+  ],
+  "answer": "Sting",
+  "difficulty": "medium",
+  "explanation": "Bilbo gives the elven blade Sting to Frodo, and it glows blue when orcs are close."
+ },
+ {
+  "question": "What race is Legolas?",
+  "options": [
+   "Dwarf",
+   "Human",
+   "Hobbit",
+   "Elf"
+  ],
+  "answer": "Elf",
+  "difficulty": "medium",
+  "explanation": "Legolas is a Sindar Elf and a prince of Mirkwood, known for his archery."
+ },
+ {
+  "question": "What is the name of Aragorn's reforged sword?",
+  "options": [
+   "Narsil",
+   "Sting",
+   "Glamdring",
+   "Andúril"
+  ],
+  "answer": "Andúril",
+  "difficulty": "medium",
+  "explanation": "Andúril was reforged from the shards of Narsil, the sword that cut the Ring from Sauron's hand."
+ },
+ {
+  "question": "In which fiery mountain was the One Ring forged and where must it be destroyed?",
+  "options": [
+   "Mount Gundabad",
+   "Mount Doom",
+   "Weathertop",
+   "Erebor"
+  ],
+  "answer": "Mount Doom",
+  "difficulty": "medium",
+  "explanation": "Mount Doom, also called Orodruin, is where Sauron forged the Ring."
+ },
+ {
+  "question": "Who is the king of Rohan in The Two Towers?",
+  "options": [
+   "Théoden",
+   "Denethor",
+   "Elrond",
+   "Thranduil"
+  ],
+  "answer": "Théoden",
+  "difficulty": "medium",
+  "explanation": "Théoden is freed from Saruman's influence and leads Rohan at Helm's Deep."
+ },
+ {
+  "question": "Who is the Steward of Gondor and the father of Boromir and Faramir?",
+  "options": [
+   "Théoden",
+   "Elrond",
+   "Denethor",
+   "Celeborn"
+  ],
+  "answer": "Denethor",
+  "difficulty": "hard",
+  "explanation": "Denethor rules Gondor as its Steward while the throne is empty."
+ },
+ {
+  "question": "What is the name of the pony that carries the Fellowship's supplies until Moria?",
+  "options": [
+   "Bill",
+   "Shadowfax",
+   "Brego",
+   "Hasufel"
+  ],
+  "answer": "Bill",
+  "difficulty": "hard",
+  "explanation": "Sam takes care of Bill the pony, who must be left behind at the mines of Moria."
+ },
+ {
+  "question": "What is the name of the giant spider Frodo and Sam face at Cirith Ungol?",
+  "options": [
+   "Ungoliant",
+   "Aragog",
+   "The Weaver",
+   "Shelob"
+  ],
+  "answer": "Shelob",
+  "difficulty": "hard",
+  "explanation": "Shelob is an ancient spider who lives in a tunnel above Mordor."
+ },
+ {
+  "question": "Which forest is home to Treebeard the Ent?",
+  "options": [
+   "Fangorn",
+   "Mirkwood",
+   "Lothlórien",
+   "The Old Forest"
+  ],
+  "answer": "Fangorn",
+  "difficulty": "hard",
+  "explanation": "Fangorn Forest is where Merry and Pippin meet Treebeard."
+ },
+ {
+  "question": "Which member of the Fellowship dies defending Merry and Pippin from the Uruk-hai?",
+  "options": [
+   "Gimli",
+   "Legolas",
+   "Aragorn",
+   "Boromir"
+  ],
+  "answer": "Boromir",
+  "difficulty": "hard",
+  "explanation": "Boromir falls while trying to protect the hobbits, repenting for his attempt to take the Ring."
+ },
+ {
+  "question": "How many Rings of Power were given to the Dwarf-lords?",
+  "options": [
+   "Seven",
+   "Three",
+   "Nine",
+   "Twenty"
+  ],
+  "answer": "Seven",
+  "difficulty": "expert",
+  "explanation": "Seven Rings went to the Dwarves, nine to Men, and three to the Elves."
+ },
+ {
+  "question": "The dragon Smaug guards the treasure of which mountain?",
+  "options": [
+   "Moria",
+   "Gundabad",
+   "Erebor",
+   "Orodruin"
+  ],
+  "answer": "Erebor",
+  "difficulty": "expert",
+  "explanation": "Smaug takes over the Lonely Mountain, Erebor, in The Hobbit."
+ },
+ {
+  "question": "What are the two main Elvish languages that Tolkien invented?",
+  "options": [
+   "Rohirric and Westron",
+   "Khuzdul and Black Speech",
+   "Entish and Orcish",
+   "Quenya and Sindarin"
+  ],
+  "answer": "Quenya and Sindarin",
+  "difficulty": "expert",
+  "explanation": "Tolkien was a philologist who invented languages before creating stories for them."
+ },
+ {
+  "question": "In which year was The Fellowship of the Ring first published?",
+  "options": [
+   "1954",
+   "1937",
+   "1966",
+   "1949"
+  ],
+  "answer": "1954",
+  "difficulty": "expert",
+  "explanation": "Tolkien published The Fellowship of the Ring in 1954, and The Hobbit had come out in 1937."
+ },
+ {
+  "question": "Which Nazgûl leader is known as the Witch-king of what?",
+  "options": [
+   "Rohan",
+   "Gondor",
+   "Angmar",
+   "Mordor"
+  ],
+  "answer": "Angmar",
+  "difficulty": "expert",
+  "explanation": "The Witch-king of Angmar leads the Ringwraiths and is killed by Éowyn."
+ }
+]

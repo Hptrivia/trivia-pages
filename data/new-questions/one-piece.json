@@ -1,0 +1,242 @@
+[
+ {
+  "question": "Who is the main character of One Piece?",
+  "options": [
+   "Roronoa Zoro",
+   "Sanji",
+   "Nami",
+   "Monkey D. Luffy"
+  ],
+  "answer": "Monkey D. Luffy",
+  "difficulty": "easy",
+  "explanation": "Luffy is the rubber-bodied captain of the Straw Hat Pirates."
+ },
+ {
+  "question": "What is Luffy's dream?",
+  "options": [
+   "To become the World's Strongest Swordsman",
+   "To find the All Blue",
+   "To become the Pirate King",
+   "To draw a map of the world"
+  ],
+  "answer": "To become the Pirate King",
+  "difficulty": "easy",
+  "explanation": "Luffy wants to find the treasure known as the One Piece and become King of the Pirates."
+ },
+ {
+  "question": "What fruit did Luffy eat that gave him a stretchy body?",
+  "options": [
+   "The Flame-Flame Fruit",
+   "The Gum-Gum Fruit",
+   "The Smoke-Smoke Fruit",
+   "The Ice-Ice Fruit"
+  ],
+  "answer": "The Gum-Gum Fruit",
+  "difficulty": "easy",
+  "explanation": "Luffy can stretch, but the fruit means that he cannot swim."
+ },
+ {
+  "question": "What symbol is on the flag of the Straw Hat Pirates?",
+  "options": [
+   "A skull wearing a straw hat",
+   "A skull and crossbones only",
+   "A rubber band",
+   "A star"
+  ],
+  "answer": "A skull wearing a straw hat",
+  "difficulty": "easy",
+  "explanation": "The Straw Hats fly a Jolly Roger with a skull wearing a straw hat, based on the hat Luffy wears."
+ },
+ {
+  "question": "Which crew member uses three swords in battle?",
+  "options": [
+   "Sanji",
+   "Roronoa Zoro",
+   "Usopp",
+   "Franky"
+  ],
+  "answer": "Roronoa Zoro",
+  "difficulty": "easy",
+  "explanation": "Zoro holds a sword in each hand and one in his mouth."
+ },
+ {
+  "question": "Who is the navigator of the Straw Hat Pirates?",
+  "options": [
+   "Nami",
+   "Nico Robin",
+   "Vivi",
+   "Kaya"
+  ],
+  "answer": "Nami",
+  "difficulty": "medium",
+  "explanation": "Nami is a skilled navigator and thief who loves money and oranges."
+ },
+ {
+  "question": "Who is the cook of the Straw Hat Pirates?",
+  "options": [
+   "Zoro",
+   "Brook",
+   "Jinbe",
+   "Sanji"
+  ],
+  "answer": "Sanji",
+  "difficulty": "medium",
+  "explanation": "Sanji fights with his legs to protect his hands, and he dreams of finding the All Blue."
+ },
+ {
+  "question": "What is the name of the Straw Hats' second ship?",
+  "options": [
+   "Thousand Sunny",
+   "Going Merry",
+   "Moby Dick",
+   "Red Force"
+  ],
+  "answer": "Thousand Sunny",
+  "difficulty": "medium",
+  "explanation": "The Thousand Sunny was built by Franky, and its figurehead is a lion."
+ },
+ {
+  "question": "Who is the crew's doctor, a reindeer?",
+  "options": [
+   "Tony Tony Chopper",
+   "Usopp",
+   "Brook",
+   "Franky"
+  ],
+  "answer": "Tony Tony Chopper",
+  "difficulty": "medium",
+  "explanation": "Chopper ate the Human-Human Fruit, and he loves to receive praise."
+ },
+ {
+  "question": "What is the name of Luffy's sworn brother who ate the Flame-Flame Fruit?",
+  "options": [
+   "Portgas D. Ace",
+   "Sabo",
+   "Shanks",
+   "Marco"
+  ],
+  "answer": "Portgas D. Ace",
+  "difficulty": "medium",
+  "explanation": "Ace is the second commander of the Whitebeard Pirates and Luffy's older brother."
+ },
+ {
+  "question": "Who is the archaeologist of the Straw Hat Pirates?",
+  "options": [
+   "Nami",
+   "Vivi",
+   "Tashigi",
+   "Nico Robin"
+  ],
+  "answer": "Nico Robin",
+  "difficulty": "hard",
+  "explanation": "Robin is able to read ancient Poneglyphs, which are the key to the world's history."
+ },
+ {
+  "question": "Who is the Red-Haired Pirate who gave Luffy his straw hat?",
+  "options": [
+   "Buggy",
+   "Blackbeard",
+   "Shanks",
+   "Whitebeard"
+  ],
+  "answer": "Shanks",
+  "difficulty": "hard",
+  "explanation": "Shanks lent the hat to Luffy as a promise to return it when he is a great pirate."
+ },
+ {
+  "question": "What is the name of the dangerous sea route that pirates follow to find the One Piece?",
+  "options": [
+   "The Calm Belt",
+   "The Blue Path",
+   "The Sea Road",
+   "The Grand Line"
+  ],
+  "answer": "The Grand Line",
+  "difficulty": "hard",
+  "explanation": "Pirates who enter the Grand Line face strange weather and powerful enemies."
+ },
+ {
+  "question": "Who is the sniper of the Straw Hat Pirates?",
+  "options": [
+   "Usopp",
+   "Franky",
+   "Brook",
+   "Jinbe"
+  ],
+  "answer": "Usopp",
+  "difficulty": "hard",
+  "explanation": "Usopp is a brave liar who dreams of becoming a courageous warrior of the sea."
+ },
+ {
+  "question": "Which crew member is a cyborg shipwright known for shouting \"SUPER!\"?",
+  "options": [
+   "Brook",
+   "Jinbe",
+   "Franky",
+   "Usopp"
+  ],
+  "answer": "Franky",
+  "difficulty": "hard",
+  "explanation": "Franky built the Thousand Sunny and loves cola, as well as big statement poses."
+ },
+ {
+  "question": "Which crew member is a skeleton who plays the violin?",
+  "options": [
+   "Franky",
+   "Jinbe",
+   "Killer",
+   "Brook"
+  ],
+  "answer": "Brook",
+  "difficulty": "expert",
+  "explanation": "Brook died and came back thanks to the Revive-Revive Fruit, and he is the crew's musician."
+ },
+ {
+  "question": "Which fish-man becomes the Straw Hats' helmsman?",
+  "options": [
+   "Arlong",
+   "Fisher Tiger",
+   "Hody Jones",
+   "Jinbe"
+  ],
+  "answer": "Jinbe",
+  "difficulty": "expert",
+  "explanation": "Jinbe is a former Warlord of the Sea who joins the crew after the Whole Cake Island arc."
+ },
+ {
+  "question": "Who created One Piece?",
+  "options": [
+   "Masashi Kishimoto",
+   "Akira Toriyama",
+   "Tite Kubo",
+   "Eiichiro Oda"
+  ],
+  "answer": "Eiichiro Oda",
+  "difficulty": "expert",
+  "explanation": "Eiichiro Oda began the series in 1997, and it became one of the best-selling manga of all time."
+ },
+ {
+  "question": "In which year did the One Piece manga begin serialisation?",
+  "options": [
+   "1997",
+   "1993",
+   "2001",
+   "2005"
+  ],
+  "answer": "1997",
+  "difficulty": "expert",
+  "explanation": "One Piece started in Weekly Shonen Jump in July 1997."
+ },
+ {
+  "question": "What is the name of Zoro's three-sword fighting style?",
+  "options": [
+   "Nitoryu",
+   "Ittoryu",
+   "Kenjutsu",
+   "Santoryu"
+  ],
+  "answer": "Santoryu",
+  "difficulty": "expert",
+  "explanation": "Santoryu is a style in which Zoro uses three swords at once."
+ }
+]

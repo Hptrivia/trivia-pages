@@ -1,0 +1,242 @@
+[
+ {
+  "question": "Who is the main character of The Sopranos?",
+  "options": [
+   "Paulie Walnuts",
+   "Silvio Dante",
+   "Tony Soprano",
+   "Christopher Moltisanti"
+  ],
+  "answer": "Tony Soprano",
+  "difficulty": "easy",
+  "explanation": "Tony is a mob boss in New Jersey who tries to balance his family and his crew."
+ },
+ {
+  "question": "In which US state is The Sopranos set?",
+  "options": [
+   "New York",
+   "New Jersey",
+   "Connecticut",
+   "Pennsylvania"
+  ],
+  "answer": "New Jersey",
+  "difficulty": "easy",
+  "explanation": "The show takes place in New Jersey and often features the suburbs."
+ },
+ {
+  "question": "Which actor plays Tony Soprano?",
+  "options": [
+   "Steve Buscemi",
+   "James Gandolfini",
+   "Michael Imperioli",
+   "Tony Sirico"
+  ],
+  "answer": "James Gandolfini",
+  "difficulty": "easy",
+  "explanation": "James Gandolfini won three Emmy awards for playing Tony."
+ },
+ {
+  "question": "Who is Tony's therapist?",
+  "options": [
+   "Dr. Elliot Kupferberg",
+   "Dr. Jennifer Melfi",
+   "Dr. Ellen Stone",
+   "Dr. Susan Chase"
+  ],
+  "answer": "Dr. Jennifer Melfi",
+  "difficulty": "easy",
+  "explanation": "Tony starts therapy with Dr. Melfi after having panic attacks."
+ },
+ {
+  "question": "What is the name of Tony's wife?",
+  "options": [
+   "Janice",
+   "Adriana",
+   "Carmela",
+   "Rosalie"
+  ],
+  "answer": "Carmela",
+  "difficulty": "easy",
+  "explanation": "Carmela Soprano is a strong-willed woman who struggles with her husband's life."
+ },
+ {
+  "question": "What is the name of the strip club that Tony uses as a base?",
+  "options": [
+   "The Crazy Horse",
+   "The Bada Bing",
+   "Satin Dolls",
+   "The Pink Pony"
+  ],
+  "answer": "The Bada Bing",
+  "difficulty": "medium",
+  "explanation": "The Bada Bing is a club that acts as the crew's headquarters."
+ },
+ {
+  "question": "Who is Tony's young relative and an aspiring screenwriter?",
+  "options": [
+   "Paulie Gualtieri",
+   "Christopher Moltisanti",
+   "Silvio Dante",
+   "Bobby Baccalieri"
+  ],
+  "answer": "Christopher Moltisanti",
+  "difficulty": "medium",
+  "explanation": "Christopher is an ambitious member of the crew who dreams of making it in movies."
+ },
+ {
+  "question": "What is the name of Tony's daughter?",
+  "options": [
+   "Adriana",
+   "Rosalie",
+   "Meadow",
+   "Jamie-Lynn"
+  ],
+  "answer": "Meadow",
+  "difficulty": "medium",
+  "explanation": "Meadow Soprano is a smart teenager who heads off to college during the series."
+ },
+ {
+  "question": "What is the name of Tony's son?",
+  "options": [
+   "Christopher",
+   "Anthony Jr. (A.J.)",
+   "Michael",
+   "Vito"
+  ],
+  "answer": "Anthony Jr. (A.J.)",
+  "difficulty": "medium",
+  "explanation": "A.J. Soprano is a moody teenager who struggles to find his own way."
+ },
+ {
+  "question": "What is the name of Tony's controlling mother?",
+  "options": [
+   "Janice",
+   "Carmela",
+   "Livia",
+   "Nancy"
+  ],
+  "answer": "Livia",
+  "difficulty": "medium",
+  "explanation": "Livia Soprano is a difficult and manipulative woman who shapes Tony's issues."
+ },
+ {
+  "question": "What is the name of Tony's uncle who is a nominal boss?",
+  "options": [
+   "Johnny Boy Soprano",
+   "Corrado \"Junior\" Soprano",
+   "Paulie Gualtieri",
+   "Silvio Dante"
+  ],
+  "answer": "Corrado \"Junior\" Soprano",
+  "difficulty": "hard",
+  "explanation": "Junior is Tony's uncle and a rival, and is a powerful figure of the family."
+ },
+ {
+  "question": "Which animals visit Tony's pool at the start of the series?",
+  "options": [
+   "Geese",
+   "Ducks",
+   "Swans",
+   "Herons"
+  ],
+  "answer": "Ducks",
+  "difficulty": "hard",
+  "explanation": "The ducks affect Tony deeply, and they start his discussion in therapy."
+ },
+ {
+  "question": "Who is Tony's consigliere and the manager of the Bada Bing?",
+  "options": [
+   "Paulie Gualtieri",
+   "Silvio Dante",
+   "Bobby Baccalieri",
+   "Patsy Parisi"
+  ],
+  "answer": "Silvio Dante",
+  "difficulty": "hard",
+  "explanation": "Silvio runs the club and is known for his impression of Al Pacino."
+ },
+ {
+  "question": "What is Paulie Gualtieri's nickname?",
+  "options": [
+   "Big",
+   "The Hammer",
+   "Walnuts",
+   "Sweets"
+  ],
+  "answer": "Walnuts",
+  "difficulty": "hard",
+  "explanation": "Paulie is a loyal, superstitious member of Tony's crew and is known as Paulie Walnuts."
+ },
+ {
+  "question": "What is the name of Artie Bucco's restaurant where the family often eats?",
+  "options": [
+   "Vesuvio Grill",
+   "Il Forno",
+   "Nuovo Vesuvio",
+   "Casa Bucco"
+  ],
+  "answer": "Nuovo Vesuvio",
+  "difficulty": "hard",
+  "explanation": "Artie is Tony's childhood friend and a chef at the Italian restaurant."
+ },
+ {
+  "question": "In which year did The Sopranos premiere?",
+  "options": [
+   "1997",
+   "2001",
+   "2003",
+   "1999"
+  ],
+  "answer": "1999",
+  "difficulty": "expert",
+  "explanation": "The show premiered on HBO in January 1999."
+ },
+ {
+  "question": "How many seasons did The Sopranos run for?",
+  "options": [
+   "Five",
+   "Seven",
+   "Four",
+   "Six"
+  ],
+  "answer": "Six",
+  "difficulty": "expert",
+  "explanation": "The series ran for six seasons from 1999 to 2007."
+ },
+ {
+  "question": "Which network broadcast The Sopranos?",
+  "options": [
+   "HBO",
+   "Showtime",
+   "AMC",
+   "FX"
+  ],
+  "answer": "HBO",
+  "difficulty": "expert",
+  "explanation": "The Sopranos helped to establish HBO as a home for quality drama."
+ },
+ {
+  "question": "Which Journey song plays during the final scene of the series?",
+  "options": [
+   "\"Faithfully\"",
+   "\"Open Arms\"",
+   "\"Any Way You Want It\"",
+   "\"Don't Stop Believin'\""
+  ],
+  "answer": "\"Don't Stop Believin'\"",
+  "difficulty": "expert",
+  "explanation": "The song plays in the diner scene that famously ends with a cut to black."
+ },
+ {
+  "question": "Which actor plays Carmela Soprano?",
+  "options": [
+   "Lorraine Bracco",
+   "Drea de Matteo",
+   "Edie Falco",
+   "Jamie-Lynn Sigler"
+  ],
+  "answer": "Edie Falco",
+  "difficulty": "expert",
+  "explanation": "Edie Falco won three Emmy awards for playing Carmela."
+ }
+]

@@ -1,0 +1,242 @@
+[
+ {
+  "question": "In which film does Darth Vader reveal \"I am your father\"?",
+  "options": [
+   "A New Hope",
+   "The Empire Strikes Back",
+   "Return of the Jedi",
+   "Revenge of the Sith"
+  ],
+  "answer": "The Empire Strikes Back",
+  "difficulty": "easy",
+  "explanation": "Vader tells Luke the truth during their duel on Cloud City."
+ },
+ {
+  "question": "Which crime lord does Han Solo owe money to in A New Hope?",
+  "options": [
+   "Jabba the Hutt",
+   "Boba Fett",
+   "Greedo",
+   "Watto"
+  ],
+  "answer": "Jabba the Hutt",
+  "difficulty": "easy",
+  "explanation": "Han owes Jabba a large debt, and Greedo tries to collect it in the cantina."
+ },
+ {
+  "question": "What colour is Luke's lightsaber in Return of the Jedi?",
+  "options": [
+   "Blue",
+   "Red",
+   "Green",
+   "Purple"
+  ],
+  "answer": "Green",
+  "difficulty": "easy",
+  "explanation": "Luke builds a new green lightsaber after losing his father's blue one."
+ },
+ {
+  "question": "Which protocol droid is fluent in over six million forms of communication?",
+  "options": [
+   "R2-D2",
+   "BB-8",
+   "IG-88",
+   "C-3PO"
+  ],
+  "answer": "C-3PO",
+  "difficulty": "easy",
+  "explanation": "C-3PO is a golden droid who is fussy, anxious and very polite."
+ },
+ {
+  "question": "Which Jedi Master trains Luke on the swamp planet Dagobah?",
+  "options": [
+   "Obi-Wan Kenobi",
+   "Yoda",
+   "Mace Windu",
+   "Qui-Gon Jinn"
+  ],
+  "answer": "Yoda",
+  "difficulty": "easy",
+  "explanation": "Yoda hides on Dagobah and teaches Luke the ways of the Force."
+ },
+ {
+  "question": "What planet is Luke Skywalker raised on?",
+  "options": [
+   "Hoth",
+   "Endor",
+   "Tatooine",
+   "Naboo"
+  ],
+  "answer": "Tatooine",
+  "difficulty": "medium",
+  "explanation": "Luke grows up on a moisture farm on the desert planet Tatooine."
+ },
+ {
+  "question": "What is the name of Princess Leia's adoptive father?",
+  "options": [
+   "Owen Lars",
+   "Mon Mothma",
+   "Bail Organa",
+   "Obi-Wan Kenobi"
+  ],
+  "answer": "Bail Organa",
+  "difficulty": "medium",
+  "explanation": "Bail Organa, a Senator from Alderaan, raises Leia as his daughter."
+ },
+ {
+  "question": "What are the white-armoured soldiers of the Galactic Empire called?",
+  "options": [
+   "Clone Troopers",
+   "Death Troopers",
+   "Snowtroopers",
+   "Stormtroopers"
+  ],
+  "answer": "Stormtroopers",
+  "difficulty": "medium",
+  "explanation": "Stormtroopers are the Empire's infantry, known for terrible aim."
+ },
+ {
+  "question": "Which bounty hunter captures Han Solo for Jabba the Hutt in The Empire Strikes Back?",
+  "options": [
+   "Jango Fett",
+   "Boba Fett",
+   "Bossk",
+   "Greedo"
+  ],
+  "answer": "Boba Fett",
+  "difficulty": "medium",
+  "explanation": "Boba Fett delivers the frozen Han Solo to Jabba the Hutt."
+ },
+ {
+  "question": "What is the name of the forest moon where the Ewoks live?",
+  "options": [
+   "Hoth",
+   "Dagobah",
+   "Endor",
+   "Kashyyyk"
+  ],
+  "answer": "Endor",
+  "difficulty": "medium",
+  "explanation": "The Ewoks help the Rebel Alliance to defeat the Empire on Endor."
+ },
+ {
+  "question": "Who is Anakin Skywalker's Padawan in The Clone Wars?",
+  "options": [
+   "Barriss Offee",
+   "Ahsoka Tano",
+   "Rey",
+   "Kanan Jarrus"
+  ],
+  "answer": "Ahsoka Tano",
+  "difficulty": "hard",
+  "explanation": "Ahsoka, a young Togruta, becomes Anakin's apprentice during the Clone Wars."
+ },
+ {
+  "question": "What is Emperor Palpatine's Sith name?",
+  "options": [
+   "Darth Sidious",
+   "Darth Maul",
+   "Darth Plagueis",
+   "Darth Tyranus"
+  ],
+  "answer": "Darth Sidious",
+  "difficulty": "hard",
+  "explanation": "Palpatine hides as Darth Sidious while he rises to power as a Senator."
+ },
+ {
+  "question": "Which Jedi Master is killed by Darth Maul in The Phantom Menace?",
+  "options": [
+   "Mace Windu",
+   "Yoda",
+   "Qui-Gon Jinn",
+   "Ki-Adi-Mundi"
+  ],
+  "answer": "Qui-Gon Jinn",
+  "difficulty": "hard",
+  "explanation": "Qui-Gon is struck down by Maul, and Obi-Wan then defeats the Sith apprentice."
+ },
+ {
+  "question": "Who is the genetic template for the clone army?",
+  "options": [
+   "Jango Fett",
+   "Boba Fett",
+   "Cad Bane",
+   "Count Dooku"
+  ],
+  "answer": "Jango Fett",
+  "difficulty": "hard",
+  "explanation": "Jango Fett, a bounty hunter, agreed to be the model for the Republic's clone troopers."
+ },
+ {
+  "question": "Which icy planet is home to the Rebel base in The Empire Strikes Back?",
+  "options": [
+   "Hoth",
+   "Endor",
+   "Dagobah",
+   "Bespin"
+  ],
+  "answer": "Hoth",
+  "difficulty": "hard",
+  "explanation": "The Imperial forces attack the Rebel base on Hoth in a huge battle with walkers."
+ },
+ {
+  "question": "What is Kylo Ren's birth name?",
+  "options": [
+   "Ben Solo",
+   "Anakin Skywalker",
+   "Luke Skywalker",
+   "Han Solo"
+  ],
+  "answer": "Ben Solo",
+  "difficulty": "expert",
+  "explanation": "Kylo Ren is the son of Han Solo and Leia Organa and was named after Obi-Wan Kenobi."
+ },
+ {
+  "question": "Which planet is Padmé Amidala's home?",
+  "options": [
+   "Coruscant",
+   "Naboo",
+   "Alderaan",
+   "Chandrila"
+  ],
+  "answer": "Naboo",
+  "difficulty": "expert",
+  "explanation": "Padmé is a Queen and later Senator of Naboo."
+ },
+ {
+  "question": "What colour is Mace Windu's lightsaber?",
+  "options": [
+   "Purple",
+   "Green",
+   "Blue",
+   "Red"
+  ],
+  "answer": "Purple",
+  "difficulty": "expert",
+  "explanation": "Samuel L. Jackson requested a purple lightsaber, which makes Mace's weapon unique."
+ },
+ {
+  "question": "In how many parsecs does Han Solo claim the Falcon made the Kessel Run?",
+  "options": [
+   "Less than twenty",
+   "Less than twelve",
+   "Less than five",
+   "Less than thirty"
+  ],
+  "answer": "Less than twelve",
+  "difficulty": "expert",
+  "explanation": "Han's boast is a famous one, since a parsec is really a measure of distance, not time."
+ },
+ {
+  "question": "Who directed the original 1977 Star Wars film?",
+  "options": [
+   "Steven Spielberg",
+   "Irvin Kershner",
+   "Richard Marquand",
+   "George Lucas"
+  ],
+  "answer": "George Lucas",
+  "difficulty": "expert",
+  "explanation": "George Lucas wrote and directed the original film, later called A New Hope."
+ }
+]

@@ -1,0 +1,242 @@
+[
+ {
+  "question": "What is Jerry Seinfeld's job in the show?",
+  "options": [
+   "Actor",
+   "Writer",
+   "Salesman",
+   "Stand-up comedian"
+  ],
+  "answer": "Stand-up comedian",
+  "difficulty": "easy",
+  "explanation": "Jerry plays a fictional version of himself, a stand-up comedian in New York."
+ },
+ {
+  "question": "Which character is famous for bursting through Jerry's apartment door?",
+  "options": [
+   "Newman",
+   "George",
+   "Kramer",
+   "Puddy"
+  ],
+  "answer": "Kramer",
+  "difficulty": "easy",
+  "explanation": "Kramer barges in without knocking, and his entrances are among the show's best-known gags."
+ },
+ {
+  "question": "What is Elaine's last name?",
+  "options": [
+   "Costanza",
+   "Ross",
+   "Cramer",
+   "Benes"
+  ],
+  "answer": "Benes",
+  "difficulty": "easy",
+  "explanation": "Elaine Benes is Jerry's ex-girlfriend and friend."
+ },
+ {
+  "question": "Which phrase is shouted by the Soup Nazi in a famous episode?",
+  "options": [
+   "\"No soup for you!\"",
+   "\"Yada yada yada\"",
+   "\"Serenity now!\"",
+   "\"Not that there's anything wrong with that\""
+  ],
+  "answer": "\"No soup for you!\"",
+  "difficulty": "easy",
+  "explanation": "The soup seller says this line to customers who break his rules."
+ },
+ {
+  "question": "Which network first aired Seinfeld?",
+  "options": [
+   "CBS",
+   "ABC",
+   "Fox",
+   "NBC"
+  ],
+  "answer": "NBC",
+  "difficulty": "easy",
+  "explanation": "Seinfeld ran on NBC and became one of the most popular sitcoms in history."
+ },
+ {
+  "question": "What false name does George often use to impress people?",
+  "options": [
+   "Bob Sacamano",
+   "Kel Varnsen",
+   "H.E. Pennypacker",
+   "Art Vandelay"
+  ],
+  "answer": "Art Vandelay",
+  "difficulty": "medium",
+  "explanation": "George uses Art Vandelay as an architect and importer-exporter."
+ },
+ {
+  "question": "Which holiday is invented by George's father, Frank?",
+  "options": [
+   "Hanukkah",
+   "Kwanzaa",
+   "Festivus",
+   "Boxing Day"
+  ],
+  "answer": "Festivus",
+  "difficulty": "medium",
+  "explanation": "Festivus is a holiday which is celebrated with an aluminium pole and the airing of grievances."
+ },
+ {
+  "question": "What is Newman's job?",
+  "options": [
+   "Postal worker",
+   "Police officer",
+   "Doctor",
+   "Lawyer"
+  ],
+  "answer": "Postal worker",
+  "difficulty": "medium",
+  "explanation": "Newman is a mailman who is Jerry's nemesis."
+ },
+ {
+  "question": "What is the number of Jerry's apartment?",
+  "options": [
+   "5A",
+   "4B",
+   "2C",
+   "7D"
+  ],
+  "answer": "5A",
+  "difficulty": "medium",
+  "explanation": "Jerry lives in Apartment 5A in Manhattan, and Kramer lives across the hall."
+ },
+ {
+  "question": "What is the name of the diner where the friends often eat?",
+  "options": [
+   "Ed's Diner",
+   "Joe's Diner",
+   "Central Perk",
+   "Monk's Café"
+  ],
+  "answer": "Monk's Café",
+  "difficulty": "medium",
+  "explanation": "The gang meets at Monk's Café to talk about their problems in almost every episode."
+ },
+ {
+  "question": "What is the title of Kramer's idea for a book about coffee tables?",
+  "options": [
+   "Table Talk",
+   "The Coffee Table Book of Coffee Tables",
+   "Legs and Tops",
+   "The Furniture Files"
+  ],
+  "answer": "The Coffee Table Book of Coffee Tables",
+  "difficulty": "hard",
+  "explanation": "Kramer's idea is a coffee table book that has legs and can be turned into a coffee table."
+ },
+ {
+  "question": "What is the name of Kramer's fictional company?",
+  "options": [
+   "Kramer Corp",
+   "Vandelay Industries",
+   "Kramerica Industries",
+   "Costanza & Sons"
+  ],
+  "answer": "Kramerica Industries",
+  "difficulty": "hard",
+  "explanation": "Kramerica is the company that Kramer says he owns."
+ },
+ {
+  "question": "Where does Elaine work in the early seasons?",
+  "options": [
+   "J. Peterman",
+   "Monk's Café",
+   "Pendant Publishing",
+   "Play It Again Sam"
+  ],
+  "answer": "Pendant Publishing",
+  "difficulty": "hard",
+  "explanation": "Elaine works at Pendant Publishing before she is fired and joins J. Peterman."
+ },
+ {
+  "question": "What are the names of Jerry's parents?",
+  "options": [
+   "Frank and Estelle",
+   "Jack and Judy",
+   "Morty and Helen",
+   "Bill and Coleen"
+  ],
+  "answer": "Morty and Helen",
+  "difficulty": "hard",
+  "explanation": "Morty and Helen Seinfeld retire to Florida and appear in many episodes."
+ },
+ {
+  "question": "Which phrase does Frank Costanza use to calm himself down?",
+  "options": [
+   "\"Calm down!\"",
+   "\"Relax!\"",
+   "\"Take five!\"",
+   "\"Serenity now!\""
+  ],
+  "answer": "\"Serenity now!\"",
+  "difficulty": "hard",
+  "explanation": "Frank uses \"Serenity now!\" as a calming mantra, though he ends up yelling it."
+ },
+ {
+  "question": "Who co-created Seinfeld with Jerry Seinfeld?",
+  "options": [
+   "Jason Alexander",
+   "Michael Richards",
+   "Larry David",
+   "Julia Louis-Dreyfus"
+  ],
+  "answer": "Larry David",
+  "difficulty": "expert",
+  "explanation": "Larry David and Jerry Seinfeld came up with the idea for a show about nothing."
+ },
+ {
+  "question": "In which year did Seinfeld premiere?",
+  "options": [
+   "1991",
+   "1993",
+   "1987",
+   "1989"
+  ],
+  "answer": "1989",
+  "difficulty": "expert",
+  "explanation": "The show premiered in July 1989."
+ },
+ {
+  "question": "How many seasons did Seinfeld run for?",
+  "options": [
+   "Seven",
+   "Ten",
+   "Nine",
+   "Eight"
+  ],
+  "answer": "Nine",
+  "difficulty": "expert",
+  "explanation": "The show ended in 1998 after nine seasons."
+ },
+ {
+  "question": "How does the series finale end for the four friends?",
+  "options": [
+   "They are sent to jail",
+   "They move away",
+   "They open a cafe",
+   "They get their own TV show"
+  ],
+  "answer": "They are sent to jail",
+  "difficulty": "expert",
+  "explanation": "The finale has all four friends convicted for their behaviour, and they end up in jail."
+ },
+ {
+  "question": "Which actor plays George Costanza?",
+  "options": [
+   "Jason Alexander",
+   "Michael Richards",
+   "Larry David",
+   "Wayne Knight"
+  ],
+  "answer": "Jason Alexander",
+  "difficulty": "expert",
+  "explanation": "Jason Alexander played the neurotic George for all nine seasons."
+ }
+]

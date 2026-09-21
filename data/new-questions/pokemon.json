@@ -1,0 +1,242 @@
+[
+ {
+  "question": "Which Pokémon is Ash Ketchum's most famous partner?",
+  "options": [
+   "Charmander",
+   "Squirtle",
+   "Bulbasaur",
+   "Pikachu"
+  ],
+  "answer": "Pikachu",
+  "difficulty": "easy",
+  "explanation": "Ash receives Pikachu from Professor Oak, and it refuses to stay in its Poké Ball."
+ },
+ {
+  "question": "What type is Charmander?",
+  "options": [
+   "Water",
+   "Grass",
+   "Fire",
+   "Electric"
+  ],
+  "answer": "Fire",
+  "difficulty": "easy",
+  "explanation": "Charmander is a Fire-type, and evolves first into Charmeleon and then Charizard."
+ },
+ {
+  "question": "Which item is used to catch wild Pokémon?",
+  "options": [
+   "Rare Candy",
+   "Potion",
+   "Escape Rope",
+   "Poké Ball"
+  ],
+  "answer": "Poké Ball",
+  "difficulty": "easy",
+  "explanation": "Trainers throw a Poké Ball at a weakened wild Pokémon to try to capture it."
+ },
+ {
+  "question": "Which Pokémon does Magikarp evolve into?",
+  "options": [
+   "Dragonite",
+   "Gyarados",
+   "Wailord",
+   "Milotic"
+  ],
+  "answer": "Gyarados",
+  "difficulty": "easy",
+  "explanation": "Magikarp is weak, but at level 20 it evolves into the fearsome Gyarados."
+ },
+ {
+  "question": "Which professor gives trainers their first Pokémon in Pallet Town?",
+  "options": [
+   "Professor Elm",
+   "Professor Birch",
+   "Professor Oak",
+   "Professor Rowan"
+  ],
+  "answer": "Professor Oak",
+  "difficulty": "easy",
+  "explanation": "Professor Samuel Oak is the Pokémon researcher who starts the journey of every Kanto trainer."
+ },
+ {
+  "question": "What are the three Kanto starter Pokémon?",
+  "options": [
+   "Chikorita, Cyndaquil and Totodile",
+   "Bulbasaur, Charmander and Squirtle",
+   "Treecko, Torchic and Mudkip",
+   "Turtwig, Chimchar and Piplup"
+  ],
+  "answer": "Bulbasaur, Charmander and Squirtle",
+  "difficulty": "medium",
+  "explanation": "The choice of Bulbasaur, Charmander or Squirtle begins the original Red and Blue games."
+ },
+ {
+  "question": "What does Pikachu evolve into when exposed to a Thunder Stone?",
+  "options": [
+   "Pichu",
+   "Jolteon",
+   "Raichu",
+   "Electabuzz"
+  ],
+  "answer": "Raichu",
+  "difficulty": "medium",
+  "explanation": "A Thunder Stone turns Pikachu into Raichu."
+ },
+ {
+  "question": "Which type is immune to Electric-type attacks?",
+  "options": [
+   "Rock",
+   "Ground",
+   "Steel",
+   "Water"
+  ],
+  "answer": "Ground",
+  "difficulty": "medium",
+  "explanation": "Ground-type Pokémon take no damage from Electric moves."
+ },
+ {
+  "question": "Who is the Gym Leader of Pewter City?",
+  "options": [
+   "Brock",
+   "Misty",
+   "Lt. Surge",
+   "Erika"
+  ],
+  "answer": "Brock",
+  "difficulty": "medium",
+  "explanation": "Brock uses Rock-type Pokémon and is the first Gym Leader in the Kanto games."
+ },
+ {
+  "question": "Which Pokémon appears on the North American box art of Pokémon Red?",
+  "options": [
+   "Pikachu",
+   "Blastoise",
+   "Venusaur",
+   "Charizard"
+  ],
+  "answer": "Charizard",
+  "difficulty": "medium",
+  "explanation": "Charizard is on Red, Blastoise on Blue, and Pikachu on Yellow."
+ },
+ {
+  "question": "How many Pokémon are in the original Pokédex of Generation I?",
+  "options": [
+   "151",
+   "150",
+   "100",
+   "251"
+  ],
+  "answer": "151",
+  "difficulty": "hard",
+  "explanation": "The original Pokédex lists 151 Pokémon, ending with the mythical Mew."
+ },
+ {
+  "question": "Who is the boss of Team Rocket in the Kanto games?",
+  "options": [
+   "Giovanni",
+   "Archie",
+   "Maxie",
+   "Cyrus"
+  ],
+  "answer": "Giovanni",
+  "difficulty": "hard",
+  "explanation": "Giovanni leads Team Rocket and is also the Gym Leader of Viridian City."
+ },
+ {
+  "question": "Which Eevee evolution is a Water-type?",
+  "options": [
+   "Vaporeon",
+   "Flareon",
+   "Jolteon",
+   "Espeon"
+  ],
+  "answer": "Vaporeon",
+  "difficulty": "hard",
+  "explanation": "Vaporeon is the Water-type evolution of Eevee, reached with a Water Stone."
+ },
+ {
+  "question": "Kadabra evolves into which Psychic-type Pokémon when it is traded?",
+  "options": [
+   "Abra",
+   "Hypno",
+   "Alakazam",
+   "Machamp"
+  ],
+  "answer": "Alakazam",
+  "difficulty": "hard",
+  "explanation": "Kadabra becomes Alakazam through a trade, and Abra becomes Kadabra by levelling up."
+ },
+ {
+  "question": "Which region are Pokémon Gold and Silver set in?",
+  "options": [
+   "Hoenn",
+   "Sinnoh",
+   "Johto",
+   "Unova"
+  ],
+  "answer": "Johto",
+  "difficulty": "hard",
+  "explanation": "Gold and Silver take place in Johto, which is right next to Kanto."
+ },
+ {
+  "question": "Which Pokémon is number 25 in the National Pokédex?",
+  "options": [
+   "Pichu",
+   "Raichu",
+   "Pikachu",
+   "Jigglypuff"
+  ],
+  "answer": "Pikachu",
+  "difficulty": "expert",
+  "explanation": "Pikachu holds Pokédex number 25, and Raichu is number 26."
+ },
+ {
+  "question": "What is Charizard's type combination?",
+  "options": [
+   "Fire and Flying",
+   "Fire and Dragon",
+   "Fire only",
+   "Dragon and Flying"
+  ],
+  "answer": "Fire and Flying",
+  "difficulty": "expert",
+  "explanation": "Despite its dragon-like look, Charizard is a Fire and Flying type."
+ },
+ {
+  "question": "In Red and Blue, which rival does the player fight as the final Champion?",
+  "options": [
+   "The rival, Blue",
+   "Lance",
+   "Cynthia",
+   "Steven"
+  ],
+  "answer": "The rival, Blue",
+  "difficulty": "expert",
+  "explanation": "In the original games, the player's rival becomes the new Champion before you beat them at the Indigo Plateau."
+ },
+ {
+  "question": "What is Ash Ketchum's hometown?",
+  "options": [
+   "Viridian City",
+   "Pallet Town",
+   "Cerulean City",
+   "Vermilion City"
+  ],
+  "answer": "Pallet Town",
+  "difficulty": "expert",
+  "explanation": "Ash and his rival Gary both live in Pallet Town, where Professor Oak's lab is."
+ },
+ {
+  "question": "Which three Legendary birds live in Kanto?",
+  "options": [
+   "Lugia, Ho-Oh and Suicune",
+   "Articuno, Zapdos and Moltres",
+   "Latios, Latias and Rayquaza",
+   "Entei, Raikou and Suicune"
+  ],
+  "answer": "Articuno, Zapdos and Moltres",
+  "difficulty": "expert",
+  "explanation": "The Legendary birds of Kanto are the Ice-type Articuno, Electric-type Zapdos and Fire-type Moltres."
+ }
+]

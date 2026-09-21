@@ -1,0 +1,242 @@
+[
+ {
+  "question": "Who is the main character of Demon Slayer?",
+  "options": [
+   "Zenitsu Agatsuma",
+   "Tanjiro Kamado",
+   "Inosuke Hashibira",
+   "Giyu Tomioka"
+  ],
+  "answer": "Tanjiro Kamado",
+  "difficulty": "easy",
+  "explanation": "Tanjiro is a kind boy who becomes a demon slayer after his family is attacked."
+ },
+ {
+  "question": "What is the name of Tanjiro's sister who is turned into a demon?",
+  "options": [
+   "Kanao",
+   "Nezuko",
+   "Shinobu",
+   "Mitsuri"
+  ],
+  "answer": "Nezuko",
+  "difficulty": "easy",
+  "explanation": "Nezuko keeps her human heart and is protected by Tanjiro throughout the story."
+ },
+ {
+  "question": "What does Nezuko wear in her mouth?",
+  "options": [
+   "A ribbon",
+   "A bamboo tube",
+   "A cloth mask",
+   "A metal muzzle"
+  ],
+  "answer": "A bamboo tube",
+  "difficulty": "easy",
+  "explanation": "The bamboo muzzle prevents her from biting, and it is a symbol of her self-control."
+ },
+ {
+  "question": "Who is the main villain, the first and strongest demon?",
+  "options": [
+   "Akaza",
+   "Muzan Kibutsuji",
+   "Kokushibo",
+   "Doma"
+  ],
+  "answer": "Muzan Kibutsuji",
+  "difficulty": "easy",
+  "explanation": "Muzan is the first demon and the source of all other demons."
+ },
+ {
+  "question": "What is the name of the group that Tanjiro joins to fight demons?",
+  "options": [
+   "The Hashira Guild",
+   "The Moon Society",
+   "The Sun Order",
+   "The Demon Slayer Corps"
+  ],
+  "answer": "The Demon Slayer Corps",
+  "difficulty": "easy",
+  "explanation": "The Demon Slayer Corps is a secret organisation which has protected humanity for centuries."
+ },
+ {
+  "question": "Which breathing style does Tanjiro first learn from Sakonji Urokodaki?",
+  "options": [
+   "Flame Breathing",
+   "Thunder Breathing",
+   "Water Breathing",
+   "Wind Breathing"
+  ],
+  "answer": "Water Breathing",
+  "difficulty": "medium",
+  "explanation": "Tanjiro trains for two years with Urokodaki to master Water Breathing."
+ },
+ {
+  "question": "Which character wears a boar's head?",
+  "options": [
+   "Zenitsu Agatsuma",
+   "Genya Shinazugawa",
+   "Inosuke Hashibira",
+   "Sanemi Shinazugawa"
+  ],
+  "answer": "Inosuke Hashibira",
+  "difficulty": "medium",
+  "explanation": "Inosuke was raised by boars and is known for his aggressive personality."
+ },
+ {
+  "question": "Which Hashira tells Tanjiro to \"set your heart ablaze\"?",
+  "options": [
+   "Kyojuro Rengoku",
+   "Tengen Uzui",
+   "Giyu Tomioka",
+   "Gyomei Himejima"
+  ],
+  "answer": "Kyojuro Rengoku",
+  "difficulty": "medium",
+  "explanation": "Rengoku is a cheerful and strong Hashira who appears in the Mugen Train story."
+ },
+ {
+  "question": "Which Thunder Breathing user is a cowardly but talented swordsman who fights best when asleep?",
+  "options": [
+   "Kaigaku",
+   "Inosuke Hashibira",
+   "Zenitsu Agatsuma",
+   "Genya Shinazugawa"
+  ],
+  "answer": "Zenitsu Agatsuma",
+  "difficulty": "medium",
+  "explanation": "Zenitsu is a scared boy who becomes a master of Thunder Breathing."
+ },
+ {
+  "question": "Which film has Tanjiro and his friends board a train that is home to a demon?",
+  "options": [
+   "Swordsmith Village",
+   "Mugen Train",
+   "Entertainment District",
+   "Final Selection"
+  ],
+  "answer": "Mugen Train",
+  "difficulty": "medium",
+  "explanation": "Demon Slayer: Mugen Train became one of the highest-grossing anime films."
+ },
+ {
+  "question": "Which Hashira spares Nezuko at the start and sends Tanjiro to Urokodaki?",
+  "options": [
+   "Sanemi Shinazugawa",
+   "Obanai Iguro",
+   "Giyu Tomioka",
+   "Muichiro Tokito"
+  ],
+  "answer": "Giyu Tomioka",
+  "difficulty": "hard",
+  "explanation": "Giyu is a quiet swordsman who chooses to give Tanjiro and Nezuko a chance."
+ },
+ {
+  "question": "Who is the Insect Hashira?",
+  "options": [
+   "Mitsuri Kanroji",
+   "Kanao Tsuyuri",
+   "Aoi Kanzaki",
+   "Shinobu Kocho"
+  ],
+  "answer": "Shinobu Kocho",
+  "difficulty": "hard",
+  "explanation": "Shinobu uses poison made from wisteria to fight demons."
+ },
+ {
+  "question": "What are the twelve strongest demons under Muzan called?",
+  "options": [
+   "The Twelve Hashira",
+   "The Twelve Onis",
+   "The Twelve Kizuki",
+   "The Twelve Moons of Muzan"
+  ],
+  "answer": "The Twelve Kizuki",
+  "difficulty": "hard",
+  "explanation": "The Kizuki are ranked, and each has a title of Upper Moon or Lower Moon."
+ },
+ {
+  "question": "What are the demon slayers' swords called?",
+  "options": [
+   "Kunai",
+   "Nichirin blades",
+   "Sun Katana",
+   "Hashira blades"
+  ],
+  "answer": "Nichirin blades",
+  "difficulty": "hard",
+  "explanation": "Nichirin blades are made from special ore which absorbs the sun's rays and change colour depending on the user."
+ },
+ {
+  "question": "Which Lower Rank demon controls a family of spider-like demons on Mount Natagumo?",
+  "options": [
+   "Kyogai",
+   "Rui",
+   "Enmu",
+   "Akaza"
+  ],
+  "answer": "Rui",
+  "difficulty": "hard",
+  "explanation": "Rui is the Lower Moon Five, and he holds his fake family together through fear."
+ },
+ {
+  "question": "Who is the strongest demon, Upper Moon One?",
+  "options": [
+   "Akaza",
+   "Kokushibo",
+   "Doma",
+   "Gyokko"
+  ],
+  "answer": "Kokushibo",
+  "difficulty": "expert",
+  "explanation": "Kokushibo is the top-ranked Upper Moon and was once a demon slayer."
+ },
+ {
+  "question": "Which ancient dance did Tanjiro's father perform every year?",
+  "options": [
+   "Water Dance",
+   "Hinokami Kagura",
+   "Sun Salutation",
+   "Fire Dance"
+  ],
+  "answer": "Hinokami Kagura",
+  "difficulty": "expert",
+  "explanation": "The dance is the source of Tanjiro's Hinokami Kagura breathing techniques."
+ },
+ {
+  "question": "Who created the Demon Slayer manga?",
+  "options": [
+   "Eiichiro Oda",
+   "Masashi Kishimoto",
+   "Hajime Isayama",
+   "Koyoharu Gotouge"
+  ],
+  "answer": "Koyoharu Gotouge",
+  "difficulty": "expert",
+  "explanation": "Koyoharu Gotouge wrote and drew the series for Weekly Shonen Jump."
+ },
+ {
+  "question": "Which studio animates the Demon Slayer anime?",
+  "options": [
+   "ufotable",
+   "MAPPA",
+   "Bones",
+   "Wit Studio"
+  ],
+  "answer": "ufotable",
+  "difficulty": "expert",
+  "explanation": "ufotable is praised for beautiful animation, particularly the fluid sword fights."
+ },
+ {
+  "question": "How many Hashira are there in the Demon Slayer Corps?",
+  "options": [
+   "Twelve",
+   "Six",
+   "Ten",
+   "Nine"
+  ],
+  "answer": "Nine",
+  "difficulty": "expert",
+  "explanation": "The nine Hashira are the strongest members of the Corps, and each masters a breathing style."
+ }
+]

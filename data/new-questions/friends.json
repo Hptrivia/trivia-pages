@@ -1,0 +1,242 @@
+[
+ {
+  "question": "What is the name of the coffee house where the friends hang out?",
+  "options": [
+   "The Grind",
+   "Java Junction",
+   "Perk Place",
+   "Central Perk"
+  ],
+  "answer": "Central Perk",
+  "difficulty": "easy",
+  "explanation": "Central Perk, with its big orange couch, is the group's second home throughout all ten seasons."
+ },
+ {
+  "question": "What is the name of Ross's pet monkey?",
+  "options": [
+   "Marcel",
+   "George",
+   "Jojo",
+   "Bubbles"
+  ],
+  "answer": "Marcel",
+  "difficulty": "easy",
+  "explanation": "Marcel is the capuchin monkey Ross keeps in his apartment during the early seasons."
+ },
+ {
+  "question": "Which character writes and sings the song \"Smelly Cat\"?",
+  "options": [
+   "Rachel Green",
+   "Monica Geller",
+   "Phoebe Buffay",
+   "Janice Hosenstein"
+  ],
+  "answer": "Phoebe Buffay",
+  "difficulty": "easy",
+  "explanation": "Phoebe, the group's quirky guitar-playing masseuse, performs Smelly Cat at Central Perk."
+ },
+ {
+  "question": "What is Joey's famous pick-up line?",
+  "options": [
+   "\"Could I BE any smoother?\"",
+   "\"Hey there, gorgeous\"",
+   "\"Want to split a sandwich?\"",
+   "\"How you doin'?\""
+  ],
+  "answer": "\"How you doin'?\"",
+  "difficulty": "easy",
+  "explanation": "Joey Tribbiani uses \"How you doin'?\" as his signature greeting to women."
+ },
+ {
+  "question": "What does Ross do for a living?",
+  "options": [
+   "He is a chef",
+   "He is a fashion buyer",
+   "He is a paleontologist",
+   "He is an actor"
+  ],
+  "answer": "He is a paleontologist",
+  "difficulty": "easy",
+  "explanation": "Ross studies dinosaurs and teaches at a New York university."
+ },
+ {
+  "question": "What is Chandler's job, which nobody can ever explain?",
+  "options": [
+   "Senior sales executive",
+   "Statistical analysis and data reconfiguration",
+   "Junior accountant",
+   "Regional marketing analyst"
+  ],
+  "answer": "Statistical analysis and data reconfiguration",
+  "difficulty": "medium",
+  "explanation": "The running joke is that none of his friends can say what Chandler's job actually involves."
+ },
+ {
+  "question": "What is Monica Geller's profession?",
+  "options": [
+   "She is a nurse",
+   "She is a lawyer",
+   "She is a chef",
+   "She is a teacher"
+  ],
+  "answer": "She is a chef",
+  "difficulty": "medium",
+  "explanation": "Monica is a professional chef, and her perfectionism in the kitchen is a running gag."
+ },
+ {
+  "question": "What is Rachel's first job after she leaves her wedding?",
+  "options": [
+   "Personal shopper",
+   "Waitress at Central Perk",
+   "Fashion buyer",
+   "Receptionist"
+  ],
+  "answer": "Waitress at Central Perk",
+  "difficulty": "medium",
+  "explanation": "Rachel starts the series as a runaway bride and takes a waitressing job at Central Perk."
+ },
+ {
+  "question": "What is the name of Ross's first wife, who leaves him for another woman?",
+  "options": [
+   "Emily",
+   "Carol",
+   "Susan",
+   "Julie"
+  ],
+  "answer": "Carol",
+  "difficulty": "medium",
+  "explanation": "Carol Willick leaves Ross for her partner Susan, and the three later co-parent their son Ben."
+ },
+ {
+  "question": "What is the name of Phoebe's identical twin sister?",
+  "options": [
+   "Ursula",
+   "Regina",
+   "Ginger",
+   "Alice"
+  ],
+  "answer": "Ursula",
+  "difficulty": "medium",
+  "explanation": "Ursula Buffay is Phoebe's twin, a waitress whom Phoebe is often embarrassed by."
+ },
+ {
+  "question": "What does Chandler's mother, Nora Tyler Bing, do for a living?",
+  "options": [
+   "She is a Broadway actress",
+   "She runs a cosmetics company",
+   "She writes romance novels",
+   "She hosts a talk show"
+  ],
+  "answer": "She writes romance novels",
+  "difficulty": "hard",
+  "explanation": "Nora Tyler Bing is a bestselling romance novelist, much to Chandler's embarrassment."
+ },
+ {
+  "question": "In \"The One with the Embryos\", what contest costs Monica and Rachel their apartment?",
+  "options": [
+   "A trivia game about each other",
+   "A poker tournament",
+   "A cooking competition",
+   "A game of charades"
+  ],
+  "answer": "A trivia game about each other",
+  "difficulty": "hard",
+  "explanation": "The guys win the apartment by out-answering the girls in a trivia game about their own lives."
+ },
+ {
+  "question": "What is the name of the character Joey plays on the soap opera Days of Our Lives?",
+  "options": [
+   "Dr. Drake Ramoray",
+   "Dr. Stephen Kildare",
+   "Dr. Zack Hunter",
+   "Dr. Mike Ramirez"
+  ],
+  "answer": "Dr. Drake Ramoray",
+  "difficulty": "hard",
+  "explanation": "Joey lands his big break as brain surgeon Dr. Drake Ramoray."
+ },
+ {
+  "question": "Which actor plays Gunther, the Central Perk manager who is secretly in love with Rachel?",
+  "options": [
+   "Hank Azaria",
+   "James Michael Tyler",
+   "Paul Rudd",
+   "Tom Selleck"
+  ],
+  "answer": "James Michael Tyler",
+  "difficulty": "hard",
+  "explanation": "James Michael Tyler played Gunther in nearly every season of the show."
+ },
+ {
+  "question": "What are the first names of Monica and Ross's parents?",
+  "options": [
+   "Jim and Jane",
+   "Jack and Judy",
+   "Frank and Alice",
+   "Charles and Nora"
+  ],
+  "answer": "Jack and Judy",
+  "difficulty": "hard",
+  "explanation": "Jack and Judy Geller are the parents of Ross and Monica, and Judy is famous for her criticism of Monica."
+ },
+ {
+  "question": "Which actor plays Chandler Bing?",
+  "options": [
+   "Matt LeBlanc",
+   "Matthew Perry",
+   "David Schwimmer",
+   "Ben Stiller"
+  ],
+  "answer": "Matthew Perry",
+  "difficulty": "expert",
+  "explanation": "Matthew Perry played Chandler, the group's sarcastic king of one-liners."
+ },
+ {
+  "question": "What is the name of the man Rachel leaves at the altar in the pilot episode?",
+  "options": [
+   "Mark",
+   "Paolo",
+   "Barry",
+   "Joshua"
+  ],
+  "answer": "Barry",
+  "difficulty": "expert",
+  "explanation": "Rachel runs out on her orthodontist fiancé Barry, which leads her to Central Perk."
+ },
+ {
+  "question": "Whose name does Ross mistakenly say at the altar when he marries Emily in London?",
+  "options": [
+   "Carol",
+   "Julie",
+   "Phoebe",
+   "Rachel"
+  ],
+  "answer": "Rachel",
+  "difficulty": "expert",
+  "explanation": "Ross says \"I, Ross, take thee Rachel\", ending his wedding to Emily in disaster."
+ },
+ {
+  "question": "What is the name of Ross and Rachel's daughter?",
+  "options": [
+   "Emily",
+   "Erica",
+   "Emma",
+   "Ella"
+  ],
+  "answer": "Emma",
+  "difficulty": "expert",
+  "explanation": "Emma Geller-Green is born at the end of season 8 to Rachel and Ross."
+ },
+ {
+  "question": "Which actor plays Phoebe's husband Mike Hannigan?",
+  "options": [
+   "Paul Rudd",
+   "Hank Azaria",
+   "Bruce Willis",
+   "Jon Favreau"
+  ],
+  "answer": "Paul Rudd",
+  "difficulty": "expert",
+  "explanation": "Paul Rudd plays Mike, who becomes Phoebe's love interest in the later seasons."
+ }
+]

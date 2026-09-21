@@ -1,0 +1,242 @@
+[
+ {
+  "question": "Which mouse is the mascot of the Walt Disney Company?",
+  "options": [
+   "Jerry",
+   "Mickey Mouse",
+   "Stuart Little",
+   "Speedy Gonzales"
+  ],
+  "answer": "Mickey Mouse",
+  "difficulty": "easy",
+  "explanation": "Mickey Mouse debuted in 1928 in the short film Steamboat Willie."
+ },
+ {
+  "question": "Which princess has ice powers in Frozen?",
+  "options": [
+   "Anna",
+   "Rapunzel",
+   "Elsa",
+   "Ariel"
+  ],
+  "answer": "Elsa",
+  "difficulty": "easy",
+  "explanation": "Elsa's powers are tied to her emotions, and she sings \"Let It Go\"."
+ },
+ {
+  "question": "In which Disney film does the song \"Circle of Life\" appear?",
+  "options": [
+   "The Lion King",
+   "Tarzan",
+   "Bambi",
+   "Hercules"
+  ],
+  "answer": "The Lion King",
+  "difficulty": "easy",
+  "explanation": "The Circle of Life opens the film as animals gather to see the newborn Simba."
+ },
+ {
+  "question": "Which cowboy toy is the hero of Toy Story?",
+  "options": [
+   "Woody",
+   "Buzz Lightyear",
+   "Rex",
+   "Slinky Dog"
+  ],
+  "answer": "Woody",
+  "difficulty": "easy",
+  "explanation": "Woody is Andy's favourite toy, and he is the leader of the group."
+ },
+ {
+  "question": "Which Disney princess leaves behind a glass slipper?",
+  "options": [
+   "Belle",
+   "Snow White",
+   "Cinderella",
+   "Aurora"
+  ],
+  "answer": "Cinderella",
+  "difficulty": "easy",
+  "explanation": "Cinderella loses one glass slipper at the ball, and the prince uses it to find her."
+ },
+ {
+  "question": "What is the name of Jasmine's pet tiger in Aladdin?",
+  "options": [
+   "Abu",
+   "Iago",
+   "Rajah",
+   "Sultan"
+  ],
+  "answer": "Rajah",
+  "difficulty": "medium",
+  "explanation": "Rajah is Jasmine's tiger, and he is very protective of her."
+ },
+ {
+  "question": "Which villain curses Aurora in Sleeping Beauty?",
+  "options": [
+   "Ursula",
+   "Jafar",
+   "Scar",
+   "Maleficent"
+  ],
+  "answer": "Maleficent",
+  "difficulty": "medium",
+  "explanation": "Maleficent curses Aurora after not being invited to the christening."
+ },
+ {
+  "question": "What is the name of Ariel's fish friend in The Little Mermaid?",
+  "options": [
+   "Sebastian",
+   "Flounder",
+   "Nemo",
+   "Dory"
+  ],
+  "answer": "Flounder",
+  "difficulty": "medium",
+  "explanation": "Flounder is a yellow and blue fish who is always by Ariel's side."
+ },
+ {
+  "question": "What is the name of Kristoff's reindeer in Frozen?",
+  "options": [
+   "Olaf",
+   "Hans",
+   "Marshmallow",
+   "Sven"
+  ],
+  "answer": "Sven",
+  "difficulty": "medium",
+  "explanation": "Kristoff and Sven are ice harvesters who help Anna."
+ },
+ {
+  "question": "How many dwarfs live in the cottage in Snow White?",
+  "options": [
+   "Five",
+   "Six",
+   "Nine",
+   "Seven"
+  ],
+  "answer": "Seven",
+  "difficulty": "medium",
+  "explanation": "Snow White lives with seven dwarfs: Doc, Grumpy, Happy, Sleepy, Bashful, Sneezy and Dopey."
+ },
+ {
+  "question": "What is the name of the little dragon who accompanies Mulan?",
+  "options": [
+   "Cri-Kee",
+   "Mushu",
+   "Khan",
+   "Shang"
+  ],
+  "answer": "Mushu",
+  "difficulty": "hard",
+  "explanation": "Mushu is a small, funny dragon voiced by Eddie Murphy."
+ },
+ {
+  "question": "What is the name of Belle's father in Beauty and the Beast?",
+  "options": [
+   "Gaston",
+   "Cogsworth",
+   "Lumière",
+   "Maurice"
+  ],
+  "answer": "Maurice",
+  "difficulty": "hard",
+  "explanation": "Maurice is an inventor who gets lost and ends up in the Beast's castle."
+ },
+ {
+  "question": "What is the name of Pinocchio's cricket conscience?",
+  "options": [
+   "Figaro",
+   "Geppetto",
+   "Jiminy Cricket",
+   "Stromboli"
+  ],
+  "answer": "Jiminy Cricket",
+  "difficulty": "hard",
+  "explanation": "Jiminy Cricket is the wise cricket who guides Pinocchio."
+ },
+ {
+  "question": "Which bear befriends Mowgli in The Jungle Book?",
+  "options": [
+   "Bagheera",
+   "Kaa",
+   "Baloo",
+   "Shere Khan"
+  ],
+  "answer": "Baloo",
+  "difficulty": "hard",
+  "explanation": "Baloo teaches Mowgli the carefree song \"The Bare Necessities\"."
+ },
+ {
+  "question": "Which was the first fully computer-animated feature film?",
+  "options": [
+   "Toy Story",
+   "A Bug's Life",
+   "Monsters, Inc.",
+   "Finding Nemo"
+  ],
+  "answer": "Toy Story",
+  "difficulty": "hard",
+  "explanation": "Toy Story, made by Pixar and released in 1995, changed animation for good."
+ },
+ {
+  "question": "In which year was Snow White and the Seven Dwarfs released?",
+  "options": [
+   "1928",
+   "1942",
+   "1950",
+   "1937"
+  ],
+  "answer": "1937",
+  "difficulty": "expert",
+  "explanation": "It was the first full-length cel-animated feature film."
+ },
+ {
+  "question": "Which actor voiced the Genie in the 1992 film Aladdin?",
+  "options": [
+   "Jim Carrey",
+   "Eddie Murphy",
+   "Tim Allen",
+   "Robin Williams"
+  ],
+  "answer": "Robin Williams",
+  "difficulty": "expert",
+  "explanation": "Robin Williams improvised so much for the Genie that hours of recordings were made."
+ },
+ {
+  "question": "What is the name of Cinderella's wicked stepmother?",
+  "options": [
+   "Lady Tremaine",
+   "Cruella de Vil",
+   "Maleficent",
+   "Ursula"
+  ],
+  "answer": "Lady Tremaine",
+  "difficulty": "expert",
+  "explanation": "Lady Tremaine treats Cinderella cruelly, and her daughters are Anastasia and Drizella."
+ },
+ {
+  "question": "Which Disney film features the red-haired archer princess Merida?",
+  "options": [
+   "Frozen",
+   "Brave",
+   "Tangled",
+   "Moana"
+  ],
+  "answer": "Brave",
+  "difficulty": "expert",
+  "explanation": "Merida is the princess from a Scottish kingdom who refuses an arranged marriage."
+ },
+ {
+  "question": "Which Disney film features the demigod Maui?",
+  "options": [
+   "Moana",
+   "Lilo & Stitch",
+   "Hercules",
+   "Pocahontas"
+  ],
+  "answer": "Moana",
+  "difficulty": "expert",
+  "explanation": "Maui is a shape-shifting demigod voiced by Dwayne Johnson."
+ }
+]

@@ -1,0 +1,242 @@
+[
+ {
+  "question": "What is the first game the contestants play in Squid Game?",
+  "options": [
+   "Tug of War",
+   "Marbles",
+   "Glass Bridge",
+   "Red Light, Green Light"
+  ],
+  "answer": "Red Light, Green Light",
+  "difficulty": "easy",
+  "explanation": "The first game uses a giant doll, and the players must stay still when the doll turns around."
+ },
+ {
+  "question": "In which country is the story of Squid Game set?",
+  "options": [
+   "Japan",
+   "China",
+   "South Korea",
+   "Thailand"
+  ],
+  "answer": "South Korea",
+  "difficulty": "easy",
+  "explanation": "The series is a South Korean drama about debt-ridden people invited to compete for money."
+ },
+ {
+  "question": "What is the name of the main character, Player 456?",
+  "options": [
+   "Seong Gi-hun",
+   "Cho Sang-woo",
+   "Kang Sae-byeok",
+   "Oh Il-nam"
+  ],
+  "answer": "Seong Gi-hun",
+  "difficulty": "easy",
+  "explanation": "Gi-hun is a divorced chauffeur with gambling debts who enters the games."
+ },
+ {
+  "question": "How many contestants take part in the games at the start?",
+  "options": [
+   "456",
+   "100",
+   "1,000",
+   "200"
+  ],
+  "answer": "456",
+  "difficulty": "easy",
+  "explanation": "There are 456 players, and this number is echoed in Gi-hun's player number."
+ },
+ {
+  "question": "How much prize money is at stake in the games?",
+  "options": [
+   "456 billion won",
+   "4.56 billion won",
+   "1 billion won",
+   "45.6 billion won"
+  ],
+  "answer": "45.6 billion won",
+  "difficulty": "easy",
+  "explanation": "Each player adds to the prize pool, and it makes a total of 45.6 billion won."
+ },
+ {
+  "question": "Which game involves carving a shape out of honeycomb candy?",
+  "options": [
+   "Marbles",
+   "Dalgona",
+   "Tug of War",
+   "Glass Bridge"
+  ],
+  "answer": "Dalgona",
+  "difficulty": "medium",
+  "explanation": "The candy game is based on a real Korean street snack called dalgona."
+ },
+ {
+  "question": "Which player is the North Korean defector who is a pickpocket?",
+  "options": [
+   "Han Mi-nyeo",
+   "Ji-yeong",
+   "Oh Il-nam",
+   "Kang Sae-byeok"
+  ],
+  "answer": "Kang Sae-byeok",
+  "difficulty": "medium",
+  "explanation": "Sae-byeok, Player 067, joins the games to help her family."
+ },
+ {
+  "question": "Which elderly player is Player 001?",
+  "options": [
+   "Ali Abdul",
+   "Jang Deok-su",
+   "Oh Il-nam",
+   "Ji-yeong"
+  ],
+  "answer": "Oh Il-nam",
+  "difficulty": "medium",
+  "explanation": "Il-nam is an older man who forms a bond with Gi-hun during the games."
+ },
+ {
+  "question": "What is the Front Man's real name?",
+  "options": [
+   "Hwang Jun-ho",
+   "Seong Gi-hun",
+   "Cho Sang-woo",
+   "Hwang In-ho"
+  ],
+  "answer": "Hwang In-ho",
+  "difficulty": "medium",
+  "explanation": "In-ho is the masked leader of the games and the brother of Jun-ho."
+ },
+ {
+  "question": "Who is Gi-hun's childhood friend and neighbour who enters the games?",
+  "options": [
+   "Kang Sae-byeok",
+   "Ali Abdul",
+   "Oh Il-nam",
+   "Cho Sang-woo"
+  ],
+  "answer": "Cho Sang-woo",
+  "difficulty": "medium",
+  "explanation": "Sang-woo is Player 218, and once was a top student."
+ },
+ {
+  "question": "Which police officer secretly enters the games to find his missing brother?",
+  "options": [
+   "Hwang In-ho",
+   "Cho Sang-woo",
+   "Seong Gi-hun",
+   "Hwang Jun-ho"
+  ],
+  "answer": "Hwang Jun-ho",
+  "difficulty": "hard",
+  "explanation": "Jun-ho poses as a guard as he searches for his brother."
+ },
+ {
+  "question": "What is the name of the final game?",
+  "options": [
+   "Tug of War",
+   "Squid Game",
+   "Marbles",
+   "Glass Bridge"
+  ],
+  "answer": "Squid Game",
+  "difficulty": "hard",
+  "explanation": "The final game is a children's game played on a drawing shaped like a squid."
+ },
+ {
+  "question": "What is Player 199, Ali Abdul's, nationality?",
+  "options": [
+   "Indian",
+   "Filipino",
+   "Pakistani",
+   "Nepali"
+  ],
+  "answer": "Pakistani",
+  "difficulty": "hard",
+  "explanation": "Ali is a migrant worker whose kindness makes him a fan favourite."
+ },
+ {
+  "question": "In which game do players cross a bridge made of glass panels?",
+  "options": [
+   "Tug of War",
+   "Marbles",
+   "Glass Bridge",
+   "Red Light, Green Light"
+  ],
+  "answer": "Glass Bridge",
+  "difficulty": "hard",
+  "explanation": "Players must choose which panel is strong enough to support their weight."
+ },
+ {
+  "question": "Which actor plays Seong Gi-hun?",
+  "options": [
+   "Lee Jung-jae",
+   "Gong Yoo",
+   "Park Hae-soo",
+   "Lee Byung-hun"
+  ],
+  "answer": "Lee Jung-jae",
+  "difficulty": "hard",
+  "explanation": "Lee Jung-jae won an Emmy for his role as Gi-hun."
+ },
+ {
+  "question": "Who created and directed Squid Game?",
+  "options": [
+   "Bong Joon-ho",
+   "Hwang Dong-hyuk",
+   "Park Chan-wook",
+   "Kim Jee-woon"
+  ],
+  "answer": "Hwang Dong-hyuk",
+  "difficulty": "expert",
+  "explanation": "Hwang Dong-hyuk wrote the story about ten years before it was made."
+ },
+ {
+  "question": "In which year was the first season of Squid Game released?",
+  "options": [
+   "2019",
+   "2020",
+   "2021",
+   "2022"
+  ],
+  "answer": "2021",
+  "difficulty": "expert",
+  "explanation": "The show was released on Netflix in September 2021 and became a global hit."
+ },
+ {
+  "question": "What colour are the tracksuits worn by the players?",
+  "options": [
+   "Green",
+   "Blue",
+   "Red",
+   "White"
+  ],
+  "answer": "Green",
+  "difficulty": "expert",
+  "explanation": "The players wear matching green tracksuits with a number on the chest."
+ },
+ {
+  "question": "What colour are the jumpsuits of the masked guards?",
+  "options": [
+   "Red",
+   "Pink",
+   "Black",
+   "Orange"
+  ],
+  "answer": "Pink",
+  "difficulty": "expert",
+  "explanation": "The guards wear pink jumpsuits with black masks."
+ },
+ {
+  "question": "Which three shapes appear on the guards' masks?",
+  "options": [
+   "Star, heart and diamond",
+   "Circle, star and cross",
+   "Circle, triangle and square",
+   "Triangle, hexagon and square"
+  ],
+  "answer": "Circle, triangle and square",
+  "difficulty": "expert",
+  "explanation": "The shapes show the rank of the guards, and are a nod to the Squid Game board."
+ }
+]

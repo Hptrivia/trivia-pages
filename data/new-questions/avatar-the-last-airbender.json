@@ -1,0 +1,242 @@
+[
+ {
+  "question": "Who is the Avatar at the start of the series?",
+  "options": [
+   "Zuko",
+   "Aang",
+   "Sokka",
+   "Iroh"
+  ],
+  "answer": "Aang",
+  "difficulty": "easy",
+  "explanation": "Aang is a twelve-year-old Airbender who is the last surviving Airbender and the Avatar."
+ },
+ {
+  "question": "Which element does Katara bend?",
+  "options": [
+   "Fire",
+   "Water",
+   "Earth",
+   "Air"
+  ],
+  "answer": "Water",
+  "difficulty": "easy",
+  "explanation": "Katara is a waterbender from the Southern Water Tribe."
+ },
+ {
+  "question": "What kind of animal is Aang's companion Momo?",
+  "options": [
+   "A winged lemur",
+   "A flying squirrel",
+   "A bat",
+   "A monkey"
+  ],
+  "answer": "A winged lemur",
+  "difficulty": "easy",
+  "explanation": "Momo is a winged lemur who joins Aang after they find him at an abandoned Air Temple."
+ },
+ {
+  "question": "Which nation does Prince Zuko come from?",
+  "options": [
+   "The Fire Nation",
+   "The Earth Kingdom",
+   "The Water Tribe",
+   "The Air Nomads"
+  ],
+  "answer": "The Fire Nation",
+  "difficulty": "easy",
+  "explanation": "Zuko is the banished prince of the Fire Nation, hunting the Avatar to regain his honor."
+ },
+ {
+  "question": "Which weapon is Sokka famous for throwing?",
+  "options": [
+   "A spear",
+   "A bow",
+   "Throwing stars",
+   "A boomerang"
+  ],
+  "answer": "A boomerang",
+  "difficulty": "easy",
+  "explanation": "Sokka uses a boomerang, and later a sword made from a meteorite."
+ },
+ {
+  "question": "Who is Zuko's uncle and mentor?",
+  "options": [
+   "Ozai",
+   "Zhao",
+   "Bumi",
+   "Iroh"
+  ],
+  "answer": "Iroh",
+  "difficulty": "medium",
+  "explanation": "Iroh is a retired Fire Nation general who cares for Zuko and loves tea."
+ },
+ {
+  "question": "What is the name of the walled capital of the Earth Kingdom?",
+  "options": [
+   "Omashu",
+   "Gaoling",
+   "Ba Sing Se",
+   "Kyoshi Island"
+  ],
+  "answer": "Ba Sing Se",
+  "difficulty": "medium",
+  "explanation": "Ba Sing Se is a giant walled city, and its secret police keep its citizens in the dark about the war."
+ },
+ {
+  "question": "Who becomes Aang's earthbending teacher?",
+  "options": [
+   "Toph Beifong",
+   "Bumi",
+   "Haru",
+   "Jet"
+  ],
+  "answer": "Toph Beifong",
+  "difficulty": "medium",
+  "explanation": "Toph is a blind earthbender who calls herself the greatest earthbender in the world."
+ },
+ {
+  "question": "What is the name of Katara and Sokka's grandmother?",
+  "options": [
+   "Hama",
+   "Kanna",
+   "Yue",
+   "Ursa"
+  ],
+  "answer": "Kanna",
+  "difficulty": "medium",
+  "explanation": "Kanna, called Gran Gran, raised Katara and Sokka in the Southern Water Tribe."
+ },
+ {
+  "question": "What animal is Bosco, the Earth King's pet?",
+  "options": [
+   "A platypus bear",
+   "A badgermole",
+   "A bear",
+   "A turtle-duck"
+  ],
+  "answer": "A bear",
+  "difficulty": "medium",
+  "explanation": "Bosco is a bear who lives in the palace at Ba Sing Se."
+ },
+ {
+  "question": "What is the name of Fire Lord Ozai's daughter?",
+  "options": [
+   "Mai",
+   "Azula",
+   "Ty Lee",
+   "Katara"
+  ],
+  "answer": "Azula",
+  "difficulty": "hard",
+  "explanation": "Azula is a firebending prodigy who serves as Zuko's ruthless younger sister."
+ },
+ {
+  "question": "Which spirit takes the form of a koi fish and represents the moon?",
+  "options": [
+   "La",
+   "Koh",
+   "Hei Bai",
+   "Tui"
+  ],
+  "answer": "Tui",
+  "difficulty": "hard",
+  "explanation": "Tui and La, the moon and ocean spirits, live as koi in the Spirit Oasis at the North Pole."
+ },
+ {
+  "question": "Who was the Avatar before Aang?",
+  "options": [
+   "Roku",
+   "Kyoshi",
+   "Kuruk",
+   "Yangchen"
+  ],
+  "answer": "Roku",
+  "difficulty": "hard",
+  "explanation": "Roku was a Fire Nation Avatar and teacher of Aang in the Avatar state."
+ },
+ {
+  "question": "What is the name of the secret police force of Ba Sing Se?",
+  "options": [
+   "The Kyoshi Warriors",
+   "The Order of the White Lotus",
+   "The Dai Li",
+   "The Freedom Fighters"
+  ],
+  "answer": "The Dai Li",
+  "difficulty": "hard",
+  "explanation": "The Dai Li are earthbenders who protect the city's culture and keep its secrets."
+ },
+ {
+  "question": "What material does Toph discover she can bend?",
+  "options": [
+   "Sand",
+   "Lava",
+   "Glass",
+   "Metal"
+  ],
+  "answer": "Metal",
+  "difficulty": "hard",
+  "explanation": "Toph realises metal contains earth and uses it to become the first metalbender."
+ },
+ {
+  "question": "Who is the masked hero known as the Blue Spirit?",
+  "options": [
+   "Jet",
+   "Zuko",
+   "Haru",
+   "Sokka"
+  ],
+  "answer": "Zuko",
+  "difficulty": "expert",
+  "explanation": "Zuko wears the Blue Spirit's mask to rescue Aang from Zhao's prison."
+ },
+ {
+  "question": "What does Sokka call the sword he makes from a meteorite?",
+  "options": [
+   "The star blade",
+   "The sky sabre",
+   "The space sword",
+   "The meteor edge"
+  ],
+  "answer": "The space sword",
+  "difficulty": "expert",
+  "explanation": "Sokka's dream of a sword made from a meteorite gives him a weapon much better than a boomerang."
+ },
+ {
+  "question": "Which Avatar founded the Kyoshi Warriors?",
+  "options": [
+   "Roku",
+   "Kuruk",
+   "Yangchen",
+   "Kyoshi"
+  ],
+  "answer": "Kyoshi",
+  "difficulty": "expert",
+  "explanation": "Avatar Kyoshi trained the Kyoshi Warriors on Kyoshi Island, and they wear distinctive green outfits."
+ },
+ {
+  "question": "Which Fire Nation commander tries to kill the Moon Spirit at the North Pole?",
+  "options": [
+   "Jeong Jeong",
+   "Zhao",
+   "Bumi",
+   "Hakoda"
+  ],
+  "answer": "Zhao",
+  "difficulty": "expert",
+  "explanation": "Zhao kills the Moon Spirit, which forces Princess Yue to sacrifice herself."
+ },
+ {
+  "question": "For how many years was Aang frozen in the iceberg?",
+  "options": [
+   "Fifty",
+   "Seventy-five",
+   "One hundred",
+   "One hundred and fifty"
+  ],
+  "answer": "One hundred",
+  "difficulty": "expert",
+  "explanation": "Aang and Appa spent a century in the iceberg, during which the Fire Nation waged its war on the world."
+ }
+]

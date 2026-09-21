@@ -1,0 +1,242 @@
+[
+ {
+  "question": "What is the real name of the Mandalorian?",
+  "options": [
+   "Din Djarin",
+   "Boba Fett",
+   "Cara Dune",
+   "Greef Karga"
+  ],
+  "answer": "Din Djarin",
+  "difficulty": "easy",
+  "explanation": "Din Djarin is a lone bounty hunter who takes care of a mysterious child."
+ },
+ {
+  "question": "What is the fan nickname for Grogu?",
+  "options": [
+   "Little Yoda",
+   "Mini Master",
+   "Baby Yoda",
+   "Yoda Junior"
+  ],
+  "answer": "Baby Yoda",
+  "difficulty": "easy",
+  "explanation": "Grogu is the same species as Yoda but is a child, and fans called him Baby Yoda."
+ },
+ {
+  "question": "What is the name of the metal used in Mandalorian armour?",
+  "options": [
+   "Durasteel",
+   "Beskar",
+   "Mythril",
+   "Vibranium"
+  ],
+  "answer": "Beskar",
+  "difficulty": "easy",
+  "explanation": "Beskar is a valuable metal that can stop a lightsaber and blaster fire."
+ },
+ {
+  "question": "What is the Mandalorians' famous phrase?",
+  "options": [
+   "\"This is the Way\"",
+   "\"May the Force be with you\"",
+   "\"I have spoken\"",
+   "\"So it begins\""
+  ],
+  "answer": "\"This is the Way\"",
+  "difficulty": "easy",
+  "explanation": "The phrase is used to show devotion to the Mandalorian creed."
+ },
+ {
+  "question": "On which streaming service did The Mandalorian first premiere?",
+  "options": [
+   "Netflix",
+   "HBO Max",
+   "Disney+",
+   "Hulu"
+  ],
+  "answer": "Disney+",
+  "difficulty": "easy",
+  "explanation": "The show was one of the first big series on Disney+ when it launched in 2019."
+ },
+ {
+  "question": "Who is the head of the Bounty Hunters' Guild?",
+  "options": [
+   "Greef Karga",
+   "Moff Gideon",
+   "Kuiil",
+   "Peli Motto"
+  ],
+  "answer": "Greef Karga",
+  "difficulty": "medium",
+  "explanation": "Greef Karga gives Din his first jobs, and later becomes a major ally."
+ },
+ {
+  "question": "Which former Rebel shock trooper becomes Din's friend?",
+  "options": [
+   "Cara Dune",
+   "Bo-Katan Kryze",
+   "Fennec Shand",
+   "Omera"
+  ],
+  "answer": "Cara Dune",
+  "difficulty": "medium",
+  "explanation": "Cara Dune is a strong fighter who chooses to settle down on the planet Nevarro."
+ },
+ {
+  "question": "Which droid is reprogrammed to protect the Child?",
+  "options": [
+   "R2-D2",
+   "BB-8",
+   "IG-11",
+   "C-3PO"
+  ],
+  "answer": "IG-11",
+  "difficulty": "medium",
+  "explanation": "IG-11 begins as an assassin droid, but is changed to serve and protect Grogu."
+ },
+ {
+  "question": "Who is the head of Din Djarin's covert?",
+  "options": [
+   "The Armorer",
+   "Bo-Katan",
+   "Paz Vizsla",
+   "Greef Karga"
+  ],
+  "answer": "The Armorer",
+  "difficulty": "medium",
+  "explanation": "The Armorer forges beskar armour and leads the group of Mandalorians."
+ },
+ {
+  "question": "Who is the Imperial scientist that experiments on the Child?",
+  "options": [
+   "Moff Gideon",
+   "Kuiil",
+   "Cobb Vanth",
+   "Dr. Pershing"
+  ],
+  "answer": "Dr. Pershing",
+  "difficulty": "medium",
+  "explanation": "Dr. Pershing works for the remnants of the Empire and wants to study Grogu."
+ },
+ {
+  "question": "Which weapon does Moff Gideon carry?",
+  "options": [
+   "A green lightsaber",
+   "The Darksaber",
+   "A vibroblade",
+   "A blaster"
+  ],
+  "answer": "The Darksaber",
+  "difficulty": "hard",
+  "explanation": "The Darksaber is an ancient blade with a black blade of light."
+ },
+ {
+  "question": "Which Jedi arrives to take Grogu at the end of season two?",
+  "options": [
+   "Obi-Wan Kenobi",
+   "Ahsoka Tano",
+   "Luke Skywalker",
+   "Mace Windu"
+  ],
+  "answer": "Luke Skywalker",
+  "difficulty": "hard",
+  "explanation": "Luke arrives with R2-D2 to teach Grogu the ways of the Force."
+ },
+ {
+  "question": "Which actor plays Din Djarin?",
+  "options": [
+   "Giancarlo Esposito",
+   "Gina Carano",
+   "Pedro Pascal",
+   "Carl Weathers"
+  ],
+  "answer": "Pedro Pascal",
+  "difficulty": "hard",
+  "explanation": "Pedro Pascal voices Din Djarin, and is seen without a helmet in a few scenes."
+ },
+ {
+  "question": "Who plays Greef Karga, the head of the Bounty Hunters' Guild?",
+  "options": [
+   "Giancarlo Esposito",
+   "Carl Weathers",
+   "Pedro Pascal",
+   "Werner Herzog"
+  ],
+  "answer": "Carl Weathers",
+  "difficulty": "hard",
+  "explanation": "Carl Weathers, a former athlete and Hollywood star, played Greef Karga."
+ },
+ {
+  "question": "Which famous German director plays the Client in season one?",
+  "options": [
+   "Taika Waititi",
+   "Werner Herzog",
+   "Carl Weathers",
+   "Bill Burr"
+  ],
+  "answer": "Werner Herzog",
+  "difficulty": "hard",
+  "explanation": "Werner Herzog plays the Client, the man who sends Din Djarin on his first mission."
+ },
+ {
+  "question": "Which Star Wars bounty hunter gets a spin-off series after The Mandalorian?",
+  "options": [
+   "Jango Fett",
+   "Cad Bane",
+   "Bossk",
+   "Boba Fett"
+  ],
+  "answer": "Boba Fett",
+  "difficulty": "expert",
+  "explanation": "The Book of Boba Fett follows Boba after he takes over Jabba's old palace."
+ },
+ {
+  "question": "What is the name of the group of Mandalorians that follows the strict old creed?",
+  "options": [
+   "The Children of the Watch",
+   "The Death Watch",
+   "The Nite Owls",
+   "The Mandalorian Guard"
+  ],
+  "answer": "The Children of the Watch",
+  "difficulty": "expert",
+  "explanation": "Din Djarin's covert follows an old creed which says helmets must never be removed in front of others."
+ },
+ {
+  "question": "In which year did The Mandalorian premiere?",
+  "options": [
+   "2017",
+   "2019",
+   "2021",
+   "2015"
+  ],
+  "answer": "2019",
+  "difficulty": "expert",
+  "explanation": "The Mandalorian debuted in November 2019."
+ },
+ {
+  "question": "What is the name of the Ugnaught who helps Din Djarin?",
+  "options": [
+   "IG-11",
+   "Greef Karga",
+   "Kuiil",
+   "Omera"
+  ],
+  "answer": "Kuiil",
+  "difficulty": "expert",
+  "explanation": "Kuiil is a hard-working Ugnaught who helps Din to find the Child."
+ },
+ {
+  "question": "What creed forbids Din Djarin from removing his helmet in front of others?",
+  "options": [
+   "The Jedi Code",
+   "The Way of the Mandalore",
+   "The Bounty Hunters' Code",
+   "The Watch Oath"
+  ],
+  "answer": "The Way of the Mandalore",
+  "difficulty": "expert",
+  "explanation": "The Way is a set of rules from his covert that governs his life."
+ }
+]

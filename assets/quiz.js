@@ -3,7 +3,8 @@
  * Each question is answerable independently: click an option to see if it
  * was right, and a running score + final summary updates as you go.
  * Without JS every question + its options is still visible plain text
- * (the correct answer lives in data-answer and is only revealed on click).
+ * (the correct answer lives in data-answer; it and its explanation are shown
+ * after a pick, and the full answer key is also printed under the quiz).
  */
 (function () {
   var quiz = document.querySelector(".quiz");
@@ -54,10 +55,15 @@
         answered++;
         var chosen = parseInt(opt.getAttribute("data-idx"), 10);
         opts.forEach(function (o) { o.disabled = true; });
-        // Only mark the option the user actually picked — never reveal the
-        // correct answer on a miss, so the quiz doesn't give answers away.
+        // Show whether the pick was right; on a miss also mark the correct
+        // option, then reveal the answer and explanation for this question.
         if (chosen === answer) { score++; opt.classList.add("correct"); }
-        else { opt.classList.add("wrong"); }
+        else {
+          opt.classList.add("wrong");
+          if (opts[answer]) opts[answer].classList.add("correct");
+        }
+        var explain = q.querySelector(".q-explain");
+        if (explain) explain.hidden = false;
         updateBar();
         maybeFinish();
       });
@@ -68,6 +74,8 @@
     answered = 0; score = 0;
     questions.forEach(function (q) {
       delete q.dataset.done;
+      var ex = q.querySelector(".q-explain");
+      if (ex) ex.hidden = true;
       q.querySelectorAll(".opt").forEach(function (o) {
         o.disabled = false;
         o.classList.remove("correct", "wrong");

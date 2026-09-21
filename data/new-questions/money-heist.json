@@ -1,0 +1,242 @@
+[
+ {
+  "question": "What is the nickname of the mastermind behind the heist?",
+  "options": [
+   "The Professor",
+   "Berlin",
+   "Tokyo",
+   "Nairobi"
+  ],
+  "answer": "The Professor",
+  "difficulty": "easy",
+  "explanation": "The Professor plans the heist on the Royal Mint of Spain from the shadows."
+ },
+ {
+  "question": "What do the robbers wear during the heist?",
+  "options": [
+   "Black suits and clown masks",
+   "White coveralls and ski masks",
+   "Red jumpsuits and Salvador Dalí masks",
+   "Blue uniforms and Guy Fawkes masks"
+  ],
+  "answer": "Red jumpsuits and Salvador Dalí masks",
+  "difficulty": "easy",
+  "explanation": "The red jumpsuits and Dalí masks became one of the most popular costumes from a series."
+ },
+ {
+  "question": "Which building do the robbers take over in the first part?",
+  "options": [
+   "The Bank of Spain",
+   "The Royal Mint of Spain",
+   "The Prado Museum",
+   "The Madrid Stock Exchange"
+  ],
+  "answer": "The Royal Mint of Spain",
+  "difficulty": "easy",
+  "explanation": "The gang plan to print billions of euros in the Royal Mint."
+ },
+ {
+  "question": "In which language was Money Heist originally made?",
+  "options": [
+   "Portuguese",
+   "Spanish",
+   "Italian",
+   "French"
+  ],
+  "answer": "Spanish",
+  "difficulty": "easy",
+  "explanation": "The show was made in Spain under the title La Casa de Papel."
+ },
+ {
+  "question": "Which robber narrates the story?",
+  "options": [
+   "Berlin",
+   "Tokyo",
+   "Rio",
+   "Denver"
+  ],
+  "answer": "Tokyo",
+  "difficulty": "easy",
+  "explanation": "Tokyo tells the story from her point of view, and explains events in a voice-over."
+ },
+ {
+  "question": "Which hostage joins the gang and takes the name Stockholm?",
+  "options": [
+   "Mónica Gaztambide",
+   "Raquel Murillo",
+   "Alison Parker",
+   "Silene Oliveira"
+  ],
+  "answer": "Mónica Gaztambide",
+  "difficulty": "medium",
+  "explanation": "Mónica is taken hostage in the Mint, and she joins the robbers after falling for Denver."
+ },
+ {
+  "question": "Which Italian song becomes the show's anthem?",
+  "options": [
+   "Bella Ciao",
+   "Volare",
+   "O Sole Mio",
+   "Funiculì, Funiculà"
+  ],
+  "answer": "Bella Ciao",
+  "difficulty": "medium",
+  "explanation": "Bella Ciao is an old Italian protest song, and the robbers sing it as a symbol of resistance."
+ },
+ {
+  "question": "Which inspector negotiates with the robbers?",
+  "options": [
+   "Alicia Sierra",
+   "Ángel Rubio",
+   "Raquel Murillo",
+   "Marseille"
+  ],
+  "answer": "Raquel Murillo",
+  "difficulty": "medium",
+  "explanation": "Raquel begins as the police negotiator and later becomes part of the gang."
+ },
+ {
+  "question": "What do the robbers use as codenames?",
+  "options": [
+   "Colours",
+   "Animals",
+   "City names",
+   "Planets"
+  ],
+  "answer": "City names",
+  "difficulty": "medium",
+  "explanation": "Members use names such as Tokyo, Berlin, Rio and Denver."
+ },
+ {
+  "question": "Which robber takes control of the hostages inside the Mint?",
+  "options": [
+   "Denver",
+   "Rio",
+   "Berlin",
+   "Nairobi"
+  ],
+  "answer": "Berlin",
+  "difficulty": "medium",
+  "explanation": "Berlin is the cold, charming and unpredictable leader inside the Mint."
+ },
+ {
+  "question": "Which actress plays Tokyo?",
+  "options": [
+   "Alba Flores",
+   "Úrsula Corberó",
+   "Itziar Ituño",
+   "Esther Acebo"
+  ],
+  "answer": "Úrsula Corberó",
+  "difficulty": "hard",
+  "explanation": "Úrsula Corberó plays Silene Oliveira, whose codename is Tokyo."
+ },
+ {
+  "question": "Which building do the gang target in Part 3?",
+  "options": [
+   "The Royal Mint",
+   "The Prado Museum",
+   "The Congress of Deputies",
+   "The Bank of Spain"
+  ],
+  "answer": "The Bank of Spain",
+  "difficulty": "hard",
+  "explanation": "The gang decide to steal the country's gold reserves."
+ },
+ {
+  "question": "Which member is known for his distinctive laugh?",
+  "options": [
+   "Moscow",
+   "Denver",
+   "Helsinki",
+   "Oslo"
+  ],
+  "answer": "Denver",
+  "difficulty": "hard",
+  "explanation": "Denver's loud laugh is used as a running joke through the series."
+ },
+ {
+  "question": "Who is Moscow's son?",
+  "options": [
+   "Rio",
+   "Oslo",
+   "Denver",
+   "Helsinki"
+  ],
+  "answer": "Denver",
+  "difficulty": "hard",
+  "explanation": "Moscow and Denver are father and son, and they join the gang together."
+ },
+ {
+  "question": "Which actor plays the Professor?",
+  "options": [
+   "Pedro Alonso",
+   "Álvaro Morte",
+   "Miguel Herrán",
+   "Jaime Lorente"
+  ],
+  "answer": "Álvaro Morte",
+  "difficulty": "hard",
+  "explanation": "Álvaro Morte played Sergio Marquina in all five parts."
+ },
+ {
+  "question": "What does the Spanish title La Casa de Papel mean in English?",
+  "options": [
+   "The Paper House Gang",
+   "The Money House",
+   "The Big Heist",
+   "The House of Paper"
+  ],
+  "answer": "The House of Paper",
+  "difficulty": "expert",
+  "explanation": "The title refers to the Royal Mint, which is a building where money is printed on paper."
+ },
+ {
+  "question": "How many parts does Money Heist have?",
+  "options": [
+   "Five",
+   "Three",
+   "Four",
+   "Six"
+  ],
+  "answer": "Five",
+  "difficulty": "expert",
+  "explanation": "The show ran for five parts from 2017 to 2021."
+ },
+ {
+  "question": "In which year was the first part first shown in Spain?",
+  "options": [
+   "2015",
+   "2019",
+   "2020",
+   "2017"
+  ],
+  "answer": "2017",
+  "difficulty": "expert",
+  "explanation": "The show first aired in Spain in May 2017 on Antena 3."
+ },
+ {
+  "question": "Which streaming service made the show a global hit?",
+  "options": [
+   "Netflix",
+   "HBO",
+   "Amazon Prime",
+   "Disney+"
+  ],
+  "answer": "Netflix",
+  "difficulty": "expert",
+  "explanation": "Netflix bought the series and released a re-edited version for the world."
+ },
+ {
+  "question": "Which Spanish TV channel first broadcast Money Heist?",
+  "options": [
+   "Antena 3",
+   "Telecinco",
+   "La 1",
+   "Cuatro"
+  ],
+  "answer": "Antena 3",
+  "difficulty": "expert",
+  "explanation": "The show started on Antena 3, before it was picked up by Netflix."
+ }
+]

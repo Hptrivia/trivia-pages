@@ -1,0 +1,242 @@
+[
+ {
+  "question": "What is Sheldon Cooper's famous catchphrase after a prank or joke?",
+  "options": [
+   "\"Eureka!\"",
+   "\"Elementary!\"",
+   "\"Bazinga!\"",
+   "\"Boom!\""
+  ],
+  "answer": "\"Bazinga!\"",
+  "difficulty": "easy",
+  "explanation": "Sheldon shouts \"Bazinga!\" to reveal that he is joking."
+ },
+ {
+  "question": "At which university do the main characters work?",
+  "options": [
+   "Caltech",
+   "MIT",
+   "Stanford",
+   "UCLA"
+  ],
+  "answer": "Caltech",
+  "difficulty": "easy",
+  "explanation": "The four scientists work at the California Institute of Technology in Pasadena."
+ },
+ {
+  "question": "Which character lives across the hall from Sheldon and Leonard?",
+  "options": [
+   "Amy",
+   "Bernadette",
+   "Priya",
+   "Penny"
+  ],
+  "answer": "Penny",
+  "difficulty": "easy",
+  "explanation": "Penny is a waitress and aspiring actress who befriends the physicists."
+ },
+ {
+  "question": "What does Sheldon call the seat on the couch that only he is allowed to use?",
+  "options": [
+   "The throne",
+   "His spot",
+   "The hot seat",
+   "The corner"
+  ],
+  "answer": "His spot",
+  "difficulty": "easy",
+  "explanation": "Sheldon insists his spot is the best seat, because of temperature, drafts and view of the TV."
+ },
+ {
+  "question": "Which actor plays Sheldon Cooper?",
+  "options": [
+   "Johnny Galecki",
+   "Simon Helberg",
+   "Jim Parsons",
+   "Kunal Nayyar"
+  ],
+  "answer": "Jim Parsons",
+  "difficulty": "easy",
+  "explanation": "Jim Parsons won four Emmy awards for playing Sheldon."
+ },
+ {
+  "question": "Where does Penny work as a waitress?",
+  "options": [
+   "Olive Garden",
+   "The Cheesecake Factory",
+   "Denny's",
+   "Applebee's"
+  ],
+  "answer": "The Cheesecake Factory",
+  "difficulty": "medium",
+  "explanation": "Penny works at the Cheesecake Factory before starting her career as a pharmaceutical rep."
+ },
+ {
+  "question": "What is Howard Wolowitz's profession?",
+  "options": [
+   "Astrophysicist",
+   "Neurobiologist",
+   "Aerospace engineer",
+   "Theoretical physicist"
+  ],
+  "answer": "Aerospace engineer",
+  "difficulty": "medium",
+  "explanation": "Howard is an engineer with a master's degree, which the others often tease him about."
+ },
+ {
+  "question": "Which game extends Rock Paper Scissors with two more options?",
+  "options": [
+   "Rock Paper Scissors Bazinga",
+   "Rock Paper Scissors Laser",
+   "Rock Paper Scissors Einstein",
+   "Rock Paper Scissors Lizard Spock"
+  ],
+  "answer": "Rock Paper Scissors Lizard Spock",
+  "difficulty": "medium",
+  "explanation": "Sheldon explains that \"Lizard poisons Spock\", and other rules, in a memorable scene."
+ },
+ {
+  "question": "Which actor plays Penny?",
+  "options": [
+   "Mayim Bialik",
+   "Melissa Rauch",
+   "Kunal Nayyar",
+   "Kaley Cuoco"
+  ],
+  "answer": "Kaley Cuoco",
+  "difficulty": "medium",
+  "explanation": "Kaley Cuoco plays Penny, the neighbour who becomes a central character of the show."
+ },
+ {
+  "question": "What condition prevents Raj Koothrappali from talking to women?",
+  "options": [
+   "Selective mutism",
+   "A stutter",
+   "Social phobia",
+   "Shyness"
+  ],
+  "answer": "Selective mutism",
+  "difficulty": "medium",
+  "explanation": "Raj cannot speak to women unless he has had alcohol, until his condition eases later in the series."
+ },
+ {
+  "question": "What is the name of Sheldon's twin sister?",
+  "options": [
+   "Mary",
+   "Missy",
+   "Meemaw",
+   "Laura"
+  ],
+  "answer": "Missy",
+  "difficulty": "hard",
+  "explanation": "Missy is Sheldon's fraternal twin sister, who is much more sociable."
+ },
+ {
+  "question": "What is the name of the comic book shop in Pasadena that the friends visit?",
+  "options": [
+   "Stuart's Comics",
+   "Galaxy Books",
+   "The Comic Center of Pasadena",
+   "Comic Haven"
+  ],
+  "answer": "The Comic Center of Pasadena",
+  "difficulty": "hard",
+  "explanation": "Stuart runs the store and is often quietly lonely."
+ },
+ {
+  "question": "What is the name of Sheldon's mother?",
+  "options": [
+   "Constance",
+   "Beverly",
+   "Debbie",
+   "Mary Cooper"
+  ],
+  "answer": "Mary Cooper",
+  "difficulty": "hard",
+  "explanation": "Mary is a devout Texan mother, and her family life is the basis of Young Sheldon."
+ },
+ {
+  "question": "What is Leonard Hofstadter's profession?",
+  "options": [
+   "Theoretical physicist",
+   "Astrophysicist",
+   "Engineer",
+   "Experimental physicist"
+  ],
+  "answer": "Experimental physicist",
+  "difficulty": "hard",
+  "explanation": "Leonard is an experimental physicist, while Sheldon is a theorist."
+ },
+ {
+  "question": "What is the name of Leonard's cold, analytical mother?",
+  "options": [
+   "Mary Cooper",
+   "Beverly Hofstadter",
+   "Debbie Wolowitz",
+   "Constance"
+  ],
+  "answer": "Beverly Hofstadter",
+  "difficulty": "hard",
+  "explanation": "Beverly treats her son like a research subject rather than a child."
+ },
+ {
+  "question": "In which city is The Big Bang Theory set?",
+  "options": [
+   "Los Angeles",
+   "Santa Monica",
+   "San Diego",
+   "Pasadena, California"
+  ],
+  "answer": "Pasadena, California",
+  "difficulty": "expert",
+  "explanation": "The friends' apartment building is in Pasadena, close to Caltech."
+ },
+ {
+  "question": "Which spin-off series follows Sheldon as a child?",
+  "options": [
+   "Little Sheldon",
+   "Baby Bazinga",
+   "Sheldon Junior",
+   "Young Sheldon"
+  ],
+  "answer": "Young Sheldon",
+  "difficulty": "expert",
+  "explanation": "Young Sheldon started in 2017 with Iain Armitage playing the young genius."
+ },
+ {
+  "question": "What does Sheldon call his grandmother?",
+  "options": [
+   "Nana",
+   "Grammy",
+   "Meemaw",
+   "Granny"
+  ],
+  "answer": "Meemaw",
+  "difficulty": "expert",
+  "explanation": "Meemaw is Sheldon's outspoken Texan grandmother."
+ },
+ {
+  "question": "What is the name of Raj's little dog?",
+  "options": [
+   "Cinnamon",
+   "Nutmeg",
+   "Ginger",
+   "Pepper"
+  ],
+  "answer": "Cinnamon",
+  "difficulty": "expert",
+  "explanation": "Raj adopts Cinnamon, and he treats the dog like his child."
+ },
+ {
+  "question": "Where does Howard travel to in space during the series?",
+  "options": [
+   "The International Space Station",
+   "The Moon",
+   "Mars",
+   "The Hubble Telescope"
+  ],
+  "answer": "The International Space Station",
+  "difficulty": "expert",
+  "explanation": "Howard flies to the ISS on a Russian Soyuz spacecraft, and the trip is a big source of stress for him."
+ }
+]

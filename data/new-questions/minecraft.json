@@ -1,0 +1,242 @@
+[
+ {
+  "question": "Which mob hisses and explodes when it gets close to a player?",
+  "options": [
+   "Creeper",
+   "Zombie",
+   "Skeleton",
+   "Enderman"
+  ],
+  "answer": "Creeper",
+  "difficulty": "easy",
+  "explanation": "Creepers are silent green mobs that explode, and they are easy to recognise from their hissing."
+ },
+ {
+  "question": "Which two materials are needed to craft a wooden pickaxe?",
+  "options": [
+   "Cobblestone and sticks",
+   "Iron and sticks",
+   "Planks and string",
+   "Planks and sticks"
+  ],
+  "answer": "Planks and sticks",
+  "difficulty": "easy",
+  "explanation": "A wooden pickaxe is one of the first tools and needs three planks and two sticks."
+ },
+ {
+  "question": "What is the name of the fiery dimension reached through an obsidian portal?",
+  "options": [
+   "The End",
+   "The Nether",
+   "The Overworld",
+   "The Aether"
+  ],
+  "answer": "The Nether",
+  "difficulty": "easy",
+  "explanation": "The Nether is full of lava, fortresses and dangerous mobs."
+ },
+ {
+  "question": "Which passive mob drops leather and raw beef?",
+  "options": [
+   "Pig",
+   "Sheep",
+   "Chicken",
+   "Cow"
+  ],
+  "answer": "Cow",
+  "difficulty": "easy",
+  "explanation": "Cows are a source of food and leather, and they can be milked with a bucket."
+ },
+ {
+  "question": "Which company bought Minecraft in 2014?",
+  "options": [
+   "Sony",
+   "Nintendo",
+   "Microsoft",
+   "Google"
+  ],
+  "answer": "Microsoft",
+  "difficulty": "easy",
+  "explanation": "Microsoft bought Mojang and Minecraft for around 2.5 billion US dollars."
+ },
+ {
+  "question": "What is the final boss of Minecraft?",
+  "options": [
+   "The Ender Dragon",
+   "The Wither",
+   "The Warden",
+   "The Elder Guardian"
+  ],
+  "answer": "The Ender Dragon",
+  "difficulty": "medium",
+  "explanation": "The Ender Dragon lives in the End and is the main boss of the game."
+ },
+ {
+  "question": "Which Nether material is smelted to create netherite scrap?",
+  "options": [
+   "Nether quartz",
+   "Glowstone",
+   "Soul sand",
+   "Ancient debris"
+  ],
+  "answer": "Ancient debris",
+  "difficulty": "medium",
+  "explanation": "Ancient debris is rare and found deep in the Nether."
+ },
+ {
+  "question": "Which mob teleports and becomes hostile if you look it in the eyes?",
+  "options": [
+   "Enderman",
+   "Shulker",
+   "Phantom",
+   "Blaze"
+  ],
+  "answer": "Enderman",
+  "difficulty": "medium",
+  "explanation": "Endermen are tall and dark, and they are provoked by direct eye contact."
+ },
+ {
+  "question": "Which item do you use to tame a wolf?",
+  "options": [
+   "Raw meat",
+   "Bones",
+   "Golden apples",
+   "Wheat"
+  ],
+  "answer": "Bones",
+  "difficulty": "medium",
+  "explanation": "Feeding bones to a wolf can tame it, and a tamed wolf becomes a loyal pet."
+ },
+ {
+  "question": "Which workstation block gives a villager the librarian profession?",
+  "options": [
+   "Composter",
+   "Lectern",
+   "Blast furnace",
+   "Grindstone"
+  ],
+  "answer": "Lectern",
+  "difficulty": "medium",
+  "explanation": "A villager without a job who finds a lectern becomes a librarian and trades enchanted books."
+ },
+ {
+  "question": "Which mob drops the Totem of Undying?",
+  "options": [
+   "Evoker",
+   "Vindicator",
+   "Pillager",
+   "Witch"
+  ],
+  "answer": "Evoker",
+  "difficulty": "hard",
+  "explanation": "Evokers appear in woodland mansions and raids, and they drop the totem, which can save a player from death."
+ },
+ {
+  "question": "In which biome do mooshrooms naturally spawn?",
+  "options": [
+   "Swamp",
+   "Mushroom Fields",
+   "Dark Forest",
+   "Taiga"
+  ],
+  "answer": "Mushroom Fields",
+  "difficulty": "hard",
+  "explanation": "Mooshrooms are red-and-white cows found only on the rare Mushroom Fields biome."
+ },
+ {
+  "question": "How many frames are there in a complete End portal?",
+  "options": [
+   "Twelve",
+   "Nine",
+   "Eight",
+   "Sixteen"
+  ],
+  "answer": "Twelve",
+  "difficulty": "hard",
+  "explanation": "The portal is made of twelve frames, and each needs an Eye of Ender."
+ },
+ {
+  "question": "Which boss drops the Nether Star?",
+  "options": [
+   "The Ender Dragon",
+   "The Warden",
+   "The Wither",
+   "The Elder Guardian"
+  ],
+  "answer": "The Wither",
+  "difficulty": "hard",
+  "explanation": "The Wither is a boss the player builds, and it drops a Nether Star which is used to make a beacon."
+ },
+ {
+  "question": "Which block is needed to build a Nether portal?",
+  "options": [
+   "Obsidian",
+   "Bedrock",
+   "Netherrack",
+   "Glowstone"
+  ],
+  "answer": "Obsidian",
+  "difficulty": "hard",
+  "explanation": "A Nether portal is made from a frame of obsidian and lit with flint and steel."
+ },
+ {
+  "question": "Who created Minecraft?",
+  "options": [
+   "Jens \"Jeb\" Bergensten",
+   "Steve Jobs",
+   "John Carmack",
+   "Markus \"Notch\" Persson"
+  ],
+  "answer": "Markus \"Notch\" Persson",
+  "difficulty": "expert",
+  "explanation": "Markus Persson made the first version of Minecraft in 2009."
+ },
+ {
+  "question": "In which year was the full version of Minecraft released?",
+  "options": [
+   "2009",
+   "2013",
+   "2015",
+   "2011"
+  ],
+  "answer": "2011",
+  "difficulty": "expert",
+  "explanation": "Minecraft 1.0 was released in November 2011 at the MineCon event."
+ },
+ {
+  "question": "Which biome is home to the Warden?",
+  "options": [
+   "The Lush Caves",
+   "The Badlands",
+   "The Dripstone Caves",
+   "The Deep Dark"
+  ],
+  "answer": "The Deep Dark",
+  "difficulty": "expert",
+  "explanation": "The Warden is a blind creature that lurks in the Deep Dark."
+ },
+ {
+  "question": "What are the names of the two classic default skins in Minecraft?",
+  "options": [
+   "Steve and Herobrine",
+   "Alex and Notch",
+   "Steve and Alex",
+   "Steve and Jeb"
+  ],
+  "answer": "Steve and Alex",
+  "difficulty": "expert",
+  "explanation": "Steve was the original default skin and Alex was added in 2014."
+ },
+ {
+  "question": "What is the highest level of the Sharpness enchantment in the standard game?",
+  "options": [
+   "Five",
+   "Four",
+   "Three",
+   "Ten"
+  ],
+  "answer": "Five",
+  "difficulty": "expert",
+  "explanation": "Sharpness V is the maximum level available for a sword in normal survival."
+ }
+]

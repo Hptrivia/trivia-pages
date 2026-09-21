@@ -21,10 +21,27 @@ const ADSENSE_CLIENT = "ca-pub-9506123851374920";
 // ---------------------------------------------------------------------------
 
 const ROOT = __dirname;
+// Dates shown on the legal pages. Change these only when the text actually changes.
+const PRIVACY_UPDATED = "2026-09-21";
+const TERMS_UPDATED = "2026-07-03";
 const themes = JSON.parse(fs.readFileSync(path.join(ROOT, "data/themes.json"), "utf8"));
 // Per-theme original editorial (whyTrivia / covers / show-specific faqs).
 // Keyed by theme slug. This is the unique, value-adding prose on each quiz page.
 const editorial = JSON.parse(fs.readFileSync(path.join(ROOT, "data/editorial.json"), "utf8"));
+
+// Questions and explanations for each quiz are written for this site and live in
+// data/new-questions/<slug>.json (20 per theme: 5 easy, 5 medium, 5 hard, 5 expert).
+function loadQuestions(slug) {
+  const file = path.join(ROOT, "data/new-questions", `${slug}.json`);
+  const qs = JSON.parse(fs.readFileSync(file, "utf8"));
+  for (const q of qs) {
+    if (!q.question || !Array.isArray(q.options) || q.options.length !== 4 || !q.options.includes(q.answer) || !q.explanation) {
+      throw new Error(`Invalid question in ${slug}: ${q.question}`);
+    }
+  }
+  return qs;
+}
+const explanationFor = (slug, q) => q.explanation.trim();
 
 // Public URL slug for a theme: data slug + "-trivia" (better keyword match in URL).
 // t.slug stays the data identity (used for question files + dedup); only URLs change.
@@ -136,40 +153,7 @@ function footer() {
 </html>`;
 }
 
-// Pick a difficulty-balanced set: 5 easy, 5 medium, 5 hard, 5 expert (first of
-// each, in file order). When a theme has no expert questions, use 10 hard
-// instead. If any tier is short, backfill from the remaining valid questions so
-// we still reach QUESTIONS_PER_QUIZ. Output is ordered easy → expert.
-function pickQuestions(file) {
-  const raw = JSON.parse(fs.readFileSync(path.join(ROOT, file), "utf8"));
-  const valid = raw.filter(
-    (q) => q && q.question && Array.isArray(q.options) && q.options.length >= 2 && q.options.includes(q.answer)
-  );
-  const PER = 5;
-  const byDiff = (d) => valid.filter((q) => (q.difficulty || "").toLowerCase() === d);
-  const easy = byDiff("easy");
-  const medium = byDiff("medium");
-  const hard = byDiff("hard");
-  const expert = byDiff("expert");
-
-  const picked = expert.length === 0
-    ? [...easy.slice(0, PER), ...medium.slice(0, PER), ...hard.slice(0, PER * 2)]
-    : [...easy.slice(0, PER), ...medium.slice(0, PER), ...hard.slice(0, PER), ...expert.slice(0, PER)];
-
-  // Backfill any shortfall (a tier was short, or the file has no difficulty
-  // tags). Lean harder: pull from expert → hard → medium → easy, then anything.
-  if (picked.length < QUESTIONS_PER_QUIZ) {
-    const used = new Set(picked);
-    const fillOrder = [...expert, ...hard, ...medium, ...easy, ...valid];
-    for (const q of fillOrder) {
-      if (picked.length >= QUESTIONS_PER_QUIZ) break;
-      if (!used.has(q)) { picked.push(q); used.add(q); }
-    }
-  }
-  return picked.slice(0, QUESTIONS_PER_QUIZ);
-}
-
-function quizHTML(questions) {
+function quizHTML(questions, slug) {
   const blocks = questions
     .map((q, i) => {
       const correct = q.options.indexOf(q.answer);
@@ -179,10 +163,14 @@ function quizHTML(questions) {
             `        <button class="opt" type="button" data-idx="${j}">${esc(o)}</button>`
         )
         .join("\n");
+      const why = explanationFor(slug, q);
       return `    <div class="q" data-answer="${correct}" data-i="${i}">
       <p class="q-text"><span class="q-num">Q${i + 1}.</span> ${esc(q.question)}</p>
       <div class="opts">
 ${opts}
+      </div>
+      <div class="q-explain" hidden>
+        <p><strong>Answer: ${esc(q.answer)}.</strong>${why ? " " + esc(why) : ""}</p>
       </div>
     </div>`;
     })
@@ -200,6 +188,27 @@ ${blocks}
   </div>`;
 }
 
+// Visible answer key under the quiz: every question with its correct answer and
+// a short explanation. Real, crawlable page content (not hidden behind a click).
+function answerKeyHTML(t, questions) {
+  const items = questions
+    .map((q, i) => {
+      const why = explanationFor(t.slug, q);
+      return `        <li>
+          <p class="ak-q">${esc(q.question)}</p>
+          <p class="ak-a"><strong>Answer: ${esc(q.answer)}.</strong>${why ? " " + esc(why) : ""}</p>
+        </li>`;
+    })
+    .join("\n");
+  return `      <section class="answer-key">
+        <h2>${esc(t.title)} quiz answers and explanations</h2>
+        <p>Here is every question from the quiz above with its correct answer and a short note on why it is right.</p>
+        <ol>
+${items}
+        </ol>
+      </section>`;
+}
+
 // Reusable quick-search block (one instance per page; wired by assets/search.js).
 function searchBarHTML(variant, heading) {
   return `      <section class="search-section ${variant}">
@@ -211,7 +220,7 @@ ${heading ? `        <h2>${esc(heading)}</h2>\n` : ""}        <div class="search
 }
 
 function themePage(t) {
-  const questions = pickQuestions(t.questionFile);
+  const questions = loadQuestions(t.slug);
   const ed = editorial[t.slug] || {};
   const title = `${t.title} Trivia Quiz – ${questions.length} Questions | ${SITE_NAME}`;
   const desc =
@@ -236,7 +245,7 @@ function themePage(t) {
   const coversText = ed.covers || t.seoDetail || "";
 
   // How-to-play block — short, practical, non-boilerplate framing of the quiz.
-  const howToPlay = `This ${esc(t.title)} quiz runs ${questions.length} multiple-choice questions, each with four options and one correct answer. Tap an option to lock it in and see straight away whether you got it right, watch your score climb as you go, and get a final total at the end. There is no sign-up, no download, and no time limit — and you can hit Play Again to reset and try for a perfect run.`;
+  const howToPlay = `Tap an answer to see the right one straight away with a short explanation, and check your score at the end. Play Again resets the quiz.`;
 
   // A short FAQ — show-specific (from editorial.json) so it is NOT duplicated
   // across pages. Falls back to a couple of generic entries only if missing.
@@ -270,7 +279,9 @@ function themePage(t) {
 ${intro}
       </div>
 
-${quizHTML(questions)}
+${quizHTML(questions, t.slug)}
+
+${answerKeyHTML(t, questions)}
 
       <section class="about-quiz">
         <h2>About the ${esc(t.title)} quiz</h2>
@@ -393,15 +404,19 @@ ${footer()}`;
 }
 
 const aboutBody = `      <h1>About ${SITE_NAME}</h1>
-      <p>${SITE_NAME} is a free collection of themed trivia quizzes for fans who like putting their knowledge to the test. Pick a topic you love &mdash; a show, a film, a game &mdash; answer a set of multiple-choice questions, and see your score in a couple of minutes. There is nothing to install and no account to make.</p>
-      <h2>How it works</h2>
-      <p>Every quiz lives on its own page with all of its questions laid out in front of you. Choose an answer to find out straight away whether you got it right, watch your running total climb, and see a final score once you reach the end. If you want another go, you can reset and replay any quiz as many times as you like.</p>
-      <h2>What you'll find here</h2>
-      <p>The quizzes lean toward entertainment and fandom &mdash; popular series, movies, anime, and video games &mdash; with questions written to be approachable for newcomers while still holding a few surprises for people who know a subject inside out. Each topic comes with a short write-up so you know what the quiz covers before you dive in.</p>
-      <h2>Growing over time</h2>
-      <p>New quiz topics are added regularly, and older ones are revisited and refined. If there is a subject you would like to see covered, suggestions are always welcome.</p>
+      <p>${SITE_NAME} is a free collection of themed trivia quizzes for fans who like putting their knowledge to the test. Pick a show, anime or game you love, answer 20 multiple-choice questions, and see how much you really remember. There is nothing to install and no account to make.</p>
+      <h2>Who runs this site</h2>
+      <p>${SITE_NAME} is run by one independent trivia fan, who signs off as the Trivia Gauntlet editor. It started as a hobby: I like rewatching shows and testing how much of them sticks. The quizzes here cover the series and games I know well or have researched. You can read more in the article <a href="how-i-create-trivia-questions.html">How the Quizzes on Trivia Gauntlet Are Made</a>.</p>
+      <h2>How the quizzes work</h2>
+      <p>Every quiz has 20 questions, split into five easy, five medium, five hard and five expert. After you pick an answer, the quiz shows the correct one with a short explanation, and the full answer key is printed under each quiz. You can replay any quiz as many times as you like. The article <a href="how-quiz-difficulty-works.html">Easy, Medium, Hard, Expert</a> explains the levels.</p>
+      <h2>Our editorial standards</h2>
+      <p>Questions are drafted with the help of AI tools and then read through by the editor. Anything unclear, unfair or impossible to confirm is rewritten or removed, and wrong answer options are adjusted so that they sound believable. The quizzes stick to main characters, big plot points and well-known details, because a question is only worth asking if it has one clear, checkable answer.</p>
+      <h2>Corrections</h2>
+      <p>Mistakes can still happen. If you think an answer is wrong, or a question is badly worded, use the <a href="contact.html">contact page</a> and choose "Wrong Question / Answer". Confirmed mistakes are corrected or the question is removed.</p>
+      <h2>Independence and advertising</h2>
+      <p>${SITE_NAME} is an independent fan project. It is not affiliated with, endorsed by or sponsored by the makers of any show, film or game covered here. All names, titles and trademarks belong to their respective owners and are used only to identify the subject of each quiz. The site is free to use and may show advertising in the future to help cover its running costs.</p>
       <h2>Get in touch</h2>
-      <p>For feedback, corrections, or quiz requests, head to the <a href="contact.html">contact page</a>.</p>`;
+      <p>For feedback, corrections or quiz requests, head to the <a href="contact.html">contact page</a>.</p>`;
 
 const contactBody = `      <h1>Contact / Feedback</h1>
       <p>Found a wrong question, want to request a quiz that isn't here yet, spotted a bug, or just want to share feedback? Send it here.</p>
@@ -422,20 +437,22 @@ const contactBody = `      <h1>Contact / Feedback</h1>
       </form>`;
 
 const privacyBody = `      <h1>Privacy Policy</h1>
-      <p>Last updated: ${new Date().toISOString().slice(0, 10)}</p>
+      <p>Last updated: ${PRIVACY_UPDATED}</p>
       <p>${SITE_NAME} respects your privacy. This page explains what information may be collected when you use this site, how that information is used, and what choices you have.</p>
       <h2>Information We May Collect</h2>
       <p>When you use this site, certain information may be collected automatically, including browser type, device information, pages visited, approximate location, referral source, and general usage activity. If you contact the site by email or through a contact form, the information you provide may also be collected.</p>
       <h2>Analytics</h2>
-      <p>This site may use analytics tools such as Google Analytics to understand how visitors use the site and how it can be improved. These tools may use cookies or similar technologies to collect usage data.</p>
+      <p>This site uses Google Analytics to understand how visitors use the site and how it can be improved. Google Analytics uses cookies or similar technologies to collect usage data such as pages viewed, device type and approximate location.</p>
       <h2>Advertising and Cookies</h2>
-      <p>This site may display advertisements through Google AdSense or other advertising partners. Third-party vendors, including Google, may use cookies to serve ads based on a user's prior visits to this website or other websites.</p>
+      <p>This site does not currently show advertisements. In the future it may display advertisements through Google AdSense. Third-party vendors, including Google, may use cookies to serve ads based on a user's prior visits to this website or other websites.</p>
       <p>Google's use of advertising cookies enables it and its partners to serve ads based on your visit to this site and/or other sites on the internet. Users may be able to manage ad personalisation and cookie preferences through Google's ad settings and through the consent options shown on this site where required.</p>
-      <p>In regions where consent is required, this site uses a consent message to give users choices about cookies and advertising-related data processing.</p>
+      <p>Before advertising is shown to visitors in regions where consent is required, such as the European Economic Area and the United Kingdom, this site will present a consent message that lets you choose whether cookies are used for advertising.</p>
+      <h2>Contact Form</h2>
+      <p>Messages sent through the contact form are handled by Formspree, a third-party form service, and are delivered to the site owner's email inbox. The information you provide, such as your message and your optional email address, is used only to read and reply to your feedback.</p>
       <h2>How Information Is Used</h2>
       <p>Information collected through the site may be used to operate the site, improve performance, understand which quizzes and pages are most useful, respond to messages, prevent abuse, and support advertising or analytics functions.</p>
       <h2>Your Choices</h2>
-      <p>You can control cookies through your browser settings. Where applicable, you may also manage your consent choices through the consent banner or privacy settings presented on the site.</p>
+      <p>You can control cookies through your browser settings. Where a consent message is shown, you can change your choices there at any time.</p>
       <h2>Children's Privacy</h2>
       <p>This site is not directed to children under the age required by applicable law, and it is not intended to knowingly collect personal information from children.</p>
       <h2>Changes to This Policy</h2>
@@ -444,7 +461,7 @@ const privacyBody = `      <h1>Privacy Policy</h1>
       <p>If you have privacy-related questions, please use the <a href="contact.html">contact page</a>.</p>`;
 
 const termsBody = `      <h1>Terms of Use</h1>
-      <p>Last updated: ${new Date().toISOString().slice(0, 10)}</p>
+      <p>Last updated: ${TERMS_UPDATED}</p>
       <p>By using this site, you agree to these terms. If you do not agree, please do not use the site.</p>
       <h2>Use of the Site</h2>
       <p>${SITE_NAME} is provided for general entertainment, informational, and personal-use purposes. You agree to use the site in a lawful way and not to interfere with its normal operation.</p>
@@ -567,26 +584,8 @@ function w(file, content) {
   count++;
 }
 
-// Redirect stub for the old (pre "-trivia") slug → new URL. Canonical + instant
-// meta-refresh is how GitHub Pages does a "301": Google folds the old URL in and
-// it kills duplicate-content from the previously-built bare-slug files.
-function redirectStub(toUrl) {
-  return `<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Redirecting…</title>
-<link rel="canonical" href="${toUrl}">
-<meta http-equiv="refresh" content="0; url=${toUrl}">
-</head>
-<body><p>This quiz has moved to <a href="${toUrl}">${toUrl}</a>.</p></body>
-</html>
-`;
-}
-
 themes.forEach((t) => {
   w(`${urlSlug(t)}.html`, themePage(t));
-  w(`${t.slug}.html`, redirectStub(`${SITE_DOMAIN}/${urlSlug(t)}.html`)); // old slug → new
 });
 POSTS.forEach((p) => w(p.file, blogPostPage(p)));
 w("blog.html", blogIndexPage());

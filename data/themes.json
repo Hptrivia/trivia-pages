@@ -5,8 +5,7 @@
     "category": "Books",
     "description": "How well do you know the wizarding world? Take this 20-question Harry Potter trivia quiz on Hogwarts, spells and characters.",
     "seoIntro": "Harry Potter follows an orphaned boy who learns on his eleventh birthday that he is a wizard and is whisked off to Hogwarts School of Witchcraft and Wizardry. Sorted into Gryffindor, he befriends Ron Weasley and Hermione Granger and slowly uncovers his connection to the dark wizard Lord Voldemort, who murdered his parents and left him with a lightning-bolt scar.",
-    "seoDetail": "Questions range across all seven books and eight films — the four Hogwarts houses and their founders, Quidditch, the professors, magical creatures, the Triwizard Tournament, Horcruxes, and the Order of the Phoenix's long battle against Voldemort and the Death Eaters.",
-    "questionFile": "data/real_qs.txt"
+    "seoDetail": "Questions range across all seven books and eight films — the four Hogwarts houses and their founders, Quidditch, the professors, magical creatures, the Triwizard Tournament, Horcruxes, and the Order of the Phoenix's long battle against Voldemort and the Death Eaters."
   },
   {
     "slug": "pokemon",
@@ -14,8 +13,7 @@
     "category": "Games",
     "description": "Think you're a Pokémon Master? Test yourself with 20 trivia questions on types, regions, evolutions and legendaries.",
     "seoIntro": "Pokémon follows Trainers who catch and battle creatures called Pokémon. It begins in the Kanto region, where you pick a starter — Bulbasaur, Charmander, or Squirtle — and set out to defeat eight Gym Leaders and the Elite Four to become Champion. Decades of games and the anime have since added new regions, new generations, and hundreds more creatures.",
-    "seoDetail": "Questions cover the games and the anime — starter and legendary Pokémon, type advantages, evolutions, Gym Leaders and the Elite Four, regions from Kanto onward, and Ash and Pikachu's journey.",
-    "questionFile": "data/pokemon.txt"
+    "seoDetail": "Questions cover the games and the anime — starter and legendary Pokémon, type advantages, evolutions, Gym Leaders and the Elite Four, regions from Kanto onward, and Ash and Pikachu's journey."
   },
   {
     "slug": "avatar-the-last-airbender",
@@ -23,8 +21,7 @@
     "category": "TV",
     "description": "Water. Earth. Fire. Air. A 20-question Avatar: The Last Airbender quiz on the four nations, bending and Team Avatar.",
     "seoIntro": "Avatar: The Last Airbender is set in a world split into four nations — Water, Earth, Fire, and Air — where certain people can \"bend\" their element. After the Fire Nation launches a hundred-year war, a young Airbender named Aang wakes from a century in the ice as the Avatar, the only one able to master all four elements, and sets out with Katara and Sokka to restore balance.",
-    "seoDetail": "Questions span all three books — covering Aang, Katara, Sokka, Toph, and Zuko, the four bending disciplines, the spirit world, Appa and Momo, and the war against Fire Lord Ozai.",
-    "questionFile": "data/avatar.txt"
+    "seoDetail": "Questions span all three books — covering Aang, Katara, Sokka, Toph, and Zuko, the four bending disciplines, the spirit world, Appa and Momo, and the war against Fire Lord Ozai."
   },
   {
     "slug": "breaking-bad",
@@ -32,8 +29,7 @@
     "category": "TV",
     "description": "Say my name. A 20-question Breaking Bad trivia quiz on Walter White, Jesse and the fall across all five seasons.",
     "seoIntro": "Breaking Bad follows Walter White, a struggling high-school chemistry teacher in Albuquerque who, after a terminal lung cancer diagnosis, starts cooking crystal meth with his former student Jesse Pinkman to secure his family's future. Over five seasons he hardens into the ruthless drug kingpin known as Heisenberg, while his DEA brother-in-law Hank unknowingly hunts him.",
-    "seoDetail": "Questions span all five seasons — Walt and Jesse's partnership, the rise of Heisenberg, Hank's DEA investigation, Gus Fring and the cartel, Saul Goodman, and the memorable lines and deaths along the way.",
-    "questionFile": "data/breaking.txt"
+    "seoDetail": "Questions span all five seasons — Walt and Jesse's partnership, the rise of Heisenberg, Hank's DEA investigation, Gus Fring and the cartel, Saul Goodman, and the memorable lines and deaths along the way."
   },
   {
     "slug": "friends",
@@ -41,8 +37,7 @@
     "category": "Sitcoms",
     "description": "Could you BE any better at this? A 20-question Friends quiz on Ross, Rachel, Central Perk and ten seasons of jokes.",
     "seoIntro": "Friends follows six twenty- and thirty-somethings — Ross, Rachel, Monica, Chandler, Joey, and Phoebe — sharing apartments and hanging out at the Central Perk coffee house in Manhattan. Across ten seasons it tracks their careers, roommates, and tangled love lives, above all the on-again, off-again romance between Ross and Rachel.",
-    "seoDetail": "Questions cover all ten seasons — Central Perk, Ross and Rachel's relationship, Monica and Chandler, Joey's acting career, Phoebe's songs, the Thanksgiving episodes, and the catchphrases that became pop culture.",
-    "questionFile": "data/FRIENDS.txt"
+    "seoDetail": "Questions cover all ten seasons — Central Perk, Ross and Rachel's relationship, Monica and Chandler, Joey's acting career, Phoebe's songs, the Thanksgiving episodes, and the catchphrases that became pop culture."
   },
   {
     "slug": "game-of-thrones",
@@ -50,8 +45,7 @@
     "category": "TV",
     "description": "When you play, you win or you die. 20 Game of Thrones trivia questions on houses, characters and Westeros.",
     "seoIntro": "Game of Thrones is set in the Seven Kingdoms of Westeros, where noble houses — Stark, Lannister, Targaryen, Baratheon, and more — scheme and wage war for the Iron Throne. Meanwhile an ancient threat stirs beyond the Wall in the frozen north, and across the sea Daenerys Targaryen raises three dragons and builds an army to take back her family's crown.",
-    "seoDetail": "Questions cover all eight seasons — the great houses and their sigils, the Iron Throne, the Night's Watch and the Wall, Daenerys and her dragons, and the major battles, betrayals, and deaths.",
-    "questionFile": "data/GOT.txt"
+    "seoDetail": "Questions cover all eight seasons — the great houses and their sigils, the Iron Throne, the Night's Watch and the Wall, Daenerys and her dragons, and the major battles, betrayals, and deaths."
   },
   {
     "slug": "lord-of-the-rings",
@@ -59,8 +53,7 @@
     "category": "TV",
     "description": "One quiz to rule them all. 20 Lord of the Rings questions on the Fellowship, Middle-earth and the One Ring.",
     "seoIntro": "The Lord of the Rings follows the hobbit Frodo Baggins, who inherits a powerful One Ring and must carry it across Middle-earth to destroy it in the fires of Mount Doom before the Dark Lord Sauron reclaims it. He sets out with a Fellowship that includes the wizard Gandalf, the ranger Aragorn, Legolas, Gimli, and his loyal friend Sam.",
-    "seoDetail": "Questions cover the trilogy — the members of the Fellowship, Gollum and the Ring, the realms of Gondor and Rohan, the battles of Helm's Deep and Minas Tirith, and the long journey to Mount Doom.",
-    "questionFile": "data/LOTR.txt"
+    "seoDetail": "Questions cover the trilogy — the members of the Fellowship, Gollum and the Ring, the realms of Gondor and Rohan, the battles of Helm's Deep and Minas Tirith, and the long journey to Mount Doom."
   },
   {
     "slug": "naruto",
@@ -68,8 +61,7 @@
     "category": "Anime",
     "description": "Believe it! Test yourself with 20 Naruto trivia questions on the Hidden Leaf, jutsu, clans and Team 7.",
     "seoIntro": "Naruto follows Naruto Uzumaki, a loud, mischievous ninja from the Hidden Leaf Village who has the powerful Nine-Tailed Fox sealed inside him and dreams of becoming Hokage, the village's leader. Alongside teammates Sasuke and Sakura under their teacher Kakashi, he trains, fights, and fights to win the respect of a village that once feared him.",
-    "seoDetail": "Questions cover the Hidden Leaf and beyond — Team 7, the Hokage, the major clans like the Uchiha, the Chunin Exams, the tailed beasts, jutsu, and the long rivalry between Naruto and Sasuke.",
-    "questionFile": "data/Naruto.txt"
+    "seoDetail": "Questions cover the Hidden Leaf and beyond — Team 7, the Hokage, the major clans like the Uchiha, the Chunin Exams, the tailed beasts, jutsu, and the long rivalry between Naruto and Sasuke."
   },
   {
     "slug": "star-wars",
@@ -77,8 +69,7 @@
     "category": "TV",
     "description": "May the Force be with you. A 20-question Star Wars quiz on Jedi, the Empire and a galaxy far, far away.",
     "seoIntro": "Star Wars unfolds in a galaxy far, far away where the mystical Force separates the Jedi from the Sith. The original trilogy follows farm boy Luke Skywalker, Princess Leia, and smuggler Han Solo against the evil Galactic Empire and the masked Darth Vader, while the prequels and sequels widen the Skywalker saga across generations.",
-    "seoDetail": "Questions span the films and series — the Jedi and the Sith, the Skywalker family, droids like R2-D2 and C-3PO, ships like the Millennium Falcon, and the war between the Rebellion and the Empire.",
-    "questionFile": "data/starwars.txt"
+    "seoDetail": "Questions span the films and series — the Jedi and the Sith, the Skywalker family, droids like R2-D2 and C-3PO, ships like the Millennium Falcon, and the war between the Rebellion and the Empire."
   },
   {
     "slug": "stranger-things",
@@ -86,8 +77,7 @@
     "category": "TV",
     "description": "Welcome to Hawkins. Take 20 Stranger Things trivia questions on the Upside Down, the kids and every season.",
     "seoIntro": "Stranger Things is set in the small town of Hawkins, Indiana in the 1980s. When a boy named Will Byers disappears, his friends stumble onto a shadowy parallel dimension called the Upside Down — and a girl with psychic powers known only as Eleven, who escaped a secret government lab.",
-    "seoDetail": "Questions cover every season — Eleven and her powers, the Upside Down, the Demogorgon and the Mind Flayer, the town of Hawkins, and the group of kids at the centre of it all.",
-    "questionFile": "data/stranger.txt"
+    "seoDetail": "Questions cover every season — Eleven and her powers, the Upside Down, the Demogorgon and the Mind Flayer, the town of Hawkins, and the group of kids at the centre of it all."
   },
   {
     "slug": "the-office",
@@ -95,8 +85,7 @@
     "category": "Sitcoms",
     "description": "That's what she said. A 20-question The Office quiz on Dunder Mifflin, Michael Scott and the Scranton crew.",
     "seoIntro": "The Office is a mockumentary about the staff of the Scranton branch of paper company Dunder Mifflin, led by well-meaning but excruciating regional manager Michael Scott. Across nine seasons it follows office pranks, the slow-burn romance between Jim and Pam, and oddball employees like the beet-farming, rule-obsessed Dwight Schrute.",
-    "seoDetail": "Questions cover all nine seasons — Michael Scott's antics, the Jim and Pam romance, Dwight and Schrute Farms, the pranks, the parties, and the documentary-style moments that made the show.",
-    "questionFile": "data/Office.txt"
+    "seoDetail": "Questions cover all nine seasons — Michael Scott's antics, the Jim and Pam romance, Dwight and Schrute Farms, the pranks, the parties, and the documentary-style moments that made the show."
   },
   {
     "slug": "disney",
@@ -104,8 +93,7 @@
     "category": "General",
     "description": "Test your Disney magic with 20 trivia questions on classic films, princesses, villains and unforgettable songs.",
     "seoIntro": "Disney's animated films stretch from early classics like Snow White, Cinderella, and The Lion King to modern blockbusters like Frozen, Moana, and Encanto. Together they have given generations a shared library of princesses, heroes, villains, talking sidekicks, and songs people can still sing by heart.",
-    "seoDetail": "Questions cover the animated catalogue — classic films and modern hits, the princesses and their stories, famous villains, comic sidekicks, and the music everyone knows.",
-    "questionFile": "data/disney.txt"
+    "seoDetail": "Questions cover the animated catalogue — classic films and modern hits, the princesses and their stories, famous villains, comic sidekicks, and the music everyone knows."
   },
   {
     "slug": "the-big-bang-theory",
@@ -113,8 +101,7 @@
     "category": "Sitcoms",
     "description": "Bazinga! A 20-question The Big Bang Theory quiz on Sheldon, the gang and twelve seasons of jokes.",
     "seoIntro": "The Big Bang Theory follows a group of brilliant but socially awkward scientists — physicists Sheldon Cooper and Leonard Hofstadter and their friends Howard and Raj — whose routine of work, comic books, and takeout is upended when aspiring actress Penny moves in across the hall.",
-    "seoDetail": "Questions cover all twelve seasons — Sheldon's quirks and \"Bazinga,\" the friends' science careers, the comic-book and pop-culture references, Penny's arc, and the relationships that grow over time.",
-    "questionFile": "data/TBBT.txt"
+    "seoDetail": "Questions cover all twelve seasons — Sheldon's quirks and \"Bazinga,\" the friends' science careers, the comic-book and pop-culture references, Penny's arc, and the relationships that grow over time."
   },
   {
     "slug": "how-i-met-your-mother",
@@ -122,8 +109,7 @@
     "category": "Sitcoms",
     "description": "Suit up. Take 20 How I Met Your Mother trivia questions on Ted, the gang, MacLaren's and the running jokes.",
     "seoIntro": "How I Met Your Mother is told by Ted Mosby years in the future as he recounts to his kids the long, winding story of how he met their mother. It follows Ted and his New York friends — engaged couple Marshall and Lily, news anchor Robin, and the suit-obsessed, scheming Barney — who practically live at the bar MacLaren's.",
-    "seoDetail": "Questions cover all nine seasons — Ted's search for \"the one,\" Barney's playbook and suits, Marshall and Lily, Robin, the bar MacLaren's, and catchphrases like \"Legen — wait for it — dary.\"",
-    "questionFile": "data/himym.txt"
+    "seoDetail": "Questions cover all nine seasons — Ted's search for \"the one,\" Barney's playbook and suits, Marshall and Lily, Robin, the bar MacLaren's, and catchphrases like \"Legen — wait for it — dary.\""
   },
   {
     "slug": "rick-and-morty",
@@ -131,8 +117,7 @@
     "category": "TV",
     "description": "Wubba lubba dub dub. A 20-question Rick and Morty quiz on the multiverse, the Smith family and more.",
     "seoIntro": "Rick and Morty follows cynical, alcoholic super-genius Rick Sanchez and his anxious teenage grandson Morty as they portal between dimensions and alien worlds, usually dragging Morty's family — Beth, Jerry, and Summer — into the fallout of Rick's inventions.",
-    "seoDetail": "Questions cover the family and the multiverse — Rick's gadgets and portal gun, the Citadel of Ricks, recurring characters like Mr. Meeseeks, and the show's most talked-about episodes.",
-    "questionFile": "data/morty.txt"
+    "seoDetail": "Questions cover the family and the multiverse — Rick's gadgets and portal gun, the Citadel of Ricks, recurring characters like Mr. Meeseeks, and the show's most talked-about episodes."
   },
   {
     "slug": "demon-slayer",
@@ -140,8 +125,7 @@
     "category": "Anime",
     "description": "Take 20 Demon Slayer trivia questions on the Corps, the Hashira, breathing styles and the demons.",
     "seoIntro": "Demon Slayer follows Tanjiro Kamado, a kind-hearted boy who comes home to find his family slaughtered by a demon and his sister Nezuko turned into one. He joins the Demon Slayer Corps to find a way to make her human again and to hunt down the demon lord responsible, Muzan Kibutsuji.",
-    "seoDetail": "Questions cover Tanjiro's journey — Nezuko, the elite swordsmen called the Hashira, the breathing techniques, the Twelve Kizuki demons, and the search for Muzan.",
-    "questionFile": "data/demon.txt"
+    "seoDetail": "Questions cover Tanjiro's journey — Nezuko, the elite swordsmen called the Hashira, the breathing techniques, the Twelve Kizuki demons, and the search for Muzan."
   },
   {
     "slug": "one-piece",
@@ -149,8 +133,7 @@
     "category": "Anime",
     "description": "Set sail with 20 One Piece trivia questions on the Straw Hats, Devil Fruits and the Grand Line.",
     "seoIntro": "One Piece follows Monkey D. Luffy, a cheerful young pirate whose body turned to rubber after he ate a Devil Fruit. With his Straw Hat crew, he sails the Grand Line in search of the legendary treasure called the One Piece, which would make him King of the Pirates.",
-    "seoDetail": "Questions cover the Straw Hat crew — Luffy, Zoro, Nami, Sanji and the rest — plus Devil Fruit powers, the seas of the Grand Line, and the many allies and enemies met along the way.",
-    "questionFile": "data/onepiece.txt"
+    "seoDetail": "Questions cover the Straw Hat crew — Luffy, Zoro, Nami, Sanji and the rest — plus Devil Fruit powers, the seas of the Grand Line, and the many allies and enemies met along the way."
   },
   {
     "slug": "attack-on-titan",
@@ -158,8 +141,7 @@
     "category": "Anime",
     "description": "A 20-question Attack on Titan quiz on the Survey Corps, the walls, the Titans and the biggest twists.",
     "seoIntro": "Attack on Titan is set in a world where the last of humanity hides inside three enormous concentric walls to survive giant, man-eating humanoids called Titans. When a Colossal Titan smashes through the outer wall, a young man named Eren Yeager vows to join the Survey Corps, fight back, and learn the truth behind the Titans.",
-    "seoDetail": "Questions cover the war beyond the walls — Eren, Mikasa, and Captain Levi, the Survey Corps, the different Titan types, and the revelations that reshape everything fans thought they knew.",
-    "questionFile": "data/attack.txt"
+    "seoDetail": "Questions cover the war beyond the walls — Eren, Mikasa, and Captain Levi, the Survey Corps, the different Titan types, and the revelations that reshape everything fans thought they knew."
   },
   {
     "slug": "minecraft",
@@ -167,8 +149,7 @@
     "category": "Games",
     "description": "Test your survival skills with 20 Minecraft trivia questions on crafting, mobs, biomes and the Nether.",
     "seoIntro": "Minecraft is a sandbox game where players gather resources and place blocks to build and survive in vast, procedurally generated worlds. By day you mine and craft tools; by night you fend off mobs like creepers, skeletons, and zombies, before eventually venturing into the Nether and the End to face the Ender Dragon.",
-    "seoDetail": "Questions cover survival and creative play — crafting recipes, mobs like creepers and the Ender Dragon, biomes, ores, redstone, and the Nether and the End dimensions.",
-    "questionFile": "data/minecraft.txt"
+    "seoDetail": "Questions cover survival and creative play — crafting recipes, mobs like creepers and the Ender Dragon, biomes, ores, redstone, and the Nether and the End dimensions."
   },
   {
     "slug": "squid-game",
@@ -176,8 +157,7 @@
     "category": "TV",
     "description": "Red light, green light. Take 20 Squid Game trivia questions on the players, the games and the twists.",
     "seoIntro": "Squid Game follows hundreds of desperate, debt-ridden contestants who are lured into a secret competition. They play deadly versions of innocent children's games — starting with Red Light, Green Light — for an enormous cash prize, all watched over by pink-suited masked guards in a remote facility.",
-    "seoDetail": "Questions cover the deadly contest — the players and their numbers, the games from Red Light, Green Light to the final round, the masked guards and the Front Man, and the show's biggest twists.",
-    "questionFile": "data/squid.txt"
+    "seoDetail": "Questions cover the deadly contest — the players and their numbers, the games from Red Light, Green Light to the final round, the masked guards and the Front Man, and the show's biggest twists."
   },
   {
     "slug": "money-heist",
@@ -185,8 +165,7 @@
     "category": "TV",
     "description": "Bella ciao. A 20-question Money Heist quiz on the Professor, the crew and the biggest robberies.",
     "seoIntro": "Money Heist (La Casa de Papel) follows a criminal mastermind known only as the Professor, who assembles a team that takes city code names — Tokyo, Berlin, Rio, Nairobi, Denver and more — to pull off the biggest heists in history, first on the Royal Mint of Spain and then the Bank of Spain.",
-    "seoDetail": "Questions cover the heists — the Professor's plans, the code-named crew, the Royal Mint and Bank of Spain, the hostages, and the tense standoffs with the police.",
-    "questionFile": "data/heist.txt"
+    "seoDetail": "Questions cover the heists — the Professor's plans, the code-named crew, the Royal Mint and Bank of Spain, the hostages, and the tense standoffs with the police."
   },
   {
     "slug": "the-mandalorian",
@@ -194,8 +173,7 @@
     "category": "TV",
     "description": "This is the way. Take 20 The Mandalorian trivia questions on Mando, Grogu and the Star Wars galaxy.",
     "seoIntro": "The Mandalorian is set in the Star Wars galaxy after the fall of the Empire and follows Din Djarin, a lone, helmeted bounty hunter bound by a strict creed. His life changes when a bounty turns out to be a tiny, Force-sensitive child of Yoda's species — Grogu, nicknamed \"Baby Yoda\" — whom he chooses to protect.",
-    "seoDetail": "Questions cover the series — Din Djarin and the Mandalorian creed, Grogu, the bounties and allies, the planets they visit, and the ties to the wider Star Wars galaxy.",
-    "questionFile": "data/mando.txt"
+    "seoDetail": "Questions cover the series — Din Djarin and the Mandalorian creed, Grogu, the bounties and allies, the planets they visit, and the ties to the wider Star Wars galaxy."
   },
   {
     "slug": "the-walking-dead",
@@ -203,8 +181,7 @@
     "category": "TV",
     "description": "A 20-question The Walking Dead trivia quiz on the survivors, the communities and the walkers.",
     "seoIntro": "The Walking Dead opens with sheriff's deputy Rick Grimes waking from a coma into a world overrun by \"walkers.\" He sets out to find his family and becomes the reluctant leader of a band of survivors who fight not just the dead, but other desperate groups of the living.",
-    "seoDetail": "Questions cover the survivors — Rick's group, communities like Alexandria and the Hilltop, villains like the Governor and Negan, and the long, brutal fight to stay alive.",
-    "questionFile": "data/dead.txt"
+    "seoDetail": "Questions cover the survivors — Rick's group, communities like Alexandria and the Hilltop, villains like the Governor and Negan, and the long, brutal fight to stay alive."
   },
   {
     "slug": "the-last-of-us",
@@ -212,8 +189,7 @@
     "category": "Games",
     "description": "Take 20 The Last of Us trivia questions on Joel, Ellie, the infected and the journey across a broken world.",
     "seoIntro": "The Last of Us is set roughly twenty years after a mutated Cordyceps fungus collapsed civilization and turned the infected into monsters. It follows a hardened smuggler named Joel who is hired to escort Ellie, a teenage girl who may be immune, across a dangerous, ruined America.",
-    "seoDetail": "Questions cover the journey — Joel and Ellie, the stages of the infected, factions like the Fireflies, and the moments that made the story so talked-about.",
-    "questionFile": "data/tlou.txt"
+    "seoDetail": "Questions cover the journey — Joel and Ellie, the stages of the infected, factions like the Fireflies, and the moments that made the story so talked-about."
   },
   {
     "slug": "seinfeld",
@@ -221,8 +197,7 @@
     "category": "Sitcoms",
     "description": "No soup for you! A 20-question Seinfeld quiz on Jerry, George, Elaine, Kramer and the show about nothing.",
     "seoIntro": "Seinfeld is the famous comedy \"about nothing,\" following stand-up comedian Jerry Seinfeld and his friends — the neurotic, perpetually scheming George Costanza, eccentric across-the-hall neighbour Kramer, and sharp ex-girlfriend Elaine — as they obsess over the tiny absurdities of everyday life in New York City.",
-    "seoDetail": "Questions cover the show about nothing — Jerry, George, Elaine, and Kramer, their New York haunts, the running gags, and famous episodes like \"The Contest\" and \"The Soup Nazi.\"",
-    "questionFile": "data/seinfeld.txt"
+    "seoDetail": "Questions cover the show about nothing — Jerry, George, Elaine, and Kramer, their New York haunts, the running gags, and famous episodes like \"The Contest\" and \"The Soup Nazi.\""
   },
   {
     "slug": "the-wire",
@@ -230,8 +205,7 @@
     "category": "TV",
     "description": "All the pieces matter. Take this 20-question The Wire trivia quiz on Baltimore, the Barksdale crew, McNulty and the game.",
     "seoIntro": "The Wire is HBO's sprawling Baltimore crime drama that examines the city one institution at a time — the drug trade, the police, the docks, City Hall, the schools, and the newspaper. Across five seasons it follows detective Jimmy McNulty and a struggling police unit as they chase the Barksdale and Stanfield organisations, while showing how the same broken systems trap cops and corner kids alike.",
-    "seoDetail": "Questions span all five seasons — McNulty, Bunk and the detail, Avon Barksdale and Stringer Bell, Omar Little, Marlo Stanfield, the dockworkers, the Hamsterdam experiment, the schools, and the Baltimore Sun — covering the characters, the catchphrases, and the moments that made the show.",
-    "questionFile": "data/wire.txt"
+    "seoDetail": "Questions span all five seasons — McNulty, Bunk and the detail, Avon Barksdale and Stringer Bell, Omar Little, Marlo Stanfield, the dockworkers, the Hamsterdam experiment, the schools, and the Baltimore Sun — covering the characters, the catchphrases, and the moments that made the show."
   },
   {
     "slug": "the-sopranos",
@@ -239,7 +213,6 @@
     "category": "TV",
     "description": "Whaddya gonna do? Test yourself with 20 The Sopranos trivia questions on Tony, the DiMeo family, therapy and New Jersey.",
     "seoIntro": "The Sopranos follows Tony Soprano, a New Jersey mob boss juggling two families — his crew in the DiMeo crime organisation and his wife and kids at home — while secretly seeing a psychiatrist for panic attacks. Over six seasons the HBO drama blends gangster violence with dark comedy and family dysfunction, redefining what television could do.",
-    "seoDetail": "Questions cover all six seasons — Tony, Carmela, Christopher and the crew, Dr. Melfi's therapy sessions, rivals like Phil Leotardo and Richie Aprile, classic episodes, and the famous cut-to-black ending — testing both casual viewers and devoted fans.",
-    "questionFile": "data/sopranos.txt"
+    "seoDetail": "Questions cover all six seasons — Tony, Carmela, Christopher and the crew, Dr. Melfi's therapy sessions, rivals like Phil Leotardo and Richie Aprile, classic episodes, and the famous cut-to-black ending — testing both casual viewers and devoted fans."
   }
 ]

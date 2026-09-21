@@ -1,0 +1,242 @@
+[
+ {
+  "question": "What does Eren Yeager vow to do to the Titans after his home is destroyed?",
+  "options": [
+   "Befriend them",
+   "Study them",
+   "Capture them",
+   "Kill every last one"
+  ],
+  "answer": "Kill every last one",
+  "difficulty": "easy",
+  "explanation": "Eren's promise to wipe out the Titans drives him to join the Survey Corps."
+ },
+ {
+  "question": "What are the giant humanoid creatures that threaten humanity called?",
+  "options": [
+   "Giants",
+   "Colossi",
+   "Titans",
+   "Behemoths"
+  ],
+  "answer": "Titans",
+  "difficulty": "easy",
+  "explanation": "Titans are huge humanoid monsters that eat humans."
+ },
+ {
+  "question": "Which item does Mikasa wear that Eren gave her?",
+  "options": [
+   "A blue scarf",
+   "A green cloak",
+   "A red scarf",
+   "A white ribbon"
+  ],
+  "answer": "A red scarf",
+  "difficulty": "easy",
+  "explanation": "Eren wraps a red scarf around Mikasa, and she treasures it for years."
+ },
+ {
+  "question": "Which branch of the military fights Titans outside the walls?",
+  "options": [
+   "The Survey Corps",
+   "The Garrison",
+   "The Military Police",
+   "The Marley Army"
+  ],
+  "answer": "The Survey Corps",
+  "difficulty": "easy",
+  "explanation": "The Survey Corps explores the outside world, at a high risk of death."
+ },
+ {
+  "question": "Which of Eren's best friends is an intelligent strategist?",
+  "options": [
+   "Jean Kirstein",
+   "Connie Springer",
+   "Marco Bott",
+   "Armin Arlert"
+  ],
+  "answer": "Armin Arlert",
+  "difficulty": "easy",
+  "explanation": "Armin is smaller and less physically strong, but he is a genius at planning."
+ },
+ {
+  "question": "Who is known as humanity's strongest soldier?",
+  "options": [
+   "Levi Ackerman",
+   "Erwin Smith",
+   "Hange Zoë",
+   "Eren Yeager"
+  ],
+  "answer": "Levi Ackerman",
+  "difficulty": "medium",
+  "explanation": "Levi is a short, sharp-tongued captain who is very good at killing Titans."
+ },
+ {
+  "question": "What is the name of the outermost wall?",
+  "options": [
+   "Wall Rose",
+   "Wall Sina",
+   "Wall Maria",
+   "Wall Shiganshina"
+  ],
+  "answer": "Wall Maria",
+  "difficulty": "medium",
+  "explanation": "Wall Maria is breached in the first episode, which forces humanity into a smaller area."
+ },
+ {
+  "question": "What device allows soldiers to fly through the air?",
+  "options": [
+   "Jet Packs",
+   "3D Maneuver Gear",
+   "Grapple Boots",
+   "Wire Wings"
+  ],
+  "answer": "3D Maneuver Gear",
+  "difficulty": "medium",
+  "explanation": "The gear uses gas and wires to let soldiers move quickly between buildings."
+ },
+ {
+  "question": "Who is the commander of the Survey Corps at the start of the series?",
+  "options": [
+   "Levi Ackerman",
+   "Dot Pixis",
+   "Keith Shadis",
+   "Erwin Smith"
+  ],
+  "answer": "Erwin Smith",
+  "difficulty": "medium",
+  "explanation": "Erwin leads by making difficult decisions, often at great human cost."
+ },
+ {
+  "question": "Who is the owner of the Colossal Titan?",
+  "options": [
+   "Reiner Braun",
+   "Ymir",
+   "Bertholdt Hoover",
+   "Annie Leonhart"
+  ],
+  "answer": "Bertholdt Hoover",
+  "difficulty": "medium",
+  "explanation": "Bertholdt is a quiet soldier who is later revealed to be a warrior from Marley."
+ },
+ {
+  "question": "Who graduates at the top of the 104th Training Corps?",
+  "options": [
+   "Mikasa Ackerman",
+   "Reiner Braun",
+   "Annie Leonhart",
+   "Armin Arlert"
+  ],
+  "answer": "Mikasa Ackerman",
+  "difficulty": "hard",
+  "explanation": "Mikasa is the top graduate, and she chooses to join the Survey Corps."
+ },
+ {
+  "question": "Who is the Armored Titan?",
+  "options": [
+   "Bertholdt Hoover",
+   "Zeke Yeager",
+   "Porco Galliard",
+   "Reiner Braun"
+  ],
+  "answer": "Reiner Braun",
+  "difficulty": "hard",
+  "explanation": "Reiner is a soldier who seems reliable but who hides a huge secret."
+ },
+ {
+  "question": "Who is the squad leader with a great love of studying Titans?",
+  "options": [
+   "Hange Zoë",
+   "Erwin Smith",
+   "Levi Ackerman",
+   "Moblit Berner"
+  ],
+  "answer": "Hange Zoë",
+  "difficulty": "hard",
+  "explanation": "Hange is curious and energetic, and later becomes commander of the Survey Corps."
+ },
+ {
+  "question": "What is the name of the island where the walls are built?",
+  "options": [
+   "Marley",
+   "Eldia",
+   "Paradis Island",
+   "Shiganshina"
+  ],
+  "answer": "Paradis Island",
+  "difficulty": "hard",
+  "explanation": "The Eldians live on Paradis Island, and it is separated from the rest of the world by the ocean."
+ },
+ {
+  "question": "Which nation holds Eldians in internment zones in the later seasons?",
+  "options": [
+   "Paradis",
+   "Hizuru",
+   "Eldia",
+   "Marley"
+  ],
+  "answer": "Marley",
+  "difficulty": "hard",
+  "explanation": "Marley's leaders control the Eldian population by threatening them with the power of the Titans."
+ },
+ {
+  "question": "Who created the Attack on Titan manga?",
+  "options": [
+   "Masashi Kishimoto",
+   "Hajime Isayama",
+   "Eiichiro Oda",
+   "Tite Kubo"
+  ],
+  "answer": "Hajime Isayama",
+  "difficulty": "expert",
+  "explanation": "Hajime Isayama began the series in 2009 in Bessatsu Shonen Magazine."
+ },
+ {
+  "question": "What is the name of Eren's father?",
+  "options": [
+   "Grisha Yeager",
+   "Carl Jaeger",
+   "Zeke Yeager",
+   "Dot Pixis"
+  ],
+  "answer": "Grisha Yeager",
+  "difficulty": "expert",
+  "explanation": "Grisha is a doctor who holds the secret of Titans and the basement."
+ },
+ {
+  "question": "Who is the owner of the Beast Titan?",
+  "options": [
+   "Reiner Braun",
+   "Zeke Yeager",
+   "Porco Galliard",
+   "Bertholdt Hoover"
+  ],
+  "answer": "Zeke Yeager",
+  "difficulty": "expert",
+  "explanation": "Zeke is Eren's half-brother, and he leads the Marleyan Warriors."
+ },
+ {
+  "question": "How many years does a Titan shifter live after gaining the power?",
+  "options": [
+   "Ten",
+   "Twenty",
+   "Five",
+   "Thirteen"
+  ],
+  "answer": "Thirteen",
+  "difficulty": "expert",
+  "explanation": "The Curse of Ymir limits shifter lifespans to thirteen years."
+ },
+ {
+  "question": "Which studio animated the first three seasons of Attack on Titan?",
+  "options": [
+   "MAPPA",
+   "Bones",
+   "Wit Studio",
+   "Madhouse"
+  ],
+  "answer": "Wit Studio",
+  "difficulty": "expert",
+  "explanation": "Wit Studio made seasons one to three and MAPPA took over for the final season."
+ }
+]
